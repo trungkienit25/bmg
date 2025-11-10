@@ -62,7 +62,7 @@ async function PostsDetail( { params } ) {
       </section>
       {/* publication end */}
 
-      <PopularPosts posts={populars} />
+      {/* <PopularPosts posts={populars} /> */}
     </>
   );
 };

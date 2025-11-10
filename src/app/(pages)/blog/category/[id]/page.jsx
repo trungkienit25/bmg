@@ -58,7 +58,7 @@ async function BlogCategory( { params } ) {
       </section>
       {/* blog list end */}
 
-      <PopularPosts posts={populars} />
+      {/* <PopularPosts posts={populars} /> */}
     </>
   );
 };

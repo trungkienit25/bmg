@@ -1,29 +1,13 @@
 {
-    "total": 3,
+    "total": 1,
     "items": [
         {
-            "title": "Chevrefrit au miel",
-            "image": "/img/menu/1.jpg",
-            "description": "tomatoes, nori, feta cheese, mushrooms, rice noodles, corn, shrimp.",
-            "quantity": 1,
-            "price": "14.00",
-            "currency": "$"
-        },
-        {
-            "title": "Carpaccio de daurade",
-            "image": "/img/menu/2.jpg",
-            "description": "tomatoes, nori, feta cheese, mushrooms, rice noodles, corn, shrimp.",
-            "quantity": 1,
-            "price": "7.99",
-            "currency": "$"
-        },
-        {
-            "title": "Stracciatella",
-            "image": "/img/menu/3.jpg",
-            "description": "tomatoes, nori, feta cheese, mushrooms, rice noodles, corn, shrimp.",
-            "quantity": 1,
-            "price": "11.00",
-            "currency": "$"
+            "image": "/img/menu/banh-mi-thap-cam.jpg",
+            "title": "Bánh Mì Thập Cẩm Hà Nội",
+            "price": "55K",
+            "currency": "VNĐ",
+            "rating": 5,
+            "text": "Chả Mỡ, Pate, Dưa Chuột, Trứng Gà, Rau Mùi, Đồ Chua."
         }
     ]
 }

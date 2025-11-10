@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { mapboxInit } from "@common/mapboxInit";
+import { useEffect, useState } from "react";
 
 const ContactMapSection = () => {
   const [mapLock, setMapLock] = useState(false);

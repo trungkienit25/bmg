@@ -1,6 +1,6 @@
 ---
 #preview
-title: 'Tips for Planning a Menu'
+title: 'Ricotta Meatballs with the Crispy Topping'
 date: '2022-03-02'
 image: "/img/blog/6.jpg"
 categories:
@@ -9,7 +9,7 @@ tags:
     - Menu
     - Caffe
 author: Charlie Williams
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+short: These Ricotta Meatballs are an easy and delicious family favorite! Tender, juicy homemade meatballs with a jar of good marinara and a crispy topping to finish it all off. YUM!
 
 #full details
 introLayout: 1
@@ -31,20 +31,24 @@ details:
           value: 300g
 ---
 
-Gutem temporibus quae facilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+I’ve done this with both ground chicken and ground turkey – I prefer turkey, maybe because it has a bit more fat? Ground beef also works, as does Italian sausage – and maybe you want to mix and match because this recipe is begging to be doubled.
 
-###### Voluptatem odit ullam veritatis
+As far as serving goes, it is physically impossible for us to NOT have these with garlic bread. I adore this garlic bread so much. But good old buttered noodles would work, too! And for veggies, a simple green salad, bagged Caesar salad, or steam-in-the-bag green beans on the side – all great options.
 
-Omnis consectetur in libero! Quo animi minus sunt, excepturi inventore! Recusandae enim fugit saepe mollitia laboriosam minima sapiente laborum aspernatur ut! Voluptatibus tempora cupiditate nulla cum dicta odit unde eius sit molestias corrupti pariatur illum aspernatur blanditiis, dolor earum quidem incidunt eligendi magnam obcaecati iure quis corporis. Perspiciatis rem provident aliquid iusto temporibus, exercitationem voluptatibus accusamus amet ratione atque, dolor vel necessitatibus illo ipsa officia, sunt quia magni saepe velit ipsum sapiente blanditiis minima.
+###### Combine the meatball mixture
 
-- Voluptate aspernatur
-- Fugiat asperiores
-- Doloremque quidem porro
-- Numquam porro sequi
-- Laudantium quis
+Everything all in one bowl! No cutting board required.
 
-Voluptatem odit ullam veritatis corrupti officia non aperiam eius vero amet, sed porro blanditiis, harum, quo fugit cupiditate. Maxime quaerat ratione
+###### Roll into Meatballs
+Place them in an oiled pan to prevent sticking
 
-Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. **Repudiandae obcaecati** excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
+###### Bake the Meatballs.
 
-Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+400 degrees for 20-25 minutes, to golden, juicy perfection.
+
+###### Add Sauce
+I just add a jar of sauce directly to the pan.
+
+###### Add the crispy topping.
+
+Optional but fun! Gives the whole thing a little texture and bling. Broil for a few minutes to get it crispy!

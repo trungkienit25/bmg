@@ -1,15 +1,15 @@
 {
-    "title": "They will <span>cook</span> for you",
-    "description": "Consectetur numquam poro nemo veniam<br>eligendi rem adipisci quo modi.",
+    "title": "Bánh Mì GÁC nấu ăn cho bạn",
+    "description": "Chúng tôi cam kết cung cấp những món ăn tuyệt vời<br>để mang lại sự hài lòng cho bạn.",
     "button": {
         "link": "/about",
-        "label": "More about us"
+        "label": "Tìm hiểu thêm về chúng tôi"
     },
     "items": [
         {
-            "image": "/img/team/1.png",
+            "image": "/img/team/1.webp",
             "name": "Paul Trueman",
-            "role": "Chef",
+            "role": "Đầu bếp",
             "social": [
                 {
                     "icon": "fab fa-behance",
@@ -34,9 +34,9 @@
             ]
         },
         {
-            "image": "/img/team/2.png",
+            "image": "/img/team/2.webp",
             "name": "Emma Newman",
-            "role": "Assistant chef",
+            "role": "Trợ lý đầu bếp",
             "social": [
                 {
                     "icon": "fab fa-behance",
@@ -61,9 +61,9 @@
             ]
         },
         {
-            "image": "/img/team/3.png",
+            "image": "/img/team/3.webp",
             "name": "Oscar Oldman",
-            "role": "Chef",
+            "role": "Đầu bếp",
             "social": [
                 {
                     "icon": "fab fa-behance",
@@ -88,9 +88,9 @@
             ]
         },
         {
-            "image": "/img/team/4.png",
+            "image": "/img/team/4.webp",
             "name": "Ed Freeman",
-            "role": "Assistant chef",
+            "role": "Trợ lý đầu bếp",
             "social": [
                 {
                     "icon": "fab fa-behance",

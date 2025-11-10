@@ -57,8 +57,8 @@ async function BlogArchive( { params } ) {
         </div>
       </section>
       {/* blog list end */}
-
-      <PopularPosts posts={populars} />
+{/* 
+      <PopularPosts posts={populars} /> */}
     </>
   );
 };

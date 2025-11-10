@@ -82,7 +82,7 @@ const ReservationForm = () => {
                         value={values.name} 
                     />
                     <span className="sb-bar"></span>
-                    <label>Name</label>
+                    <label>Họ và tên</label>
                 </div>
             </div>
             <div className="col-lg-12">
@@ -112,7 +112,7 @@ const ReservationForm = () => {
                         value={values.tel} 
                     />
                     <span className="sb-bar"></span>
-                    <label>Phone</label>
+                    <label>Số điện thoại</label>
                 </div>
             </div>
             <div className="col-lg-12">
@@ -127,7 +127,7 @@ const ReservationForm = () => {
                         value={values.date} 
                     />
                     <span className="sb-bar"></span>
-                    <label>Time and Date</label>
+                    <label>Ngày và giờ</label>
                 </div>
             </div>
             <div className="col-lg-12">
@@ -144,7 +144,7 @@ const ReservationForm = () => {
                         max={6} 
                     />
                     <span className="sb-bar"></span>
-                    <label>Person</label>
+                    <label>Số lượng</label>
                 </div>
             </div>
             </div>
@@ -154,7 +154,7 @@ const ReservationForm = () => {
                 <span className="sb-icon">
                     <img src="/img/ui/icons/arrow.svg" alt="icon" />
                 </span>
-                <span>Reserve</span>
+                <span>Đặt bàn</span>
             </button>
             {/* button end */}
         </form>

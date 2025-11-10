@@ -1,6 +1,6 @@
 ---
 #preview
-title: 'The office business lunch'
+title: 'Marry Me Chicken'
 date: '2022-01-02'
 image: "/img/blog/3.jpg"
 categories:
@@ -9,7 +9,7 @@ tags:
     - Menu
     - Eat
 author: Nguta Ithya
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+short: Golden, juicy chicken coated in a simple creamy sauce with tomatoes, garlic, and thyme. I love this with mashed potatoes and a salad!
 
 #full details
 introLayout: 1
@@ -31,20 +31,22 @@ details:
           value: 300g
 ---
 
-Gutem temporibus quae facilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+Marry Me Chicken has been around for a while, but this month has been my first time trying it. The original version pan fries the chicken in the same pan as the sauce – and this makes sense in theory, but you guys, I just love the air fryer chicken. It tastes better. It’s more consistent and reliable. It’s juicy and it’s got great flavor, exterior texture, and color. It’s hands-off. It’s just about the only way that I make chicken now. I’m willing to wash one extra dish (the air fryer basket) in favor of having my favorite juicy chicken with the golden crust on the outside.
 
-###### Voluptatem odit ullam veritatis
+The other difference here is that original Marry Me Chicken also has sun-dried tomatoes, but I don’t LOVE-love sun-drieds, so I went with a jar of DeLallo marinated bruschetta-style tomatoes which are fresher and juicier (similar to juicy petite diced canned or fresh tomatoes), and boom! It was divine.
 
-Omnis consectetur in libero! Quo animi minus sunt, excepturi inventore! Recusandae enim fugit saepe mollitia laboriosam minima sapiente laborum aspernatur ut! Voluptatibus tempora cupiditate nulla cum dicta odit unde eius sit molestias corrupti pariatur illum aspernatur blanditiis, dolor earum quidem incidunt eligendi magnam obcaecati iure quis corporis. Perspiciatis rem provident aliquid iusto temporibus, exercitationem voluptatibus accusamus amet ratione atque, dolor vel necessitatibus illo ipsa officia, sunt quia magni saepe velit ipsum sapiente blanditiis minima.
 
-- Voluptate aspernatur
-- Fugiat asperiores
-- Doloremque quidem porro
-- Numquam porro sequi
-- Laudantium quis
+###### Get it all ready to go.
+Prep the chicken. Thinly slice some garlic. Drain your tomatoes.
 
-Voluptatem odit ullam veritatis corrupti officia non aperiam eius vero amet, sed porro blanditiis, harum, quo fugit cupiditate. Maxime quaerat ratione
+###### Start the Garlic, Butter, and Tomato Paste.
+Get these three going over low heat to start to develop some flavor.
 
-Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. **Repudiandae obcaecati** excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
+###### Add Cream, Broth, and Thyme.
+Whisk and then let it all simmer up for a while so it can thicken into a nice sauce.
 
-Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+###### Add Chicken and Tomatoes.
+Pull out the sprigs of thyme and get your tomatoes in the sauce. Finally, tuck those gorgeous pieces of chicken into the whole thing.
+
+###### You’re Done! Yum!
+OOOH MY the flavor of that sauce is just next level. Are we in a restaurant right now? I think we’re in a restaurant.

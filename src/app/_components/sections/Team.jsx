@@ -11,9 +11,10 @@ const TeamSection = ( { items } ) => {
         {/* team */}
         <section className="sb-p-0-60">
             <div className="container">
-            <div className="sb-group-title sb-mb-30">
+            <div className="sb-group-title sb-mb-30 row">
+                <h2 className="sb-mid sb-mb-30 col-12" dangerouslySetInnerHTML={{__html : Data.title}} />
                 <div className="sb-left sb-mb-30">
-                    <h2 className="sb-mb-30" dangerouslySetInnerHTML={{__html : Data.title}} />
+                    
                     <p className="sb-text" dangerouslySetInnerHTML={{__html : Data.description}} />
                 </div>
                 <div className="sb-right sb-mb-30">

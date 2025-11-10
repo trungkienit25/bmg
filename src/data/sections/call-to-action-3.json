@@ -1,13 +1,13 @@
 {
-    "title": "<sup>-</sup><span class='sb-title-lg'>50</span><sup>%</sup> Discount <br>for all* burgers!",
-    "description": "*Consectetur numquam poro nemo veniam<br>eligendi rem adipisci quo modi.",
+    "title": "<sup>-</sup><span class='sb-title-lg'>50</span><sup>%</sup> Giảm giá <br>cho tất cả* burger!",
+    "description": "*Chúng tôi có nhiều loại burger đa dạng<br>để bạn lựa chọn và thưởng thức.",
     "button1": {
-        "label": "Get it now!",
+        "label": "Nhận ngay!",
         "icon": "/img/ui/icons/cart.svg",
         "link": "/shop"
     },
     "button2": {
-        "label": "Menu",
+        "label": "Thực đơn",
         "icon": "/img/ui/icons/menu.svg",
         "link": "/menu"
     },

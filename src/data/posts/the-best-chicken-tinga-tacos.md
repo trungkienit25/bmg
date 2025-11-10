@@ -1,6 +1,6 @@
 ---
 #preview
-title: 'The Best Chicken Tinga Tacos'
+title: 'Crispy Rice Salad with Cucumbers and Herbs'
 date: '2022-02-02'
 image: "/img/blog/4.jpg"
 categories:
@@ -9,7 +9,7 @@ tags:
     - Recipes
     - Food
 author: Charlie Williams
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+short: Paper-thin veggies, a shower of herbs, a pile of fried crispy red curry rice, and a limey garlicky vinaigrette all over top.
 
 #full details
 introLayout: 1
@@ -31,20 +31,26 @@ details:
           value: 300g
 ---
 
-Are you passionate about design and interested in pursuing a career as a graphic designer? Graphic design is a dynamic field that combines creativity, technical skills, and a keen eye for aesthetics. Whether you're a beginner or someone looking to enhance their skills, this article will guide you through 10 simple steps to become a graphic designer.
+First of all, there’s papery thin vegetables (cucumber! shallot!) and a whole lot of herbs (mint! cilantro! add more, more, more!).
 
-##### Understand the Field
+And secondly, there’s a beautiful pile of clumpy fried golden red curry jasmine rice – it’s crisped and golden on the outside, but soft and carby enough on the insides to still absorb some of the limey, garlicky, salty vinaigrette with all the flavor.
 
-Start by gaining a comprehensive understanding of what graphic design entails. Research the different types of graphic design, such as branding, web design, print design, and illustration. Explore the work of successful graphic designers and analyze their portfolios to learn about various design styles and techniques.
 
-##### Get a Design Education
 
-While formal education is not always a requirement, it can provide you with a solid foundation and enhance your credibility as a graphic designer. Consider pursuing a degree or diploma in graphic design or a related field. Look for reputable design schools or online courses that offer comprehensive programs to learn both theory and practical skills.
+##### Prep Your Dressing and Herbs.
+Blitz up the dressing, and chop up the salad stuff. I like to use a mandoline for the cucumbers and shallots.
 
-##### Build Your Portfolio
+##### Mix The Rice with Curry Paste.
+Mix the rice with a bit of oil and red curry paste. For the air fryer, I like to have the texture being sticky / wet enough that you can kind of squeeze it into loose chunks. If the rice is dried out / several days leftover, I will add a tablespoon or two of water and maybe even a bit of cornstarch to the mix to help it revive a bit.
 
-Your portfolio is your calling card as a graphic designer. Compile a collection of your best design projects to showcase your abilities and style. Include a variety of work, such as logos, brochures, websites, or illustrations, to demonstrate your versatility. Constantly update your portfolio as you complete new projects or improve existing ones.
+##### Clump Your Rice Into the Air Fryer.
+Yes, clump it. Just place sticky handfuls of the rice in the air fryer in a single layer. They don’t have to be balls, but you also don’t want each individual grain of rice to be separated. Just kinda clump it in there.
 
-##### Gain Practical Experience
+##### Air Fry the Rice!
+I do it at 420 for about 8 minutes till it’s nice and golden brown and crispy around the edges! (If you don’t have an air fryer, there are other options in the notes.) See how it kind of makes clusters? When it’s done, scoop chunks of the rice onto your salad bowl! 
 
-To become a successful graphic designer, practical experience is crucial. Seek internships, freelance opportunities, or entry-level positions to gain hands-on experience in the field. This will allow you to apply your skills in real-world scenarios, understand client requirements, work with deadlines, and collaborate with others in a professional environment.
+##### Toss It Up!
+Toss the veggies and rice with the dressing.
+##### You’re done! YUM!
+Seriously. This might be my favorite salad I’ve ever made.
+

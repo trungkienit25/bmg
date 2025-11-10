@@ -1,6 +1,6 @@
 ---
 #preview
-title: 'Incredible Vegan Mac and Cheese'
+title: 'Good Chicken Tacos with Green Sauce'
 date: '2022-04-02'
 image: "/img/blog/1.jpg"
 categories:
@@ -10,7 +10,7 @@ tags:
     - Menu
     - Food
 author: Charlie Williams
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+short: Just 20 minutes to get these chicken tacos on the table! Juicy, flavorful, and absolutely mindless in the best way.
 
 #full details
 introLayout: 2
@@ -32,20 +32,19 @@ details:
           value: 300g
 ---
 
-Are you passionate about design and interested in pursuing a career as a graphic designer? Graphic design is a dynamic field that combines creativity, technical skills, and a keen eye for aesthetics. Whether you're a beginner or someone looking to enhance their skills, this article will guide you through 10 simple steps to become a graphic designer.
 
-##### Understand the Field
+##### Season the Chicken
 
-Start by gaining a comprehensive understanding of what graphic design entails. Research the different types of graphic design, such as branding, web design, print design, and illustration. Explore the work of successful graphic designers and analyze their portfolios to learn about various design styles and techniques.
+Three primary ingredients: taco seasoning, garlic, and a shot of soy sauce! I’m showing the taco seasoning on the chicken first in this picture, but I’ve come to realize that mixing works best if you start with the wet stuff (oil and soy sauce) and then finish with a quick toss in the dry spices! Doesn’t get quite so clumpy.
 
-##### Get a Design Education
+##### Cook the Chicken
 
-While formal education is not always a requirement, it can provide you with a solid foundation and enhance your credibility as a graphic designer. Consider pursuing a degree or diploma in graphic design or a related field. Look for reputable design schools or online courses that offer comprehensive programs to learn both theory and practical skills.
+I like to air fry it – 425 degrees for 11 minutes.
 
-##### Build Your Portfolio
+##### Make a Green Sauce
 
-Your portfolio is your calling card as a graphic designer. Compile a collection of your best design projects to showcase your abilities and style. Include a variety of work, such as logos, brochures, websites, or illustrations, to demonstrate your versatility. Constantly update your portfolio as you complete new projects or improve existing ones.
+Not essential, but this is the kind of sauce that makes life worth living.
 
-##### Gain Practical Experience
+##### Cut Up The Chicken
 
-To become a successful graphic designer, practical experience is crucial. Seek internships, freelance opportunities, or entry-level positions to gain hands-on experience in the field. This will allow you to apply your skills in real-world scenarios, understand client requirements, work with deadlines, and collaborate with others in a professional environment.
+Just give it a good rough chop into little bite-sized pieces, like how it is at Chipotle. While you have the cutting board out, go ahead and chop some cilantro and onions, too!You’re Done! Yum!

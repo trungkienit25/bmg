@@ -1,13 +1,13 @@
 {
-    "title": "Restaurant is like a theater. <br>Our task is to amaze you!",
-    "subtitle": "Promo video",
-    "description": "Repellat, dolorem a. Qui ipsam quos, obcaecati mollitia consectetur ad vero minus neque sit architecto totam distineserunt pariatur adipisci rem aspernatur illum ex!",
+    "title": "Bánh Mì GÁC sẽ kể bạn nghe bằng hương vị",
+    "subtitle": "Video quảng cáo",
+    "description": "Khám phá hành trình hương vị Việt Nam độc đáo và ấn tượng, nơi Bánh Mì GÁC chăm chút từng khoảnh khắc cho bạn.",
     "button": {
-        "label": "Promo video",
+        "label": "Video quảng cáo",
         "link": "https://www.youtube.com/watch?v=F3zw1Gvn4Mk"
     },
     "image": {
-        "url": "/img/illustrations/interior-2.jpg",
-        "alt": "interior"
+        "url": "/img/illustrations/interior-2.png",
+        "alt": "nội thất"
     }
 }

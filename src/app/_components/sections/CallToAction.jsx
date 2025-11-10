@@ -27,8 +27,10 @@ const CallToActionSection = ( { bg } ) => {
                             <div className="sb-cirkle-3"></div>
                             <div className="sb-cirkle-4"></div>
 
-                            <img src="/img/illustrations/1.svg" alt="phones" className="sb-pik-1" />
+                        
                             <img src="/img/illustrations/2.svg" alt="phones" className="sb-pik-2" />
+                            <img src="/img/illustrations/1.svg" alt="phones" className="sb-pik-1" />
+
                             <img src="/img/illustrations/3.svg" alt="phones" className="sb-pik-3" />
                         </div>
                     </div>

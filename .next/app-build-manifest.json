@@ -22,80 +22,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/(pages)/about/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/(pages)/about/page.css",
-      "static/chunks/app/(pages)/about/page.js"
-    ],
-    "/(pages)/home-2/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(pages)/home-2/page.css",
-      "static/chunks/app/(pages)/home-2/page.js"
-    ],
-    "/(pages)/reviews/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(pages)/reviews/page.js"
-    ],
-    "/(pages)/reservation/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(pages)/reservation/page.css",
-      "static/chunks/app/(pages)/reservation/page.js"
+      "static/chunks/app/_not-found/page.js"
     ],
     "/(pages)/menu/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/(pages)/menu/page.css",
       "static/chunks/app/(pages)/menu/page.js"
-    ],
-    "/(pages)/menu-2/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(pages)/menu-2/page.css",
-      "static/chunks/app/(pages)/menu-2/page.js"
-    ],
-    "/(pages)/menu-3/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(pages)/menu-3/page.css",
-      "static/chunks/app/(pages)/menu-3/page.js"
-    ],
-    "/(pages)/cart/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(pages)/cart/page.js"
-    ],
-    "/(pages)/checkout/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(pages)/checkout/page.js"
-    ],
-    "/(pages)/about-2/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(pages)/about-2/page.css",
-      "static/chunks/app/(pages)/about-2/page.js"
-    ],
-    "/(pages)/blog-3/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(pages)/blog-3/page.css",
-      "static/chunks/app/(pages)/blog-3/page.js"
-    ],
-    "/(pages)/blog/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(pages)/blog/page.css",
-      "static/chunks/app/(pages)/blog/page.js"
-    ],
-    "/(pages)/blog/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(pages)/blog/[id]/page.css",
-      "static/chunks/app/(pages)/blog/[id]/page.js"
     ]
   }
 }

@@ -58,7 +58,7 @@ async function BlogAuthor( { params } ) {
       </section>
       {/* blog list end */}
 
-      <PopularPosts posts={populars} />
+      {/* <PopularPosts posts={populars} /> */}
     </>
   );
 };

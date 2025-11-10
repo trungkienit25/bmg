@@ -4,57 +4,57 @@
             "title": "Very tasty",
             "name": "Emma Newman",
             "rating": 5,
-            "image": "/img/faces/1.jpg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugiat totam nobis quas unde excepturi inventore possimus laudantium provident, rem eligendi velit. Aut molestias, ipsa itaque laborum, natus tempora, ut soluta animi ducimus dignissimos deserunt doloribus in reprehenderit rem accusamus! Quibusdam labore, aliquam dolor harum!"
+            "image": "/img/faces/1.png",
+            "text": ""
         },
         {
             "title": "I have lunch here every day",
             "name": "Paul Trueman",
             "rating": 5,
-            "image": "/img/faces/2.jpg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugiat totam nobis quas unde excepturi inventore possimus laudantium provident, rem eligendi velit. Aut molestias, ipsa itaque laborum, natus tempora, ut soluta animi ducimus dignissimos deserunt doloribus in reprehenderit rem accusamus! Quibusdam labore, aliquam dolor harum!"
+            "image": "/img/faces/2.png",
+            "text": ""
         },
         {
             "title": "Great service",
             "name": "Viktoria Freeman",
             "rating": 5,
             "image": "/img/faces/3.jpg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugiat totam nobis quas unde excepturi inventore possimus laudantium provident, rem eligendi velit. Aut molestias, ipsa itaque laborum, natus tempora, ut soluta animi ducimus dignissimos deserunt doloribus in reprehenderit rem accusamus! Quibusdam labore, aliquam dolor harum!"
+            "text": ""
         },
         {
             "title": "Starbelly is amazing!",
             "name": "Audrey Oldman",
             "rating": 5,
             "image": "/img/faces/4.jpg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugiat totam nobis quas unde excepturi inventore possimus laudantium provident, rem eligendi velit. Aut molestias, ipsa itaque laborum, natus tempora, ut soluta animi ducimus dignissimos deserunt doloribus in reprehenderit rem accusamus! Quibusdam labore, aliquam dolor harum!"
+            "text": ""
         },
         {
             "title": "Very tasty",
             "name": "Emma Newman",
-            "rating": 5,
-            "image": "/img/faces/1.jpg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugiat totam nobis quas unde excepturi inventore possimus laudantium provident, rem eligendi velit. Aut molestias, ipsa itaque laborum, natus tempora, ut soluta animi ducimus dignissimos deserunt doloribus in reprehenderit rem accusamus! Quibusdam labore, aliquam dolor harum!"
+            "rating": 4.5,
+            "image": "/img/faces/1.png",
+            "text": ""
         },
         {
             "title": "I have lunch here every day",
             "name": "Paul Trueman",
             "rating": 5,
-            "image": "/img/faces/2.jpg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugiat totam nobis quas unde excepturi inventore possimus laudantium provident, rem eligendi velit. Aut molestias, ipsa itaque laborum, natus tempora, ut soluta animi ducimus dignissimos deserunt doloribus in reprehenderit rem accusamus! Quibusdam labore, aliquam dolor harum!"
+            "image": "/img/faces/2.png",
+            "text": ""
         },
         {
             "title": "Great service",
             "name": "Viktoria Freeman",
             "rating": 5,
             "image": "/img/faces/3.jpg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugiat totam nobis quas unde excepturi inventore possimus laudantium provident, rem eligendi velit. Aut molestias, ipsa itaque laborum, natus tempora, ut soluta animi ducimus dignissimos deserunt doloribus in reprehenderit rem accusamus! Quibusdam labore, aliquam dolor harum!"
+            "text": ""
         },
         {
             "title": "Starbelly is amazing!",
             "name": "Audrey Oldman",
             "rating": 5,
             "image": "/img/faces/4.jpg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugiat totam nobis quas unde excepturi inventore possimus laudantium provident, rem eligendi velit. Aut molestias, ipsa itaque laborum, natus tempora, ut soluta animi ducimus dignissimos deserunt doloribus in reprehenderit rem accusamus! Quibusdam labore, aliquam dolor harum!"
+            "text": ""
         }
     ]
 }

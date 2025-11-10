@@ -1,23 +1,24 @@
-import React from "react";
+import dynamic from "next/dynamic";
 
 import AppData from "@data/app.json";
 import MenuData from "@data/menu.json";
 
 import PageBanner from "@components/PageBanner";
-import MenuGrid from "@components/menu/MenuGrid";
 import PromoSection from "@components/sections/Promo";
+
+const MenuFiltered = dynamic( () => import("@components/menu/MenuFiltered"), { ssr: false } );
 
 export const metadata = {
   title: {
-		default: "Menu",
+		default: "Thực đơn",
 	},
   description: AppData.settings.siteDescription,
 }
 
-const Menu1 = () => {
+const Menu3 = () => {
   return (
     <>
-      <PageBanner pageTitle={"Starbelly menu."} breadTitle={"Menu"} type={1} />
+      <PageBanner pageTitle={"Thực đơn món ăn"} breadTitle={"Thực đơn"} type={1} />
       
       {/* menu section 1 */}
       <section className="sb-menu-section sb-p-90-60">
@@ -25,63 +26,13 @@ const Menu1 = () => {
           <div></div>
         </div>
         <div className="container">
-          <div className="sb-mb-60">
-            <h2 className="sb-cate-title sb-mb-15">{MenuData.categories[0].name}</h2>
-            <p className="sb-text" dangerouslySetInnerHTML={{__html : MenuData.categories[0].description}} />
-          </div>
-
-          <MenuGrid items={MenuData.categories[0].items} />
+          <MenuFiltered categories={MenuData.categories} />
         </div>
       </section>
-      {/* menu section 1 end */}
+      {/* menu end */}
 
-      {/* menu section 2 */}
-      <section className="sb-menu-section sb-p-0-60">
-        <div className="sb-bg-2">
-          <div></div>
-        </div>
-        <div className="container">
-          <div className="sb-mb-60">
-            <h2 className="sb-cate-title sb-mb-15">{MenuData.categories[1].name}</h2>
-            <p className="sb-text" dangerouslySetInnerHTML={{__html : MenuData.categories[1].description}} />
-          </div>
-
-          <MenuGrid items={MenuData.categories[1].items} />
-        </div>
-      </section>
-      {/* menu section 2 end */}
-
-      {/* menu section 3 */}
-      <section className="sb-menu-section sb-p-0-60">
-        <div className="sb-bg-1">
-          <div></div>
-        </div>
-        <div className="container">
-          <div className="sb-mb-60">
-            <h2 className="sb-cate-title sb-mb-15">{MenuData.categories[2].name}</h2>
-            <p className="sb-text" dangerouslySetInnerHTML={{__html : MenuData.categories[2].description}} />
-          </div>
-
-          <MenuGrid items={MenuData.categories[2].items} />
-        </div>
-      </section>
-      {/* menu section 3 end */}
-
-      {/* menu section 4 */}
-      <section className="sb-menu-section sb-p-0-60">
-        <div className="container">
-          <div className="sb-mb-60">
-            <h2 className="sb-cate-title sb-mb-15">{MenuData.categories[3].name}</h2>
-            <p className="sb-text" dangerouslySetInnerHTML={{__html : MenuData.categories[3].description}} />
-          </div>
-
-          <MenuGrid items={MenuData.categories[3].items} />
-        </div>
-      </section>
-      {/* menu section 4 end */}
-
-      <PromoSection />
+      {/* <PromoSection /> */}
     </>
   );
 };
-export default Menu1;
+export default Menu3;

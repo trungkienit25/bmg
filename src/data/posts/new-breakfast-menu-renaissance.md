@@ -1,16 +1,15 @@
 ---
 #preview
-title: 'New breakfast menu "Renaissance"'
+title: 'Butter Cauliflower and Chickpeas with Mint Cilantro Sauce'
 date: '2022-01-02'
-image: "/img/blog/3.jpg"
+image: "/img/blog/9.jpg"
 categories:
     - Gastronomy
 tags:
     - Fast food
     - Recipes
 author: Nguta Ithya
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
-
+short: This Butter Cauliflower and Chickpeas is a weeknight staple! Roasty spiced cauliflower, a jar of butter sauce, a can of chickpeas, and a pile of steamy rice with a waterfall of mint sauce on top.
 #full details
 introLayout: 1
 postLayout: 1
@@ -31,20 +30,21 @@ details:
           value: 300g
 ---
 
-Gutem temporibus quae facilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+The cauliflower is roasty and seasoned to the max, and the chickpeas get just a little bit chunky and creamy when you give them a few good smashed. They’re just a bit TOO round sometimes, ya know?
 
-###### Voluptatem odit ullam veritatis
+You can make a butter sauce from scratch, or you can just do as I’ve been doing and buy the KFI brand butter chicken sauce from Costco which comes in a big jar and works like a charm. I’ve also heard via your DMs on Instagram that their Vindaloo sauce is even better. If you don’t have a Costco, any brand of tikka masala or Indian-spiced simmer sauces that you love would work just as well (and you can give it some love with a bit of extra cream or butter).
 
-Omnis consectetur in libero! Quo animi minus sunt, excepturi inventore! Recusandae enim fugit saepe mollitia laboriosam minima sapiente laborum aspernatur ut! Voluptatibus tempora cupiditate nulla cum dicta odit unde eius sit molestias corrupti pariatur illum aspernatur blanditiis, dolor earum quidem incidunt eligendi magnam obcaecati iure quis corporis. Perspiciatis rem provident aliquid iusto temporibus, exercitationem voluptatibus accusamus amet ratione atque, dolor vel necessitatibus illo ipsa officia, sunt quia magni saepe velit ipsum sapiente blanditiis minima.
+###### Season and Roast the Cauliflower.
+Coat the cauliflower in spices and some avocado oil. Roast in the oven or air fryer till it’s roasty and yummy.
 
-- Voluptate aspernatur
-- Fugiat asperiores
-- Doloremque quidem porro
-- Numquam porro sequi
-- Laudantium quis
+###### Activate Your Yummy Butter Sauce.
+Homemade, with a pureed base of onions, garlic, ginger, spices, and tomato sauce plus cream and butter, is delicious. Or… just use a store-bought sauce! Costco sells KFI brand butter chicken sauce and I’ve been enjoying it as an SOS option.
 
-Voluptatem odit ullam veritatis corrupti officia non aperiam eius vero amet, sed porro blanditiis, harum, quo fugit cupiditate. Maxime quaerat ratione
+###### Add Your Chickpeas and Mash.
+Okay, you don’t have to mash them. But sometimes chickpeas are just a bit too round. If you can understand that weird sentiment, you’ll probably enjoy a bit of mashing for texture.
 
-Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. **Repudiandae obcaecati** excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
+###### Add Cauliflower Back In.
+Here she comes, looking nice and roasty!  
 
-Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+###### You’re Done! Yum!
+I love, love, love this with some kind of a cilantro sauce which is why you’ll see a waterfall of it on my bowl here.

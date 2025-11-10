@@ -1,6 +1,6 @@
 ---
 #preview
-title: 'Join Us For Plant-Powered January!'
+title: 'Garlic and Black Pepper Beef Skewers'
 date: '2022-03-02'
 image: "/img/blog/5.jpg"
 categories:
@@ -9,8 +9,7 @@ tags:
     - Services
     - Rest
 author: Tamzyn French
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
-
+short: These beef skewers are bringing all the flavor! Thinly sliced strips of steak browned and caramelized to juicy, sweet perfection.
 #full details
 introLayout: 1
 postLayout: 1
@@ -31,16 +30,22 @@ details:
           value: 300g
 ---
 
-Gutem temporibus quae facilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+THE FLAVOR. Garlic, ginger, soy, and curry powder with the umami of beef is not going to let you down. It’s just not, okay? It’s warming and rich (hello curry powder!) but pleasantly sharp at the same time (looking at you, garlic), and is it weird that I enjoy smelling it almost as much as I enjoy eating it?
 
-###### Voluptatem odit ullam veritatis
+THE STRIPS. They’re thin. They’re browned and caramelized but still juicy. They eat, honestly, like little bites of savory candy. They cook for 6 minutes, 7 tops. Delicious.
 
-Omnis consectetur in libero! Quo animi minus sunt, excepturi inventore! Recusandae enim fugit saepe mollitia laboriosam minima sapiente laborum aspernatur ut! Voluptatibus tempora cupiditate nulla cum dicta odit unde eius sit molestias corrupti pariatur illum aspernatur blanditiis, dolor earum quidem incidunt eligendi magnam obcaecati iure quis corporis. Perspiciatis rem provident aliquid iusto temporibus, exercitationem voluptatibus accusamus amet ratione atque, dolor vel necessitatibus illo ipsa officia, sunt quia magni saepe velit ipsum sapiente blanditiis minima.
+###### Cut the Beef into Thin Strips.
 
-- Voluptate aspernatur
-- Fugiat asperiores
-- Doloremque quidem porro
-- Numquam porro sequi
-- Laudantium quis
+Cut against the grain into thin strips. If the skirt steak itself is very thin, fold it over itself a few times to make it easier to cut (as shown in this picture).
 
-Voluptatem odit ullam veritatis corrupti officia non aperiam eius vero amet, sed porro blanditiis, harum, quo fugit cupiditate. Maxime quaerat ratione
+###### Add Some Flavor.
+Add garlic, ginger, soy sauce, curry powder, salt, and sugar. MAGIC, I’m telling you.
+
+###### Skewer (Or Not).
+FYI, things smell amazing at this point. Scrunch that yummy beef onto soaked skewers! Doesn’t have to be perfect. If that feels like too much work, skip it! You can pan fry or air fry. Instructions are down below.
+
+###### Blast Them With Heat.
+Broil the skewers for 6 minutes. Caramelized on top, juicy, full of flavor. So good. (Alternate instructions below, too.)
+
+##### You’re Done! Yum!
+Pop the beef into a rice bowl with a little cucumber shallot salad. Highly recommend finishing with a drizzle of fish sauce and lime juice! Oooo-ee! Yum.

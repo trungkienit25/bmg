@@ -20,7 +20,7 @@ async function Sidebar() {
         {/* sidebar */}
         <div className="sb-sidebar">
             <div className="sb-ib-title-frame sb-mb-30">
-                <h4>Search</h4>
+                <h4>Tìm kiếm</h4>
                 <i className="fas fa-arrow-down" />
             </div>
             <Suspense fallback={<div>Loading...</div>}>
@@ -28,7 +28,7 @@ async function Sidebar() {
             </Suspense>
 
             <div className="sb-ib-title-frame sb-mb-30">
-                <h4>Categories</h4>
+                <h4>Danh mục</h4>
                 <i className="fas fa-arrow-down" />
             </div>
             <ul className="sb-list sb-mb-30">
@@ -38,7 +38,7 @@ async function Sidebar() {
             </ul>
 
             <div className="sb-ib-title-frame sb-mb-30">
-                <h4>Archives</h4>
+                <h4>Lưu trữ</h4>
                 <i className="fas fa-arrow-down" />
             </div>
             <ul className="sb-list sb-mb-30">
@@ -48,7 +48,7 @@ async function Sidebar() {
             </ul>
 
             <div className="sb-ib-title-frame sb-mb-30">
-                <h4>Authors</h4>
+                <h4>Tác giả</h4>
                 <i className="fas fa-arrow-down" />
             </div>
             <ul className="sb-list sb-mb-30">
@@ -58,7 +58,7 @@ async function Sidebar() {
             </ul>
 
             <div className="sb-ib-title-frame sb-mb-30">
-                <h4>Keywords</h4>
+                <h4>Từ khoá</h4>
                 <i className="fas fa-arrow-down" />
             </div>
             <ul className="sb-keywords">

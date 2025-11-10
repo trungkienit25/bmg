@@ -26,16 +26,17 @@ const ProductsSlider = ( {items, title, description, button = {}, slidesPerView,
         </div>
         ) : (
         <div className="sb-bg-2">
-            <div></div>
+            {/* <div></div> */}
         </div>
         )}
         <div className="container">
-            <div className="sb-group-title sb-mb-30">
-            <div className="sb-left sb-mb-30">
-                <h2 className="sb-mb-30" dangerouslySetInnerHTML={{__html : title ? title : Data.title}} />
+            <div className="sb-group-title sb-mb-30 row">
+                <h2 className="sb-mid sb-mb-30 col-12" dangerouslySetInnerHTML={{__html : title ? title : Data.title}} />
+            <div className="sb-left sb-mb-30 col-6">
+                
                 <p className="sb-text" dangerouslySetInnerHTML={{__html : description ? description : Data.description}} />
             </div>
-            <div className="sb-right sb-mb-30">
+            <div className="sb-right sb-mb-30 col-6">
                 {/* slider navigation */}
                 <div className="sb-slider-nav">
                     <div className="sb-prev-btn sb-short-menu-prev"><i className="fas fa-arrow-left"></i></div>

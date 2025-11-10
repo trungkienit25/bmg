@@ -1,30 +1,30 @@
 {
     "banner1": {
         "image": {
-            "url": "/img/illustrations/burger.png",
-            "alt": "burger"
+            "url": "/img/illustrations/pho.png",
+            "alt": "pho"
         },
         "title_before": "-",
         "title": "50",
         "title_after": "%",
-        "subtitle": "Discount for all* burgers!",
-        "text": "*Et modi itaque praesentium.",
+        "subtitle": "Giảm giá cho tất cả món chính!",
+        "text": "Chương trình khuyến mãi hấp dẫn.",
         "button": {
             "link": "/shop",
-            "label": "Get it now"
+            "label": "Nhận ngay"
         }
     },
     "banner2": {
         "image": {
-            "url": "/img/illustrations/cup.png",
-            "alt": "cup"
+            "url": "/img/illustrations/cafe.png",
+            "alt": "cốc"
         },
-        "title": "For free!",
-        "subtitle": "Visit Starbelly and get your coffee*",
-        "text": "*Et modi itaque praesentium.",
+        "title": "Miễn phí!",
+        "subtitle": "Ghé Bánh Mì GÁC và nhận cà phê của bạn",
+        "text": "Chương trình khuyến mãi hấp dẫn.",
         "button": {
             "link": "/contact",
-            "label": "Get it now"
+            "label": "Nhận ngay"
         }
     }
 }

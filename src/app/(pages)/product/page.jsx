@@ -15,7 +15,7 @@ const ProductTabs = dynamic( () => import("@components/products/ProductTabs"), {
 
 export const metadata = {
   title: {
-		default: "Product page",
+		default: "Thông tin món ăn",
 	},
   description: AppData.settings.siteDescription,
 }
@@ -154,8 +154,8 @@ const Products = () => {
                     <div className="sb-features-item sb-features-item-sm sb-mb-30">
                       <div className="sb-number">01</div>
                       <div className="sb-feature-text">
-                        <h4 className="sb-mb-15">Add to the cart and place an order</h4>
-                        <p className="sb-text sb-text-sm">Porro comirton pera nemo veniam</p>
+                        <h4 className="sb-mb-15">Đặt giỏ hàng của bạn</h4>
+                        <p className="sb-text sb-text-sm">Ấn nút phía dưới để đặt hàng</p>
                       </div>
                     </div>
                   </div>
@@ -163,8 +163,8 @@ const Products = () => {
                     <div className="sb-features-item sb-features-item-sm sb-mb-30">
                       <div className="sb-number">02</div>
                       <div className="sb-feature-text">
-                        <h4 className="sb-mb-15">Enter your phone number and address</h4>
-                        <p className="sb-text sb-text-sm">Eligendi adipisci numquam.</p>
+                        <h4 className="sb-mb-15">Nhập số điện thoại và địa chỉ</h4>
+                        <p className="sb-text sb-text-sm">Nhập thông tin để VietGormet có thể ship đến cho bạn</p>
                       </div>
                     </div>
                   </div>
@@ -172,8 +172,8 @@ const Products = () => {
                     <div className="sb-features-item sb-features-item-sm sb-mb-30">
                       <div className="sb-number">03</div>
                       <div className="sb-feature-text">
-                        <h4 className="sb-mb-15">Enjoy your favorite food at home!</h4>
-                        <p className="sb-text sb-text-sm">Nnecessitatibus praesentium</p>
+                        <h4 className="sb-mb-15">Tận hưởng món ăn tại nhà</h4>
+                        <p className="sb-text sb-text-sm">Thưởng thức món ăn của chúng tôi </p>
                       </div>
                     </div>
                   </div>

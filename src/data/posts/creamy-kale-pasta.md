@@ -1,15 +1,15 @@
 ---
 #preview
-title: 'Creamy Kale Pasta'
+title: 'Spicy Shrimp with Peach Salad'
 date: '2022-04-02'
-image: "/img/blog/3.jpg"
+image: "/img/blog/2.jpg"
 categories:
     - News of the restaurant
 tags:
     - Restaurant
     - Caffe
 author: Nguta Ithya
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+short: Spicy shrimp with all the delicious heat, smoke, and sweetness we want, alongside a fresh peach and cucumber salad.
 
 #full details
 introLayout: 1
@@ -31,16 +31,23 @@ details:
           value: 300g
 ---
 
-Gutem temporibus quae facilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+Is it because it’s an excuse to load up half the plate with that gorgeous peach salad? Maybe. I love peaches.
 
-###### Voluptatem odit ullam veritatis
+But also, the shrimp are delicious! I made this one more time this afternoon to make sure I had the spices all correct before we published this recipe, and I ended up just standing over the pan eating just one more. And then just one more. And then just one more. They can easily stand on their own.
 
-Omnis consectetur in libero! Quo animi minus sunt, excepturi inventore! Recusandae enim fugit saepe mollitia laboriosam minima sapiente laborum aspernatur ut! Voluptatibus tempora cupiditate nulla cum dicta odit unde eius sit molestias corrupti pariatur illum aspernatur blanditiis, dolor earum quidem incidunt eligendi magnam obcaecati iure quis corporis. Perspiciatis rem provident aliquid iusto temporibus, exercitationem voluptatibus accusamus amet ratione atque, dolor vel necessitatibus illo ipsa officia, sunt quia magni saepe velit ipsum sapiente blanditiis minima.
+Besides being super easy (YAY IT’S MY FAVORITE THING), the thing I like about this is that it creates that mix of heat, smoke, and sweetness with some new flavors.
 
-- Voluptate aspernatur
-- Fugiat asperiores
-- Doloremque quidem porro
-- Numquam porro sequi
-- Laudantium quis
+###### VMake Your Peach Salad
 
-Voluptatem odit ullam veritatis corrupti officia non aperiam eius vero amet, sed porro blanditiis, harum, quo fugit cupiditate. Maxime quaerat ratione
+This can and probably should be made first… because the shrimp cook really fast. Chop, toss, and let it hang for the next 20 minutes while you do the shrimp!
+
+###### Toss Shrimp with Spices
+
+There’s smoked paprika, curry powder, salt, garlic powder, and some cayenne for heat.
+
+###### Cook the shrimp
+I cook them in olive oil, and then when they’re almost done I like to add a bit of butter and honey to the pan – it pulls up the browned bits and creates kind of a glazey sauce on the shrimp.
+
+###### You’re Done! Yum!
+
+Pile that steamy shrimp on rice with a big scoop of peach salad (also pictured here: avocado)! It’s so good.

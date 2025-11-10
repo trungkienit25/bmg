@@ -1,26 +1,50 @@
 import { Rubik, Monoton } from 'next/font/google'
+import localFont from 'next/font/local'
+// const rubik = Rubik({
+//   weight: ['300', '400', '500', '600', '700', '800', '900'],
+//   style: ['normal', 'italic'],
+//   subsets: ['latin'],
+//   variable: '--font-rubik',
+//   display: 'swap',
+// })
 
-const rubik = Rubik({
-  weight: ['300', '400', '500', '600', '700', '800', '900'],
-  style: ['normal', 'italic'],
-  subsets: ['latin'],
-  variable: '--font-rubik',
-  display: 'swap',
+// const monoton = Monoton({
+//   weight: ['400'],
+//   subsets: ['latin'],
+//   variable: '--font-monoton',
+//   display: 'swap',
+// })
+const beVNPro = localFont({
+  src: [
+    {
+      path: '_styles/fonts/Coolvetica/coolvetica-rg.otf',
+    }
+  ],
+  variable: '--font-bevnpro'
+});
+const lodestone = localFont({
+  src: [
+    {
+      path: '_styles/fonts/EDAughris/DFVN ED Aughris.ttf',
+    }
+  ],
+  variable: '--font-lodestone'
 })
-
-const monoton = Monoton({
-  weight: ['400'],
-  subsets: ['latin'],
-  variable: '--font-monoton',
-  display: 'swap',
-})
+const phudu = localFont({
+  src: [
+    {
+      path: '_styles/fonts/PhuDu/Phudu-Regular.ttf',
+    }
+  ],
+  variable: '--font-phudu'
+});
 
 import "@styles/css/plugins/bootstrap.min.css";
 import "@styles/css/plugins/swiper.min.css";
 import "@styles/css/plugins/font-awesome.min.css";
 
 import { register } from "swiper/element/bundle";
-// register Swiper custom elements
+
 register();
 
 import '@styles/scss/style.scss';
@@ -32,9 +56,9 @@ import AppData from "@data/app.json";
 
 export const metadata = {
   title: {
-		default: AppData.settings.siteName,
-		template: "%s | " + AppData.settings.siteName,
-	},
+    default: AppData.settings.siteName,
+    template: "%s | " + AppData.settings.siteName,
+  },
   description: AppData.settings.siteDescription,
 }
 
@@ -42,7 +66,7 @@ const Layouts = ({
   children
 }) => {
   return (
-    <html lang="en" className={`${rubik.variable} ${monoton.variable}`}>
+    <html lang="en" className={`${beVNPro.variable} ${lodestone.variable} ${phudu.variable}`}>
       <body>
         {/* app wrapper */}
         <div className="sb-app">

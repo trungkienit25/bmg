@@ -1,15 +1,15 @@
 ---
 #preview
-title: 'Beet and Burrata Salad with Fried Bread'
+title: 'Gorgeous Peach Salad'
 date: '2022-02-02'
-image: "/img/blog/2.jpg"
+image: "/img/blog/7.jpg"
 categories:
     - Gastronomy
 tags:
     - Gastronomy
     - Fast Food
 author: Peter Stanbridge
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+short: Fresh cucumber, bitey shallots, cooling mint, and sweet fleshy peaches coming together in serious flavor harmony! I love this peach salad.
 
 #full details
 introLayout: 1
@@ -31,20 +31,16 @@ details:
           value: 300g
 ---
 
-Gutem temporibus quae facilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+It’s a textural wonder: a gentle layering of juicy and slippery, flexible and foldy. We’ve got fresh cucumber, bitey shallots, cooling mint, and sweet fleshy peaches coming together in serious flavor harmony. The lime juice in there wakes it up and makes it feel extra summery, and the flecks of lime zest, salt, and pepper make it feel like something you’d eat at a nice restaurant. 
+###### Slice That Peachy Goodness!
+Slices are ideal, in my opinion! Those thin, long pieces just layer together really nicely. You can do it by hand, but a mandoline is my must-have tool for this!
 
-###### Voluptatem odit ullam veritatis
 
-Omnis consectetur in libero! Quo animi minus sunt, excepturi inventore! Recusandae enim fugit saepe mollitia laboriosam minima sapiente laborum aspernatur ut! Voluptatibus tempora cupiditate nulla cum dicta odit unde eius sit molestias corrupti pariatur illum aspernatur blanditiis, dolor earum quidem incidunt eligendi magnam obcaecati iure quis corporis. Perspiciatis rem provident aliquid iusto temporibus, exercitationem voluptatibus accusamus amet ratione atque, dolor vel necessitatibus illo ipsa officia, sunt quia magni saepe velit ipsum sapiente blanditiis minima.
+##### Get The Cucumbers Saucy.
+I kind of like the cucumbers to have a softer, more bendy quality in this salad, so I let them sit with the shallots in lime juice, salt, and olive oil for a while to loosen em up.
 
-- Voluptate aspernatur
-- Fugiat asperiores
-- Doloremque quidem porro
-- Numquam porro sequi
-- Laudantium quis
+##### Add Peaches, Mint, and Honey!
+Give it a gentle toss. Season as you like. I love hot honey in this salad. Like, LOVE.
 
-Voluptatem odit ullam veritatis corrupti officia non aperiam eius vero amet, sed porro blanditiis, harum, quo fugit cupiditate. Maxime quaerat ratione
-
-Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. **Repudiandae obcaecati** excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
-
-Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+##### You’re Done! Yum!
+Seriously so good. One of my favorites for a quick, beautiful, fresh summer meal or side. Also great with avocado slices in there!

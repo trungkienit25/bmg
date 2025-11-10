@@ -1,11 +1,11 @@
 {
-    "title": "Most <span>popular</span> Publication",
-    "description": "Consectetur numquam poro nemo veniam<br/>eligendi rem adipisci quo modi.",
+    "title": "Tài liệu <span>phổ biến</span> nhất",
+    "description": "Chúng tôi cung cấp các tài liệu chất lượng cao<br/>để đáp ứng nhu cầu của bạn.",
     "featured": [
-        "beet-and-burrata-salad-with-fried-bread",
-        "creamy-kale-pasta",
-        "incredible-vegan-mac-and-cheese",
-        "new-breakfast-menu-renaissance",
-        "the-office-business-lunch"
+        "salad-củ-dền-và-phô-mai-burrata-chiên-bánh-mì",
+        "mì-ống-kale-nhuyễn",
+        "mac-and-cheese-chay-tuyệt-vời",
+        "thực-đơn-bữa-sáng-mới",
+        "bữa-trưa-kinh-doanh-tại-văn-phòng"
     ]
 }

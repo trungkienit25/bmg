@@ -1,18 +1,18 @@
 {
-    "title": "Free delivery service.",
-    "description": "*Consectetur numquam poro nemo veniam<br>eligendi rem adipisci quo modi.",
+    "title": "Dịch vụ giao hàng miễn phí.",
+    "description": "Chúng tôi cung cấp dịch vụ giao hàng miễn phí<br>với sự tiện lợi và nhanh chóng.",
     "button1": {
-        "label": "Order delivery",
+        "label": "Đặt giao hàng",
         "icon": "/img/ui/icons/cart.svg",
         "link": "/shop"
     },
     "button2": {
-        "label": "Menu",
+        "label": "Thực đơn",
         "icon": "/img/ui/icons/menu.svg",
         "link": "/menu"
     },
     "image": {
-        "url": "/img/illustrations/delivery.png",
-        "alt": "reserved"
+        "url": "/img/illustrations/image.png",
+        "alt": "delivery"
     }
 }

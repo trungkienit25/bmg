@@ -35,8 +35,8 @@ async function BlogPage( { params } ) {
         </div>
         <div className="container">
           <div className="sb-mb-60">
-            <h2 className="sb-cate-title sb-mb-30">Latest <span>publications</span></h2>
-            <p className="sb-text">Consectetur numquam poro nemo veniam<br/>eligendi rem adipisci quo modi.</p>
+            <h2 className="sb-cate-title sb-mb-30">Bài viết mới nhất</h2>
+            <p className="sb-text">Khám phá ẩm thực Việt cùng với Bánh Mì GÁC</p>
           </div>
 
           <BlogPaginated
@@ -55,7 +55,7 @@ async function BlogPage( { params } ) {
       </section>
       {/* blog list end */}
 
-      <PopularPosts posts={populars} />
+      {/* <PopularPosts posts={populars} /> */}
     </>
   );
 };

@@ -1,19 +1,19 @@
 {
-    "image": {
-       "url": "/img/illustrations/girl.png",
-       "alt": "girl"
-    },
-    "subtitle": "Hi, new friend!",
-    "title": "We do not <span>cook</span>, <br>we <span>create</span> your <br>emotions!",
-    "description": "Consectetur numquam poro nemo veniam<br>eligendi rem adipisci quo modi.",
-    "button1": {
-        "link": "/menu",
-        "icon": "/img/ui/icons/menu.svg",
-        "label": "Our menu"
-    },
-    "button2": {
-        "link": "/about",
-        "icon": "/img/ui/icons/arrow.svg",
-        "label": "About us"
-    }
+  "image": {
+    "url": "/img/illustrations/girl.png",
+    "alt": "Trải nghiệm 'Ăn nhanh, Sống chậm' tại Bánh Mì GÁC"
+  },
+  "subtitle": "khung cửa gác, khung nhìn hà nội.",
+  "title": "bánh mì gác <br> bánh mì nhân hà nội",
+  "description": "Để thu trọn Hà Nội qua ô cửa nhỏ, <br> để hương vị Hà Thành xưa len lỏi vào tâm hồn ta.",
+  "button1": {
+    "link": "/menu",
+    "icon": "/img/ui/icons/menu.svg",
+    "label": "Khám phá Thực đơn"
+  },
+  "button2": {
+    "link": "/about",
+    "icon": "/img/ui/icons/arrow.svg",
+    "label": "Câu chuyện của GÁC"
+  }
 }

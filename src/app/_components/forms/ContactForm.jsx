@@ -78,7 +78,7 @@ const ContactForm = () => {
                     value={values.name} 
                 />
                 <span className="sb-bar"></span>
-                <label>Name</label>
+                <label>Họ và tên</label>
             </div>
             <div className="sb-group-input">
                 <input 
@@ -103,16 +103,16 @@ const ContactForm = () => {
                     value={values.message} 
                 />
                 <span className="sb-bar"></span>
-                <label>Message</label>
+                <label>Thông điệp</label>
             </div>
-            <p className="sb-text sb-text-xs sb-mb-30">*We promise not to disclose your <br/>personal information to third parties.</p>
+            <p className="sb-text sb-text-xs sb-mb-30">Chúng tôi cam kết bảo mật tuyệt đối <br/>thông tin của khách hàng.</p>
             
             {/* button */}
             <button type="submit" className="sb-btn sb-cf-submit sb-show-success">
                 <span className="sb-icon">
                     <img src="/img/ui/icons/arrow.svg" alt="icon" />
                 </span>
-                <span>Send</span>
+                <span>Gửi</span>
             </button>
             {/* button end */}
         </form>

@@ -5,10 +5,12 @@ const AboutTwoSection = () => {
         <>
             {/* About text */}
             <section className="sb-about-text sb-p-90-0">
-                <div className="sb-bg-1" style={{"marginTop": "90px"}}>
-                    <div></div>
+                {/* <div className="sb-bg-1" style={{"marginTop": "90px"}}>
+                    {/* <div></div>
+                </div> */}
+                <div className="head">
+                    <img src="/img/connect/foot.png" alt="" />
                 </div>
-
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 align-self-center">
