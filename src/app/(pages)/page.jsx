@@ -42,7 +42,7 @@ import AboutTwoSection from "@components/sections/AboutTwo";
 import CallToActionTwoSection from "@components/sections/CallToActionTwo";
 import FeaturesOneSection from "@components/sections/Features";
 import HeroSection from "@components/sections/Hero";
-import GalleryMasonry from "@components/gallery/GalleryMasonry";
+const GalleryMasonry = dynamic( () => import("@components/gallery/GalleryMasonry"), { ssr: false } );
 
 import GalleryData from "@data/gallery.json";
 import Link from "next/link";

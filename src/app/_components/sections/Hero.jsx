@@ -4,11 +4,12 @@ import Data from "@data/sections/hero-1.json";
 import Link from "next/link";
 
 import { useEffect } from "react";
-import { ScrollAnimation } from "@common/scrollAnims";
 
 const Hero = ({ type }) => {
     useEffect(() => {
-        ScrollAnimation();
+        import("@common/scrollAnims").then(({ ScrollAnimation }) => {
+            ScrollAnimation();
+        });
     }, []);
 
     return (
