@@ -71,9 +71,9 @@ const Hero = ({ type }) => {
                             ) : (
                                 <div className="sb-ilustration-fix">
                                     <div className="sb-illustration-1-2">
-                                        <img src="/img/illustrations/bmg-7.jpg" alt="food" className="sb-food-1" />
-                                        <img src="/img/illustrations/bmg-9.jpg" alt="food" className="sb-food-2" />
-                                        <img src="/img/illustrations/bmg-8.jpg" alt="food" className="sb-food-3" />
+                                        <img src="/img/illustrations/bmg-7.webp" alt="food" className="sb-food-1" />
+                                        <img src="/img/illustrations/bmg-9.webp" alt="food" className="sb-food-2" />
+                                        <img src="/img/illustrations/bmg-8.webp" alt="food" className="sb-food-3" />
 
                                         {/* <div className="sb-illu-dialog-1"><span>😋</span> Hãy thử món này</div>
                                         <div className="sb-illu-dialog-2"><span>🥰</span> Ngol</div> */}

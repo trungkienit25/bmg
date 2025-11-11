@@ -53,7 +53,7 @@ const About2 = async () => {
         <div className="container">
           <div className="sb-group-title sb-mb-30">
             <div className="sb-left sb-mb-30">
-              <h2 className="sb-mb-30" dangerouslySetInnerHTML={{ __html: "Khoảng khắc tại Bánh Mì GÁC" }} />
+              <h2 className="sb-mb-30" dangerouslySetInnerHTML={{ __html: "Khoảnh khắc tại Bánh Mì GÁC" }} />
               {/* <p className="sb-text" dangerouslySetInnerHTML={{__html : Data.description}} /> */}
             </div>
             <div className="sb-right sb-mb-30">
