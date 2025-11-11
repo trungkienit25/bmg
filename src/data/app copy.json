@@ -95,32 +95,32 @@
     ],
     "instagram": [
         {
-            "image": "/img/instagram/1.jpg",
+            "image": "/img/instagram/1.webp",
             "title": "Image #1",
             "link": "https://instagram.com/"
         },
         {
-            "image": "/img/instagram/2.jpg",
+            "image": "/img/instagram/2.webp",
             "title": "Image #2",
             "link": "https://instagram.com/"
         },
         {
-            "image": "/img/instagram/3.jpg",
+            "image": "/img/instagram/3.webp",
             "title": "Image #3",
             "link": "https://instagram.com/"
         },
         {
-            "image": "/img/instagram/4.jpg",
+            "image": "/img/instagram/4.webp",
             "title": "Image #3",
             "link": "https://instagram.com/"
         },
         {
-            "image": "/img/instagram/5.jpg",
+            "image": "/img/instagram/5.webp",
             "title": "Image #5",
             "link": "https://instagram.com/"
         },
         {
-            "image": "/img/instagram/6.jpg",
+            "image": "/img/instagram/6.webp",
             "title": "Image #6",
             "link": "https://instagram.com/"
         }

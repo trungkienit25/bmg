@@ -1,27 +1,27 @@
 {
     "items": [
         {
-            "url": "/img/gallery/4.jpg",
+            "url": "/img/gallery/4.webp",
             "orientation": "h"
         },
         {
-            "url": "/img/gallery/2.jpg",
+            "url": "/img/gallery/2.webp",
             "orientation": "v"
         },
         {
-            "url": "/img/gallery/6.jpg",
+            "url": "/img/gallery/6.webp",
             "orientation": "h"
         },
         {
-            "url": "/img/gallery/5.jpg",
+            "url": "/img/gallery/5.webp",
             "orientation": "v"
         },
         {
-            "url": "/img/gallery/3.jpg",
+            "url": "/img/gallery/3.webp",
             "orientation": "v"
         },
         {
-            "url": "/img/gallery/1.jpg",
+            "url": "/img/gallery/1.webp",
             "orientation": "h"
         },
         {
