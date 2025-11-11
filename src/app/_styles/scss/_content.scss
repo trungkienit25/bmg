@@ -258,7 +258,7 @@ menu
     align-items: center;
 
     & .sb-card-title {
-      width: calc(100% - 90px);
+      width: calc(100% - 15px);
       overflow: hidden;
       text-overflow: ellipsis;
       display: -moz-box;
@@ -268,10 +268,11 @@ menu
       -webkit-box-orient: vertical;
       line-clamp: 2;
       box-orient: vertical;
+      font-family: var(--font-phudu);
     }
 
     & .sb-price {
-      width: 100px;
+      width: 10px;
       height: 60px;
       font-weight: 500;
       background-color: $c5;
@@ -1178,14 +1179,14 @@ filter
     }
 
     &.sb-active {
-      background-color: $c6;
-      color: $c1;
+      background-color: $c5;
+      color: $c3;
     }
 
-    &:hover {
-      filter: brightness(102%);
-      color: $c1;
-    }
+    // &:hover {
+    //   filter: brightness(102%);
+    //   color: $c1;
+    // }
   }
 }
 @media (max-width: 768px) {
