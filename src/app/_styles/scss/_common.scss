@@ -120,15 +120,15 @@ ul {
   color: $c5;
   margin: 0;
   font-size: 15px;
-  overflow: hidden;
-      text-overflow: ellipsis;
-      display: -moz-box;
-      -moz-box-orient: vertical;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      line-clamp: 2;
-      box-orient: vertical;
+  // overflow: hidden;
+  //     text-overflow: ellipsis;
+  //     display: -moz-box;
+  //     -moz-box-orient: vertical;
+  //     display: -webkit-box;
+  //     -webkit-line-clamp: 2;
+  //     -webkit-box-orient: vertical;
+  //     line-clamp: 2;
+  //     box-orient: vertical;
 
   &.sb-text-xs {
     font-size: 12px;
@@ -364,16 +364,31 @@ group title
 }
 @media (max-width: 768px) {
   .sb-group-title {
-    flex-direction: column;
+    // flex-direction: column;
 
-    & .sb-left {
-      width: 100%;
-    }
+    // & .sb-left {
+    //   width: 100%;
+    // }
 
-    & .sb-right {
-      width: 100%;
-      justify-content: space-between;
-    }
+    // & .sb-right {
+    //   width: 100%;
+    //   justify-content: space-between;
+    // }
+        & .sb-left,
+        & .sb-right {
+          flex: 0 0 100%;
+          max-width: 100%;
+          width: 100%;
+        }
+    
+        & .sb-left {
+          text-align: center;
+          margin-bottom: 30px;
+        }
+    
+        & .sb-right {
+          justify-content: center;
+        }
   }
 }
 /***************************
@@ -1131,7 +1146,7 @@ settings
 }
 
 .sb-signature {
-  margin-top: 70px;
+  margin-top: 20px;
 }
 /***************************
 
