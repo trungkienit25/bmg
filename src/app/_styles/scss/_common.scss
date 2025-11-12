@@ -772,7 +772,9 @@ buttons
     line-height: 55px;
     display: inline-block;
     padding: 0 20px 0 0;
-    font-weight: 500;
+font-family: var(--font-bevnpro);
+    text-transform: uppercase;
+    font-weight: 700;
   }
 
   &:hover {

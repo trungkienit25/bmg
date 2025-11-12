@@ -134,7 +134,9 @@ navigation
         position: relative;
         padding: 0 25px;
         display: inline-block;
-        font-weight: 150;
+        font-family: var(--font-bevnpro);
+        // text-transform: uppercase;
+        font-weight: 550;
         height: 100%;
         color: $c3;
         font-size: 18px;

@@ -25,7 +25,7 @@ const beVNPro = localFont({
 const lodestone = localFont({
   src: [
     {
-      path: '_styles/fonts/EDAughris/DFVN ED Aughris.ttf',
+      path: '_styles/fonts/EDAughris/DFVN ED Aughris.otf',
     }
   ],
   variable: '--font-lodestone'
