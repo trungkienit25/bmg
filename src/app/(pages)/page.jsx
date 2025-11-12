@@ -91,7 +91,7 @@ const Home2 = () => {
 
       </div>
       {/* gallery end */}
-      <CallToActionTwoSection />
+      {/* <CallToActionTwoSection /> */}
     </>
   );
 };

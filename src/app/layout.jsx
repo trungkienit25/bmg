@@ -41,7 +41,7 @@ const phudu = localFont({
 
 import "@styles/css/plugins/bootstrap.min.css";
 import "@styles/css/plugins/swiper.min.css";
-import "@styles/css/plugins/font-awesome.min.css";
+// import "@styles/css/plugins/font-awesome.min.css";
 
 import { register } from "swiper/element/bundle";
 
@@ -67,6 +67,9 @@ const Layouts = ({
 }) => {
   return (
     <html lang="en" className={`${beVNPro.variable} ${lodestone.variable} ${phudu.variable}`}>
+      <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+      </head>
       <body>
         {/* app wrapper */}
         <div className="sb-app">

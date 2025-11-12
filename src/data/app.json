@@ -10,7 +10,9 @@
       "long": 105.85208336771227,
       "lat": 21.033761633013714
     },
-    "perPage": 6
+    "perPage": 6,
+    "address": "1 ĐINH LIỆT, HÀNG BẠC, HÀ NỘI, VIỆT NAM",
+    "openingHours": "07.00AM – 11.00PM"
   },
   "header": {
     "logo": {
@@ -36,7 +38,7 @@
     ]
   },
   "footer": {
-    "copy": "© 2025 Bánh Mì GÁC. All rights reserved."
+    "copy": "© 2025 Banhmigac. All Rights Reserved"
   },
   "social": [
     {
@@ -48,6 +50,11 @@
       "link": "https://www.facebook.com/profile.php?id=61581260075678",
       "title": "Facebook",
       "icon": "fab fa-facebook-f"
+    },
+    {
+      "link": "https://www.threads.com/@gac.banhmi",
+      "title": "Threads",
+      "icon": "fa-brands fa-threads"
     }
   ],
   "instagram": [

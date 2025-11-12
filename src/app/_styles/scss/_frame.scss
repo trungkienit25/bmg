@@ -556,3 +556,182 @@ minicart
   }
 }
 
+// ... (nội dung hiện có của tệp) ...
+
+/***************************
+
+footer
+
+***************************/
+/*
+footer { // Comment lại style footer cũ để thay bằng style mới
+  border-top: solid 1px $c3;
+  position: relative;
+  background-color: $c1;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  & .sb-footer-frame {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+
+    & .sb-logo-frame {
+      width: 33.333%;
+      display: flex;
+      align-items: center;
+      transition: $tr;
+
+      & img {
+        width: 130px;
+      }
+
+      &:hover {
+        filter: brightness(110%);
+      }
+    }
+
+    & .sb-copy {
+      text-align: right;
+      width: 33.333%;
+      font-size: 12px;
+      color: $c3;
+    }
+  }
+}
+@media (max-width: 992px) {
+  footer { // Comment lại media query cũ
+    & .sb-footer-frame {
+      padding: 30px 0;
+      height: auto;
+      flex-direction: column;
+
+      & .sb-logo-frame {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 30px;
+      }
+
+      & .sb-social {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+
+      & .sb-copy {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
+*/
+
+/* =====================================================
+  STYLE FOOTER MỚI (GAC-FOOTER)
+=====================================================
+*/
+.gac-footer {
+  background-color: $c1; 
+  color: #fff;
+  padding: 40px 0 30px; // Padding trên dưới
+  position: relative;
+  font-family: var(--font-bevnpro); // Font sans-serif
+  border-top: none; // Bỏ border-top của style cũ
+  
+  // 3 cột chính
+  .gac-footer-main {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); // Line tách biệt với copyright
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .gac-footer-column {
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    height: 100%; // Giữ chiều cao bằng nhau
+    // Đường viền ngăn cách
+    border-right: 1px solid rgba(255, 255, 255, 0.2); 
+
+    // Icon
+    > i {
+      color: #fff;
+      font-size: 30px; // Kích thước icon
+      margin-right: 20px;
+      min-width: 35px;
+      text-align: center;
+    }
+
+    // Khối văn bản (Giờ & Địa chỉ)
+    .gac-footer-text {
+      h5 {
+        font-family: var(--font-bevnpro); // Font tiêu đề
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 4px;
+        letter-spacing: 0.5px;
+      }
+      p {
+        font-family: var(--font-bevnpro); // Font nội dung
+        color: #fff;
+        font-size: 16px;
+        margin: 0;
+      }
+    }
+  }
+  
+  // Cột Social
+  .gac-footer-social {
+    justify-content: center;
+    
+    a {
+      color: #fff;
+      font-size: 22px; // Kích thước icon social
+      margin: 0 18px;
+      transition: $tr;
+      
+      &:hover {
+        color: $c2; // Màu primary khi hover
+        transform: scale(1.3);
+      }
+    }
+  }
+  
+  // Bỏ đường viền của cột cuối cùng
+  .col-lg-4:last-child .gac-footer-column {
+    border-right: none;
+  }
+
+  // Copyright
+  .gac-footer-copyright {
+    p {
+      text-align: center;
+      text-transform: uppercase;
+      font-family: var(--font-bevnpro);
+      font-size: 12px;
+      color: #fff; // Màu xám nhạt
+      margin: 0;
+      letter-spacing: 0.5px;
+    }
+  }
+
+  // Responsive cho Mobile
+  @media (max-width: 991.98px) { // Dưới 992px (Bootstrap LG breakpoint)
+    .gac-footer-column {
+      border-right: none; // Bỏ border viền
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2); // Thay bằng border đáy
+      justify-content: center; // Căn giữa trên mobile
+    }
+    
+    .col-lg-4:last-child .gac-footer-column {
+      border-bottom: none; // Bỏ border đáy của mục cuối
+    }
+
+    .gac-footer-social {
+      padding: 30px 0; // Tăng khoảng cách cho social
+    }
+  }
+}
