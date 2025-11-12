@@ -1,3 +1,0 @@
-I have fixed the syntax error in `src/app/_layouts/footers/LayoutDefault.jsx`.
-
-The issue was with how the address was being split and rendered, which could lead to syntax errors or `undefined` values. I have simplified it to display the full address from `AppData.settings.address` in the `<p>` tag and changed the `<h5>` to a generic "ĐỊA CHỈ" label.

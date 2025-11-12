@@ -12,7 +12,7 @@ const MiniSidebar = () => {
                 </div>
                 <ul className="sb-list sb-mb-30">
                     <li><b>Địa chỉ:</b><span>Số 1 Đinh Liệt, Hoàn Kiếm, Hà Nội</span></li>
-                    <li><b>Giờ mở cửa:</b><span>09:00 - 23:00</span></li>
+                    <li><b>Giờ mở cửa:</b><span>07:00 - 23:00</span></li>
                     <li><b>Số điện thoại:</b><span>+84 33 975 1328</span></li>
                     <li><b>Email:</b><span>gacbanhmi@gmail.com</span></li>
                 </ul>
