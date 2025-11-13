@@ -42,18 +42,18 @@ import AboutTwoSection from "@components/sections/AboutTwo";
 import CallToActionTwoSection from "@components/sections/CallToActionTwo";
 import FeaturesOneSection from "@components/sections/Features";
 import HeroSection from "@components/sections/Hero";
-const GalleryMasonry = dynamic( () => import("@components/gallery/GalleryMasonry"), { ssr: false } );
+const GalleryMasonry = dynamic(() => import("@components/gallery/GalleryMasonry"), { ssr: false });
 
 import GalleryData from "@data/gallery.json";
 import Link from "next/link";
 
-const ProductsSlider = dynamic( () => import("@components/sliders/Products"), { ssr: false } );
-const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
+const ProductsSlider = dynamic(() => import("@components/sliders/Products"), { ssr: false });
+const TestimonialSlider = dynamic(() => import("@components/sliders/Testimonial"), { ssr: false });
 
 export const metadata = {
   title: {
-		default: "Trang chủ",
-	},
+    default: "Trang chủ",
+  },
   description: AppData.settings.siteDescription,
 }
 
@@ -66,24 +66,24 @@ const Home2 = () => {
       {/* <FeaturesOneSection /> */}
       <ProductsSlider items={Products.collection['popular']} slidesPerView={3} />
       {/* <TestimonialSlider /> */}
-            {/* gallery */}
+      {/* gallery */}
       <div className="sb-p-90-60">
         <div className="container">
-          <div className="sb-group-title sb-mb-30">
-            <div className="sb-left sb-mb-30">
-              <h2 className="sb-mb-30" dangerouslySetInnerHTML={{ __html: "Khoảnh khắc tại Bánh Mì GÁC" }} />
+          <div className="sb-group-title sb-mb-30 galleyry-fix">
+            <div className="sb-mb-30">
+              <h2 className="sb-mb-30 " dangerouslySetInnerHTML={{ __html: "Khoảnh khắc tại Bánh Mì GÁC" }} />
               {/* <p className="sb-text" dangerouslySetInnerHTML={{__html : Data.description}} /> */}
             </div>
-            <div className="sb-right sb-mb-30">
-              {/* button */}
-              {/* <Link href="/gallery" className="sb-btn">
+            {/* <div className="sb-right sb-mb-30"> */}
+            {/* button */}
+            {/* <Link href="/gallery" className="sb-btn">
                 <span className="sb-icon">
                   <img src="/img/ui/icons/arrow.svg" alt="icon" />
                 </span>
                 <span>Xem thêm thư viện ảnh</span>
               </Link> */}
-              {/* button end */}
-            </div>
+            {/* button end */}
+            {/* </div> */}
           </div>
           <GalleryMasonry items={galleryItems} layout={1} />
 
