@@ -19,19 +19,23 @@ const AboutTwoSection = () => {
                                     <img src={Data.image.url} alt={Data.image.alt} className="sb-interior" style={{ "objectPosition": "center" }} />
                                 </div>
 
-                                <div className="sb-square"></div>
+                                <img
+                                    src={Data.number.elements.bread}
+                                    alt="Banh Mi Element"
+                                    className="sb-cirkle-4"
+                                />
+
+                                <img
+                                    src={Data.number.elements.coffee}
+                                    alt="Coffee Element"
+                                    className="sb-cirkle-2"
+                                />
+                                {/* <div className="sb-square"></div>
 
                                 <div className="sb-cirkle-1"></div>
                                 <div className="sb-cirkle-2"></div>
                                 <div className="sb-cirkle-3"></div>
-                                <div className="sb-cirkle-4"></div>
-
-                                {/* <div className="sb-experience">
-                                    <div className="sb-exp-content">
-                                        <p className="sb-h1 sb-mb-10">{Data.number.value}</p>
-                                        <p className="sb-h3">{Data.number.label}</p>
-                                    </div>
-                                </div> */}
+                                <div className="sb-cirkle-4"></div> */}
                                 <img src={Data.number.img} className="sb-experience" />
 
                             </div>
