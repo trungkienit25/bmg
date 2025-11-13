@@ -42,6 +42,7 @@ import AboutTwoSection from "@components/sections/AboutTwo";
 import CallToActionTwoSection from "@components/sections/CallToActionTwo";
 import FeaturesOneSection from "@components/sections/Features";
 import HeroSection from "@components/sections/Hero";
+import HeroSwiper from "@components/sliders/HeroSwiper";
 const GalleryMasonry = dynamic(() => import("@components/gallery/GalleryMasonry"), { ssr: false });
 
 import GalleryData from "@data/gallery.json";
@@ -61,6 +62,7 @@ const Home2 = () => {
   const galleryItems = GalleryData.items.slice(0, 6);
   return (
     <>
+      <HeroSwiper />
       <HeroSection type={2} />
       <AboutTwoSection />
       {/* <FeaturesOneSection /> */}
