@@ -71,17 +71,33 @@ const Hero = ({ type }) => {
                             ) : (
                                 <div className="sb-ilustration-fix">
                                     <div className="sb-illustration-1-2">
-                                        <img src="/img/illustrations/bmg-7.webp" alt="food" className="sb-food-1" />
-                                        <img src="/img/illustrations/bmg-9.webp" alt="food" className="sb-food-2" />
-                                        <img src="/img/illustrations/bmg-8.webp" alt="food" className="sb-food-3" />
+                                        <div className="sb-food-frame-1">
+                                            <img src="/img/illustrations/bmg-7.webp" alt="food" className="sb-food-1" />
+                                        </div>
+                                        <div className="sb-food-frame-2">
+                                            <img src="/img/illustrations/bmg-9.webp" alt="food" className="sb-food-2" />
+                                        </div>
+                                        <div className="sb-food-frame-3">
+                                            <img src="/img/illustrations/bmg-8.webp" alt="food" className="sb-food-3" />
+                                        </div>
 
+
+                                        {/* <div className="sb-interior-frame">
+                                            <img src="/img/illustrations/bmg-7.webp" alt="food" className="sb-interior-1" style={{ "objectPosition": "center" }} />
+                                        </div>
+                                        <div className="sb-interior-frame">
+                                            <img src="/img/illustrations/bmg-9.webp" alt="food" className="sb-interior-2" style={{ "objectPosition": "center" }} />
+                                        </div>
+                                        <div className="sb-interior-frame">
+                                            <img src="/img/illustrations/bmg-8.webp" alt="food" className="sb-interior-3" style={{ "objectPosition": "center" }} />
+                                        </div> */}
                                         {/* <div className="sb-illu-dialog-1"><span>😋</span> Hãy thử món này</div>
                                         <div className="sb-illu-dialog-2"><span>🥰</span> Ngol</div> */}
 
-
+                                        {/* 
                                         <div className="sb-cirkle-2"></div>
                                         <div className="sb-cirkle-3"></div>
-                                        <div className="sb-cirkle-4"></div>
+                                        <div className="sb-cirkle-4"></div> */}
 
 
                                         {/* <img src="/img/illustrations/3.svg" alt="phones" className="sb-pik-1" />
@@ -92,7 +108,7 @@ const Hero = ({ type }) => {
                             )}
                         </div>
                         {/* <div className="col-lg-12"> */}
-                            {/* <div className="head">
+                        {/* <div className="head">
                                 <img src="/img/connect/foot.png" alt="" />
                             </div> */}
 
