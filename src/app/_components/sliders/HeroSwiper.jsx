@@ -7,7 +7,7 @@ import { Navigation, Pagination, Autoplay, EffectFade } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/effect-fade'; // Import CSS hiệu ứng fade
+import 'swiper/css/effect-fade';
 
 import slideData from "@data/hero-slides.json";
 
@@ -17,15 +17,14 @@ const HeroSwiper = () => {
       <Swiper
         modules={[Navigation, Pagination, Autoplay, EffectFade]}
         loop={true}
-        slidesPerView={1}      // Hiển thị 1 ảnh full
-        effect={'fade'}        // Hiệu ứng mờ dần (xóa dòng này nếu muốn trượt ngang)
+        slidesPerView={1}
+        effect={'fade'}
         fadeEffect={{ crossFade: true }}
-        speed={1500}           // Tốc độ chuyển cảnh chậm rãi
+        speed={1500}
         autoplay={{
           delay: 5000,
           disableOnInteraction: false,
         }}
-        // -----------------------------------------------
         navigation={{
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
@@ -39,16 +38,27 @@ const HeroSwiper = () => {
         {slideData.map((slide) => (
           <SwiperSlide key={slide.id}>
             <div
-              className="swiper-slide-content"
+              className="slide-bg"
               style={{ backgroundImage: `url(${slide.image})` }}
-              data-anim={slide.animationType}
-            >
-              {slide.title && (
-                <h2
-                  className="title"
-                  dangerouslySetInnerHTML={{ __html: slide.title }}
-                />
-              )}
+            ></div>
+
+            <div className="slide-overlay"></div>
+
+            <div className="swiper-slide-content">
+              <div className="content-inner">
+                {slide.title && (
+                  <h2
+                    className="title"
+                    dangerouslySetInnerHTML={{ __html: slide.title }}
+                  />
+                )}
+
+                <div className="btn-wrapper">
+                  <Link href="/menu" className="btn-hero">
+                    Xem Thực Đơn
+                  </Link>
+                </div>
+              </div>
             </div>
           </SwiperSlide>
         ))}
