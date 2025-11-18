@@ -47,10 +47,13 @@ const HeroSwiper = () => {
           </SwiperSlide>
         ))}
 
-        <div className="swiper-button-next"></div>
-        <div className="swiper-button-prev"></div>
-        <div className="swiper-pagination"></div>
+        {/* <div className="swiper-button-next"></div>
+        <div className="swiper-button-prev"></div> */}
+        {/* <div className="swiper-pagination"></div> */}
       </Swiper>
+      <div className="connect">
+        <img src="/img/connect/foot.png" alt="" />
+      </div>
     </div>
   );
 };

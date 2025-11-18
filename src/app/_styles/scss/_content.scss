@@ -1731,6 +1731,22 @@ datepicker
   margin-left: -50vw;
   margin-right: -50vw;
   // ---------------------------------------
+
+  .connect {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    pointer-events: none;
+    line-height: 0;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
 }
 
 .swiper-container {
