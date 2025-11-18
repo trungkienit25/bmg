@@ -1764,6 +1764,9 @@ datepicker
   justify-content: center;
   flex-direction: column;
   position: relative;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10%;
 
 
   // Lớp phủ tối màu (Gradient cho đẹp hơn)
@@ -1778,21 +1781,32 @@ datepicker
     z-index: 1;
   }
 
-  h2 {
+  .title {
     position: relative;
     z-index: 2;
-    opacity: 0;
     color: #ffffff;
-    font-size: 6vw; // Tăng kích thước chữ
-    font-family: var(--font-lodestone);
+    font-size: 80px;
     letter-spacing: 2px;
     transform: translateY(30px);
     transition: all 1.2s ease;
     text-transform: uppercase;
-    text-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-
+    text-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
+    // -webkit-font-smoothing: antialiased;
+    // -moz-osx-font-smoothing: grayscale;
     opacity: 0;
     transition: all 1.2s ease-out;
+  }
+
+  @media(max-width: 992px) {
+    .title {
+      font-size: 60px;
+    }
+  }
+
+  @media(max-width: 468px) {
+    .title {
+      font-size: 45px;
+    }
   }
 
   &[data-anim="fade-up"] h2 {

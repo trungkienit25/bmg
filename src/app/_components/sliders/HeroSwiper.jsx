@@ -1,5 +1,6 @@
 "use client";
 
+import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay, EffectFade } from 'swiper/modules';
 
@@ -42,7 +43,12 @@ const HeroSwiper = () => {
               style={{ backgroundImage: `url(${slide.image})` }}
               data-anim={slide.animationType}
             >
-              {slide.title && <h2>{slide.title}</h2>}
+              {slide.title && (
+                <h2
+                  className="title"
+                  dangerouslySetInnerHTML={{ __html: slide.title }}
+                />
+              )}
             </div>
           </SwiperSlide>
         ))}

@@ -2,13 +2,13 @@
   {
     "id": 1,
     "image": "/img/gallery/1.webp",
-    "title": "SIMPLE SWIPER",
+    "title": "khung cửa gác <br> khung nhìn hà nội.",
     "animationType": "fade-up"
   },
   {
     "id": 2,
     "image": "/img/gallery/2.webp",
-    "title": "HELLO WORLD",
+    "title": "Bánh mì gác <br> bánh mì nhân hà nội",
     "animationType": "zoom-in"
   }
 ]
