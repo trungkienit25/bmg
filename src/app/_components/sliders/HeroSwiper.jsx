@@ -27,19 +27,19 @@ const HeroSwiper = () => {
         }}
         // -----------------------------------------------
         navigation={{
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
+          nextEl: '.hero-swiper-button-next',
+          prevEl: '.hero-swiper-button-prev',
         }}
         pagination={{
-          el: '.swiper-pagination',
+          el: '.hero-swiper-pagination',
           clickable: true,
         }}
-        className="swiper-container"
+        className="hero-swiper-container"
       >
         {slideData.map((slide) => (
           <SwiperSlide key={slide.id}>
             <div
-              className="swiper-slide-content"
+              className="hero-swiper-slide-content"
               style={{ backgroundImage: `url(${slide.image})` }}
               data-anim={slide.animationType}
             >
@@ -53,9 +53,9 @@ const HeroSwiper = () => {
           </SwiperSlide>
         ))}
 
-        {/* <div className="swiper-button-next"></div>
-        <div className="swiper-button-prev"></div> */}
-        {/* <div className="swiper-pagination"></div> */}
+        <div className="hero-swiper-button-next swiper-button-next"></div>
+        <div className="hero-swiper-button-prev swiper-button-prev"></div>
+        <div className="hero-swiper-pagination swiper-pagination"></div>
       </Swiper>
       <div className="connect">
         <img src="/img/connect/foot.png" alt="" />
