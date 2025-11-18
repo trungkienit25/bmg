@@ -53,8 +53,8 @@ const HeroSwiper = () => {
           </SwiperSlide>
         ))}
 
-        <div className="hero-swiper-button-next swiper-button-next"></div>
-        <div className="hero-swiper-button-prev swiper-button-prev"></div>
+        {/* <div className="hero-swiper-button-next swiper-button-next"></div>
+        <div className="hero-swiper-button-prev swiper-button-prev"></div> */}
         <div className="hero-swiper-pagination swiper-pagination"></div>
       </Swiper>
       <div className="connect">
