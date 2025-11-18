@@ -56,7 +56,7 @@
                 {
                     "image": "/img/menu/bmg/kieu-au/banh-mi-ga-nuong.jpg",
                     "title": "Bánh Mì Gà Nướng",
-                    "price": "55K",
+                    "price": 55000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Gà Nướng, Đồ Chua, Xà Lách, Cà Chua. "
@@ -64,7 +64,7 @@
                 {
                     "image": "/img/menu/bmg/kieu-au/banh-mi-bo-nuong.jpg",
                     "title": "Bánh Mì Bò Nướng",
-                    "price": "65K",
+                    "price": 65000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Bò File, Cà Chua, Dưa Chuột, Xà Lách, Hành Tây Caramel & Rau Rocket. "
@@ -72,7 +72,7 @@
                 {
                     "image": "/img/menu/bmg/chay/banh-mi-dau-hu-nam.jpg",
                     "title": "Bánh Mì Đậu Hũ & Nấm Chiên",
-                    "price": "55K",
+                    "price": 55000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Đậu Phụ, Nấm Đùi Gà, Nấm Thuỷ Tiên, Cà Chua, Dưa Chuột, Rau Mùi. "
@@ -80,7 +80,7 @@
                 {
                     "image": "/img/menu/bmg/chay/banh-mi-pate-chay.jpg",
                     "title": "Bánh Mì Pâté Chay & Ruốc Nấm",
-                    "price": "55K",
+                    "price": 55000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Nấm Đùi Gà, Đậu Phụ, Hạt Điều, Hành, Tỏi, Bơ Thực Vật. "
@@ -88,15 +88,15 @@
                 {
                     "image": "/img/menu/bmg/chao/chao-thap-cam.jpg",
                     "title": "Bánh Mì Chảo Thập Cẩm",
-                    "price": "99K",
+                    "price": 99000,
                     "currency": "VNĐ",
                     "rating": 5,
-                    "text": "(Nguyên liệu không được liệt kê rõ ràng trong CSV cho món này) "
+                    "text": "Pate, Trứng, Chả, Xíu Mại "
                 },
                 {
                     "image": "/img/menu/bmg/chao/chao-bit-tet.jpg",
                     "title": "Bánh Mì Chảo Bít Tết",
-                    "price": "99K",
+                    "price": 99000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Bò File, Rocket, Cà Chua Bi, Hành Tây. "
@@ -104,15 +104,15 @@
                 {
                     "image": "/img/menu/bmg/chao/chao-bit-tet-phomai.jpg",
                     "title": "Bánh Mì Chảo Bít Tết Phomai",
-                    "price": "125K",
+                    "price": 125000,
                     "currency": "VNĐ",
                     "rating": 5,
-                    "text": "(Nguyên liệu không được liệt kê rõ ràng trong CSV cho món này) "
+                    "text": "Bò File, Phomai, Trứng."
                 },
                 {
                     "image": "/img/menu/bmg/cham/cham-sot-vang.jpg",
                     "title": "Bánh Mì Sốt Vang",
-                    "price": "85K",
+                    "price": 85000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Bò Nạm, Khoai Tây, Cà Rốt, Hành Tây, Rau Mùi, và gia vị."
@@ -120,7 +120,7 @@
                 {
                     "image": "/img/menu/bmg/cham/cham-xiu-mai.jpg",
                     "title": "Bánh Mì Xíu Mại",
-                    "price": "85K",
+                    "price": 85000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Nạc Vai, Mỡ Chài, Hành Tây, Cà Chua. "
@@ -128,7 +128,7 @@
                 {
                     "image": "/img/menu/bmg/salad-monvn/salad-bo-tom.jpg",
                     "title": "Sa lát bơ tôm",
-                    "price": "69K",
+                    "price": 69000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Tôm, Trứng Gà, Xà Lách, Quả Bơ, Cà Chua Bi, Hành Tây. "
@@ -136,7 +136,7 @@
                 {
                     "image": "/img/menu/bmg/salad-monvn/salad-bo-rocket.jpg",
                     "title": "Sa lát Bò Nướng Rau Rocket",
-                    "price": "89K",
+                    "price": 89000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Bò File, Rocket, Cà Chua Bi, Hành Tây. "
@@ -144,7 +144,7 @@
                 {
                     "image": "/img/menu/bmg/salad-monvn/salad-ga-ap-chao.jpg",
                     "title": "Sa lát Gà Áp Chảo",
-                    "price": "69K",
+                    "price": 69000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Lườn Gà, Xà Lách Roman, Cà Chua Bi, Hành Tây."
@@ -152,7 +152,7 @@
                 {
                     "image": "/img/menu/bmg/salad-monvn/salad-du-du.jpg",
                     "title": "Sa lát Đu Đủ Bò Khô",
-                    "price": "69K",
+                    "price": 69000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Đu Đủ Xanh, Bò Khô, Cà Rốt, Rau Thơm, Lạc Rang."
@@ -160,7 +160,7 @@
                 {
                     "image": "/img/menu/bmg/salad-monvn/bun-cha.jpg",
                     "title": "Bún Chả Hà Nội",
-                    "price": "125K",
+                    "price": 69000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Bún Sợi Nhỏ Ăn Kèm Nem Rán, Chả Băm, Chả Miếng & Mắm Chua Ngọt, Rau Thơm."
@@ -168,7 +168,7 @@
                 {
                     "image": "/img/menu/bmg/trang-mieng/panna-cotta-com.jpg",
                     "title": "Panna Cotta Cốm",
-                    "price": "35K",
+                    "price": 35000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Panna Cotta Cốm "
@@ -176,7 +176,7 @@
                 {
                     "image": "/img/menu/bmg/trang-mieng/sua-chua-thach.jpg",
                     "title": "Sữa Chua Thạch Lá Nếp/ Thạch Sương Sáo",
-                    "price": "35K",
+                    "price": 35000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Sữa Chua Thạch Lá Nếp hoặc Thạch Sương Sáo "
@@ -184,7 +184,7 @@
                 {
                     "image": "/img/menu/bmg/do-uong/cafe-vn/cafe-den.jpg",
                     "title": "Đen Phin",
-                    "price": "45K",
+                    "price": 45000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Vietnamese Drip Black Coffee "
@@ -192,7 +192,7 @@
                 {
                     "image": "/img/menu/bmg/do-uong/cafe-vn/cafe-nau.jpg",
                     "title": "Nâu Phin",
-                    "price": "55K",
+                    "price": 55000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Vietnamese Drip Coffee with Condensed Milk "
@@ -200,7 +200,7 @@
                 {
                     "image": "/img/menu/bmg/do-uong/cafe-vn/cafe-bac-xiu.jpg",
                     "title": "Bạc Xỉu",
-                    "price": "55K",
+                    "price": 55000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Vietnamese White Coffee "
@@ -208,7 +208,7 @@
                 {
                     "image": "/img/menu/bmg/do-uong/cafe-vn/cafe-trung.jpg",
                     "title": "Cà Phê Trứng",
-                    "price": "65K",
+                    "price": 65000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Egg Coffee (Hanoi Speciality) "
@@ -216,7 +216,7 @@
                 {
                     "image": "/img/menu/bmg/do-uong/special/coldbrew-khe.jpg",
                     "title": "Coldbrew Khế",
-                    "price": "65K",
+                    "price": 65000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Star Fruit Coldbrew "
@@ -224,7 +224,7 @@
                 {
                     "image": "/img/menu/bmg/do-uong/special/coldbrew-moc-te.jpg",
                     "title": "Coldbrew Mộc Tê",
-                    "price": "65K",
+                    "price": 65000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Osmanthus Coldbrew "
@@ -232,7 +232,7 @@
                 {
                     "image": "/img/menu/bmg/do-uong/special/phin-sua-dau-nanh.jpg",
                     "title": "Phin Sữa Đậu Nành Sương Sáo",
-                    "price": "55K",
+                    "price": 55000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Vietnamese Drip Coffee With Soy Milk & Grass Jelly "
@@ -240,7 +240,7 @@
                 {
                     "image": "/img/menu/bmg/do-uong/special/sua-dau-nanh-la-dua.jpg",
                     "title": "Sữa Đậu Nành Lá Dứa",
-                    "price": "55K",
+                    "price": 55000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Pandan Soy Milk "
@@ -248,7 +248,7 @@
                 {
                     "image": "/img/menu/bmg/do-uong/special/tra-sua-sen.jpg",
                     "title": "Trà Sữa Sen Tây Hồ",
-                    "price": "65K",
+                    "price": 65000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "West Lake Lotus Milk Tea "
@@ -256,7 +256,7 @@
                 {
                     "image": "/img/menu/bmg/do-uong/special/tra-sua-nhan-dua.jpg",
                     "title": "Trà Sữa Nhãn Dừa Mộc Tê",
-                    "price": "65K",
+                    "price": 65000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Osmanthus Milk Tea with Longan & Coconut "
@@ -264,7 +264,7 @@
                 {
                     "image": "/img/menu/bmg/do-uong/special/tra-dua-xoai.jpg",
                     "title": "Trà Dứa Xoài Cát Chu",
-                    "price": "65K",
+                    "price": 65000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Cat Chu Mango & Pineapple Tea "
@@ -272,7 +272,7 @@
                 {
                     "image": "/img/menu/bmg/do-uong/special/tra-le-hoa-cuc.jpg",
                     "title": "Trà Lê Hoa Cúc",
-                    "price": "65K",
+                    "price": 65000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Pear & Chrysanthemum Tea "
@@ -280,7 +280,7 @@
                 {
                     "image": "/img/menu/bmg/do-uong/special/tra-dac-me.jpg",
                     "title": "Trà Đác Me Rừng",
-                    "price": "65K",
+                    "price": 65000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Forest Areca Palm Fruit Tea "
@@ -288,7 +288,7 @@
                 {
                     "image": "/img/menu/bmg/do-uong/special/nuoc-ep.jpg",
                     "title": "Nước Ép Hoa Quả Tươi",
-                    "price": "65K",
+                    "price": 65000,
                     "currency": "VNĐ",
                     "rating": 5,
                     "text": "Fresh Fruit Juice "
@@ -402,15 +402,15 @@
             "description": "Bữa sáng nóng hổi và đầy đặn.",
             "items": [
                 {
-                    "image": "/img/menu/bmg/chao/chao-thap-cam.png",
+                    "image": "/img/menu/bmg/chao/chao-thap-cam.jpg",
                     "title": "Bánh Mỳ Chảo Thập Cẩm",
                     "price": 99000,
                     "currency": "VNĐ",
                     "rating": 5,
-                    "text": "(Nguyên liệu không được liệt kê rõ ràng trong CSV cho món này) "
+                    "text": "Pate, Trứng, Chả, Xíu Mại "
                 },
                 {
-                    "image": "/img/menu/bmg/chao/chao-bit-tet.png",
+                    "image": "/img/menu/bmg/chao/chao-bit-tet.jpg",
                     "title": "Bánh Mỳ Chảo Bít Tết",
                     "price": 99000,
                     "currency": "VNĐ",
@@ -418,12 +418,12 @@
                     "text": "Bò File, Rocket, Cà Chua Bi, Hành Tây. "
                 },
                 {
-                    "image": "/img/menu/bmg/chao/chao-bit-tet-phomai.png",
+                    "image": "/img/menu/bmg/chao/chao-bit-tet-phomai.jpg",
                     "title": "Bánh Mỳ Chảo Bít Tết Phomai",
                     "price": 125000,
                     "currency": "VNĐ",
                     "rating": 5,
-                    "text": "(Nguyên liệu không được liệt kê rõ ràng trong CSV cho món này) "
+                    "text": "Bò File, Phomai, Trứng."
                 }
             ]
         },
