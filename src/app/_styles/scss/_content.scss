@@ -5,14 +5,17 @@ banner
 ***************************/
 .sb-banner {
   background-color: $c2;
+
   .sb-mb-30 {
     color: $c1;
     font-weight: 500;
   }
+
   h1 {
     font-size: 55px;
     color: $c5;
   }
+
   .sb-suptitle {
     background-color: $c5;
     padding: 5px 10px;
@@ -23,10 +26,12 @@ banner
     text-transform: uppercase;
     font-weight: 700;
   }
+
   .sb-btn {
     background-color: $c5;
     color: #fff;
   }
+
   &.sb-banner-with-bg {
     position: relative;
     overflow: hidden;
@@ -90,6 +95,7 @@ banner
 .sb-about-text h2 {
   color: $c1;
 }
+
 @media (max-width: 992px) {
   .sb-banner {
     &.sb-banner-with-bg {
@@ -158,6 +164,7 @@ banner
     }
   }
 }
+
 @media (max-width: 500px) {
   .sb-banner {
     &.sb-banner-with-bg {
@@ -169,6 +176,7 @@ banner
     }
   }
 }
+
 /***************************
 
 features
@@ -176,16 +184,19 @@ features
 ***************************/
 .sb-features {
   background-color: $c7;
+
   .sb-features-item {
     border: 5px solid $c5;
     border-radius: 15px;
     padding: 20px 25px;
     color: $c1;
+
     .sb-number {
       color: $c5;
     }
   }
 }
+
 @media (max-width: 768px) {
   .sb-features-item {
     flex-direction: column;
@@ -198,6 +209,7 @@ features
     }
   }
 }
+
 /***************************
 
 menu
@@ -225,6 +237,7 @@ menu
   background-color: $c2;
   box-shadow: none;
 }
+
 .sb-menu-item {
   width: 100%;
   display: block;
@@ -358,6 +371,7 @@ menu
     outline: inherit;
   }
 }
+
 /***************************
 
 call to action
@@ -389,6 +403,7 @@ call to action
     transform: scale(1.05);
   }
 }
+
 @media (max-width: 992px) {
   .sb-call-to-action {
     position: relative;
@@ -412,6 +427,7 @@ call to action
     }
   }
 }
+
 /***************************
 
 popup
@@ -436,7 +452,7 @@ popup
   transition: $tr-lg;
 
   & .sb-popup-body {
-    box-shadow: 0 1px 3px 0 rgba(0,0,0,.05);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .05);
     transform: scale(.8);
     opacity: 0;
     display: flex;
@@ -477,6 +493,7 @@ popup
     }
   }
 }
+
 /***************************
 
 promo
@@ -517,6 +534,7 @@ promo
     }
   }
 }
+
 @media (max-width: 580px) {
   .sb-popup-frame {
     & .sb-popup-body {
@@ -550,6 +568,7 @@ promo
     padding: 30px 0;
   }
 }
+
 /***************************
 
 reviews
@@ -579,6 +598,7 @@ reviews
     }
   }
 }
+
 @media (max-width: 768px) {
   .sb-review-card {
     & .sb-review-header {
@@ -588,6 +608,7 @@ reviews
     }
   }
 }
+
 /***************************
 
 author
@@ -632,6 +653,7 @@ author
     background-color: $c2;
   }
 }
+
 /***************************
 
 contact
@@ -644,7 +666,7 @@ contact
   background-color: $c7;
   padding: 30px;
   text-align: center;
-  box-shadow: 0 0 8px -2px rgba(0,0,0,.1);
+  box-shadow: 0 0 8px -2px rgba(0, 0, 0, .1);
 
   & .sb-form-content {
     position: relative;
@@ -689,7 +711,7 @@ contact
     border: none;
     border-bottom: solid 1px $c3;
 
-    &:focus ~ .sb-bar:before {
+    &:focus~.sb-bar:before {
       width: 100%;
     }
   }
@@ -715,20 +737,20 @@ contact
     transition: 0.3s ease-in-out;
   }
 
-  & input:focus ~ label,
-  & input:valid ~ label,
-  & input.filled ~ label,
-  & textarea:focus ~ label,
-  & textarea:valid ~ label,
-  & textarea.filled ~ label {
+  & input:focus~label,
+  & input:valid~label,
+  & input.filled~label,
+  & textarea:focus~label,
+  & textarea:valid~label,
+  & textarea.filled~label {
     top: -25px;
     left: 0;
     font-size: 12px;
     color: $c1;
   }
 
-  & input:not(:placeholder-shown):invalid ~ label,
-  & textarea:not(:placeholder-shown):invalid ~ label {
+  & input:not(:placeholder-shown):invalid~label,
+  & textarea:not(:placeholder-shown):invalid~label {
     top: -25px;
     left: 0;
     font-size: 12px;
@@ -736,7 +758,7 @@ contact
   }
 
   & input {
-    &:valid ~ label {
+    &:valid~label {
       &:after {
         margin-left: 5px;
         font-family: "Font Awesome 5 Free";
@@ -746,11 +768,11 @@ contact
       }
     }
 
-    &:valid ~ .sb-bar:before {
+    &:valid~.sb-bar:before {
       width: 100%;
     }
 
-    &:not(:placeholder-shown):invalid ~ label {
+    &:not(:placeholder-shown):invalid~label {
       &:after {
         margin-left: 5px;
         font-family: "Font Awesome 5 Free";
@@ -835,12 +857,14 @@ contact
     opacity: 1;
   }
 }
+
 @media (max-width: 992px) {
   .sb-contact-form-frame {
     margin-top: 60px;
     margin-bottom: 90px;
   }
 }
+
 @media (max-width: 768px) {
   .sb-contact-form-frame {
     padding: 0;
@@ -850,6 +874,7 @@ contact
     }
   }
 }
+
 /***************************
 
 map
@@ -906,6 +931,7 @@ map
     filter: brightness(110%);
   }
 }
+
 @media (max-width: 768px) {
   .sb-map-frame {
     padding-bottom: 70%;
@@ -932,6 +958,7 @@ map
     }
   }
 }
+
 /***************************
 
 blog
@@ -945,7 +972,7 @@ blog
 .sb-blog-card {
   display: block;
   background-color: $c4;
-  box-shadow: 0 3px 6px 0 rgba(0,0,0,.05);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .05);
   transition: $tr;
 
   & .sb-cover-frame {
@@ -975,7 +1002,7 @@ blog
   }
 
   &:hover {
-    box-shadow: 0 6px 12px 0 rgba(0,0,0,.1);
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, .1);
 
     & .sb-cover-frame {
       & img {
@@ -1018,6 +1045,7 @@ blog
     padding-bottom: 130%;
   }
 }
+
 /***************************
 
 sidebar
@@ -1031,13 +1059,16 @@ sidebar
 
 .sb-sidebar-frame {
   background-color: $c2;
+
   .sb-sidebar {
     border: dotted 3px $c5;
   }
+
   h4 {
     color: $c1;
   }
 }
+
 @media (max-width: 992px) {
   .sb-sidebar-frame {
     &.sb-pad-type-1 {
@@ -1051,6 +1082,7 @@ sidebar
     }
   }
 }
+
 @media (max-width: 768px) {
   .sb-sidebar-frame {
     & .sb-sidebar {
@@ -1059,6 +1091,7 @@ sidebar
     }
   }
 }
+
 /***************************
 
 gallery
@@ -1070,7 +1103,7 @@ gallery
   padding-bottom: 65%;
   border: solid 1px #eee;
 
-  & > img {
+  &>img {
     position: absolute;
     top: 0;
     left: 0;
@@ -1100,7 +1133,7 @@ gallery
   }
 
   &:hover {
-    & > img {
+    &>img {
       transform: scale(1.05);
     }
 
@@ -1110,8 +1143,10 @@ gallery
     }
   }
 }
+
 .sb-p-0-60 {
   background-color: $c7;
+
   .sb-btn {
     background-color: $c5;
     color: #FFFFFF;
@@ -1120,9 +1155,11 @@ gallery
 
 .sb-p-90-60 {
   background-color: $c7;
+
   h2 {
     color: $c5;
   }
+
   .sb-btn {
     background-color: $c5;
     color: $c3;
@@ -1152,6 +1189,7 @@ gallery
 .sb-p-90-90 {
   background-color: $c7;
 }
+
 .galleyry-fix {
   margin-bottom: 0 !important;
   text-align: center;
@@ -1162,6 +1200,7 @@ gallery
     font-size: 60px;
   }
 }
+
 /***************************
 
 filter
@@ -1202,6 +1241,7 @@ filter
     // }
   }
 }
+
 @media (max-width: 768px) {
   .sb-filter {
     margin-bottom: 60px;
@@ -1212,6 +1252,7 @@ filter
     }
   }
 }
+
 /***************************
 
 team
@@ -1283,7 +1324,7 @@ team
       background-color: $c4;
       padding: 15px;
       border: solid 2px $c4;
-      box-shadow: 0 3px 6px 0 rgba(0,0,0,.05);
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .05);
     }
   }
 
@@ -1323,20 +1364,24 @@ team
     border: $c7;
     overflow: visible;
     margin-bottom: 50px;
+
     img {
       border-radius: 40px;
       border: solid 7px $c6;
     }
   }
+
   &:hover .sb-photo-frame {
     background-color: $c7;
     border: $c7;
     overflow: visible;
   }
+
   .sb-member-description {
     margin-top: 40px;
   }
 }
+
 /***************************
 
 categories
@@ -1346,28 +1391,34 @@ categories
   background-color: $c6;
   box-shadow: none;
   border: 5px solid $c5;
+
   h3 {
     color: $c1;
   }
+
   p {
     color: $c5;
   }
+
   &.sb-categorie-card-2 .sb-card-body {
     background-color: $c6;
     box-shadow: none;
     border: $c6;
+
     .sb-category-icon {
       img {
         width: 200%;
         margin-left: -70%;
         margin-top: -50%;
       }
+
       &:before {
         background-color: $c3;
       }
     }
   }
 }
+
 /***************************
 
 radio
@@ -1422,13 +1473,14 @@ radio
   transition: $tr;
 }
 
-.sb-radio input[type=radio]:checked ~ .sb-check {
+.sb-radio input[type=radio]:checked~.sb-check {
   border-color: $c5;
 }
 
-.sb-radio input[type=radio]:checked ~ .sb-check::before {
+.sb-radio input[type=radio]:checked~.sb-check::before {
   background: $c5;
 }
+
 /***************************
 
 product
@@ -1445,7 +1497,7 @@ product
     & .sb-price {
       height: 70px;
       background-color: $c5;
-	  color: $c3;
+      color: $c3;
       padding: 0 20px;
       font-weight: 500;
       font-size: 32px;
@@ -1475,6 +1527,7 @@ product
     }
   }
 }
+
 /***************************
 
 tabs
@@ -1492,6 +1545,7 @@ tabs
     grid-column-gap: 30px;
   }
 }
+
 @media (max-width: 768px) {
   .sb-tab {
     width: 100%;
@@ -1504,6 +1558,7 @@ tabs
     }
   }
 }
+
 /***************************
 
 faq
@@ -1594,6 +1649,7 @@ faq
     transition: $tr;
   }
 }
+
 /***************************
 
 datepicker
@@ -1626,13 +1682,27 @@ datepicker
 }
 
 .sb-text {
-  h1, h2, h3, h4, h5, h6, ul, ol, iframe, object, table, blockquote, p {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ul,
+  ol,
+  iframe,
+  object,
+  table,
+  blockquote,
+  p {
     margin-bottom: 30px;
 
     &:last-child {
       margin-bottom: 0;
     }
   }
+
   ul {
     display: block;
     list-style-type: disc;
@@ -1640,6 +1710,7 @@ datepicker
     margin-inline-end: 0px;
     padding-inline-start: 40px;
     line-height: 2;
+
     li {
       list-style-type: disc;
     }
@@ -1652,9 +1723,9 @@ datepicker
 
 .hero-swiper-wrapper {
   position: relative;
-  
+
   // --- KỸ THUẬT PHÁ VỠ KHUNG CONTAINER ---
-  width: 100vw; 
+  width: 100vw;
   left: 50%;
   right: 50%;
   margin-left: -50vw;
@@ -1678,6 +1749,7 @@ datepicker
   flex-direction: column;
   position: relative;
 
+
   // Lớp phủ tối màu (Gradient cho đẹp hơn)
   &:before {
     content: "";
@@ -1686,7 +1758,7 @@ datepicker
     top: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
     z-index: 1;
   }
 
@@ -1701,8 +1773,25 @@ datepicker
     transform: translateY(30px);
     transition: all 1.2s ease;
     text-transform: uppercase;
-    text-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    text-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+
+    opacity: 0;
+    transition: all 1.2s ease-out;
   }
+
+  &[data-anim="fade-up"] h2 {
+    transform: translateY(150px);
+  }
+
+  &[data-anim="zoom-in"] h2 {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+
+  &[data-anim="slide-left"] h2 {
+    transform: translateX(-100px);
+  }
+
 }
 
 // Hiệu ứng chữ bay lên khi active
@@ -1716,9 +1805,9 @@ datepicker
 .swiper-button-next {
   color: #fff;
   transition: all 0.3s ease;
-  
+
   &:hover {
     transform: scale(1.2);
-    text-shadow: 0 0 10px rgba(255,255,255,0.8);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   }
 }

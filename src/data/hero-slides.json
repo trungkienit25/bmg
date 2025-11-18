@@ -2,21 +2,13 @@
   {
     "id": 1,
     "image": "/img/gallery/1.webp",
-    "title": "SIMPLE SWIPER"
+    "title": "SIMPLE SWIPER",
+    "animationType": "fade-up"
   },
   {
     "id": 2,
-    "image": "/img/hero/2.webp",
-    "title": "HELLO WORLD"
-  },
-  {
-    "id": 3,
-    "image": "/img/hero/banner-3.jpg",
-    "title": "MÓN NGON HÀ NỘI"
-  },
-  {
-    "id": 4,
-    "image": "/img/hero/banner-4.jpg",
-    "title": null
+    "image": "/img/gallery/2.webp",
+    "title": "HELLO WORLD",
+    "animationType": "zoom-in"
   }
 ]

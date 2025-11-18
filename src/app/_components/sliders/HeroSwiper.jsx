@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade'; // Import CSS hiệu ứng fade
 
-import slideData from "@data/hero-slides.json"; 
+import slideData from "@data/hero-slides.json";
 
 const HeroSwiper = () => {
   return (
@@ -37,9 +37,10 @@ const HeroSwiper = () => {
       >
         {slideData.map((slide) => (
           <SwiperSlide key={slide.id}>
-            <div 
-              className="swiper-slide-content" 
+            <div
+              className="swiper-slide-content"
               style={{ backgroundImage: `url(${slide.image})` }}
+              data-anim={slide.animationType}
             >
               {slide.title && <h2>{slide.title}</h2>}
             </div>
