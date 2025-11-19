@@ -1,6 +1,7 @@
 "use client";
 
 import { SliderProps } from "@common/sliderProps";
+import { Parallax, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import Data from '@data/sliders/products';
@@ -59,6 +60,7 @@ const ProductsSlider = ({ items, title, description, button = {}, slidesPerView,
                     {slidesPerView == 4 ? (
                         <Swiper
                             {...SliderProps.shortMenuSlider4}
+                            modules={[Parallax, Navigation]}
                             className={`swiper-container sb-short-menu-slider-4i`}
                         >
                             {items.slice(0, 8).map((item, key) => (
@@ -76,6 +78,7 @@ const ProductsSlider = ({ items, title, description, button = {}, slidesPerView,
 
                         <Swiper
                             {...SliderProps.shortMenuSlider3}
+                            modules={[Parallax, Navigation]}
                             className={`swiper-container sb-short-menu-slider-3i`}
                         >
                             {items.slice(0, 6).map((item, key) => (

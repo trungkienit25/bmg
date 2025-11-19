@@ -1,6 +1,7 @@
 "use client";
 
 import { SliderProps } from "@common/sliderProps";
+import { Parallax, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import Data from '@data/sliders/testimonial';
@@ -46,6 +47,7 @@ const TestimonialSlider = () => {
           </div>
           <Swiper
             {...SliderProps.reviewsSlider}
+            modules={[Parallax, Navigation]}
             className="swiper-container sb-reviews-slider"
           >
             {Data.items.map((item, key) => (

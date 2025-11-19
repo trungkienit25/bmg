@@ -1,6 +1,7 @@
 "use client";
 
 import { SliderProps } from "@common/sliderProps";
+import { Parallax, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import BlogItem from "@components/blog/BlogItem";
@@ -33,6 +34,7 @@ const PopularPostsSlider = ( { posts } ) => {
 
                     <Swiper
                         {...SliderProps.blogSlider3}
+                        modules={[Parallax, Navigation]}
                         className={`swiper-container sb-blog-slider-3i`}
                     >
                         {posts.map((item, key) => (
