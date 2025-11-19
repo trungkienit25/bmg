@@ -372,6 +372,45 @@ menu
   }
 }
 
+.sb-menu-category-section {
+  padding-top: 30px;
+  .sb-group-title {
+    margin-bottom: 15px;
+    h2 {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.sb-menu-category-section .swiper-container .swiper-slide {
+  width: 50%; /* Default for very small screens, aiming for 3 items */
+}
+
+@media (min-width: 576px) {
+  .sb-menu-category-section .swiper-container .swiper-slide {
+    width: 30%; /* Still aiming for 3 items on slightly larger phones */
+  }
+}
+
+@media (min-width: 768px) {
+  .sb-menu-category-section .swiper-container .swiper-slide {
+    width: 30%; /* Aiming for 3-4 items on tablets */
+  }
+}
+
+@media (min-width: 992px) {
+  .sb-menu-category-section .swiper-container .swiper-slide {
+    width: 25%; /* Aiming for 4 items on desktops */
+  }
+}
+
+@media (min-width: 1200px) {
+  .sb-menu-category-section .swiper-container .swiper-slide {
+    width: 25%; /* Aiming for 5 items on large desktops */
+  }
+}
+
+
 /***************************
 
 call to action

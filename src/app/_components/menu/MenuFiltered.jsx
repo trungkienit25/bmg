@@ -1,179 +1,57 @@
-// "use client";
-
-// import Isotope from "isotope-layout";
-// import { Fragment, useEffect, useRef, useState } from "react";
-// import MenuItem from "@components/menu/MenuItem";
-
-// const MenuFiltered = ({ categories, noImage, columns }) => {
-//     // Isotope
-//     const isotope = useRef();
-//     const [filterKey, setFilterKey] = useState("*");
-    
-//     useEffect(() => {
-//         //setTimeout(() => {
-//             isotope.current = new Isotope(".sb-masonry-grid", {
-//                 itemSelector: ".sb-grid-item",
-//                 percentPosition: true,
-//                 masonry: {
-//                     columnWidth: '.sb-grid-sizer'
-//                 },
-//                 transitionDuration: '0.5s',
-//             });
-//         //}, 500);
-//     }, []);
-
-//     useEffect(() => {
-//         if (isotope.current) {
-//             filterKey === "*"
-//             ? isotope.current.arrange({ filter: `*` })
-//             : isotope.current.arrange({ filter: `.${filterKey}` });
-//         }
-//     }, [filterKey]);
-    
-//     const handleFilterKeyChange = (key, e) => {
-//         e.preventDefault();
-//         setFilterKey(key);
-//         const filterLinks = document.querySelectorAll(".sb-filter a");
-//         filterLinks.forEach((filter) => {
-//             const filterValue = filter.getAttribute("data-filter");
-//             if (filterValue == key) {
-//                 filter.classList.add("sb-active");
-//             } else {
-//                 filter.classList.remove("sb-active");
-//             }
-//         });
-//     };
-
-//     var columnsClass = '';
-  
-//     switch (columns) {
-//         case 3:
-//             columnsClass = 'sb-item-33';
-//         break;
-//         case 2:
-//             columnsClass = 'sb-item-50';
-//         break;
-//         default:
-//             columnsClass = 'sb-item-25';
-//     }
-
-//     return (
-//       <>
-//         {/* filter */}
-//         <div className="sb-filter mb-30">
-//             <a href="#." data-filter="*" onClick={ (e) => handleFilterKeyChange("*", e)} className="sb-filter-link sb-active">All dishes</a>
-//             {categories.map((category, key) => (
-//             <a href="#." data-filter={`${category.slug}`} key={`menu-category-item-${key}`} onClick={(e) => handleFilterKeyChange(category.slug, e)} className="sb-filter-link">{category.name}</a>
-//             ))}
-//         </div>
-//         {/* filter end */}
-
-//         <div className="sb-masonry-grid">
-//             <div className="sb-grid-sizer"></div>
-            
-//             {categories.map((category, category_key) => (
-//             <Fragment key={`menu-filtered-category-${category_key}`}>
-//                 {category.items.map((item, key) => (
-//                 <div className={`sb-grid-item ${columnsClass} ${category.slug}`} key={`menu-filtered-item-${category_key}-${key}`}>
-//                     <MenuItem item={item} index={key} noImage={noImage} marginBottom={30} />
-//                 </div>
-//                 ))}
-//             </Fragment>
-//             ))}
-//         </div>
-//       </>
-//     );
-// };
-// export default MenuFiltered;
-  
 "use client";
 
-import Isotope from "isotope-layout";
-import { Fragment, useEffect, useRef, useState } from "react";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper/modules';
 import MenuItem from "@components/menu/MenuItem";
 
+import 'swiper/css';
+import 'swiper/css/navigation';
+
 const MenuFiltered = ({ categories, noImage, columns }) => {
-    // Isotope
-    const isotope = useRef();
-    const [filterKey, setFilterKey] = useState(categories[0]?.slug || "*"); // Use the first category's slug as the initial filterKey
-    
-    useEffect(() => {
-        isotope.current = new Isotope(".sb-masonry-grid", {
-            itemSelector: ".sb-grid-item",
-            percentPosition: true,
-            masonry: {
-                columnWidth: '.sb-grid-sizer'
-            },
-            transitionDuration: '0.5s',
-        });
-    }, []);
-
-    useEffect(() => {
-        if (isotope.current) {
-            filterKey === "*"
-            ? isotope.current.arrange({ filter: `*` })
-            : isotope.current.arrange({ filter: `.${filterKey}` });
-        }
-    }, [filterKey]);
-    
-    const handleFilterKeyChange = (key, e) => {
-        e.preventDefault();
-        setFilterKey(key);
-        const filterLinks = document.querySelectorAll(".sb-filter a");
-        filterLinks.forEach((filter) => {
-            const filterValue = filter.getAttribute("data-filter");
-            if (filterValue == key) {
-                filter.classList.add("sb-active");
-            } else {
-                filter.classList.remove("sb-active");
-            }
-        });
+    const sliderSettings = {
+        modules: [Navigation],
+        spaceBetween: 30,
+        slidesPerView: 'auto',
+        navigation: {
+            prevEl: '.sb-menu-prev',
+            nextEl: '.sb-menu-next',
+        },
     };
-
-    var columnsClass = '';
- 
-    switch (columns) {
-        case 3:
-            columnsClass = 'sb-item-33';
-        break;
-        case 2:
-            columnsClass = 'sb-item-50';
-        break;
-        default:
-            columnsClass = 'sb-item-25';
-    }
 
     return (
         <>
-            {/* filter */}
-            <div className="sb-filter mb-30">
-                {categories.map((category, key) => (
-                    <a 
-                        href="#." 
-                        data-filter={category.slug} 
-                        key={`menu-category-item-${key}`} 
-                        onClick={(e) => handleFilterKeyChange(category.slug, e)} 
-                        className={`sb-filter-link ${key === 0 ? 'sb-active' : ''}`} 
-                    >
-                        {category.name}
-                    </a>
-                ))}
-            </div>
-            {/* filter end */}
-
-            <div className="sb-masonry-grid">
-                <div className="sb-grid-sizer"></div>
-                
-                {categories.map((category, category_key) => (
-                    <Fragment key={`menu-filtered-category-${category_key}`}>
-                        {category.items.map((item, key) => (
-                            <div className={`sb-grid-item ${columnsClass} ${category.slug}`} key={`menu-filtered-item-${category_key}-${key}`}>
-                                <MenuItem item={item} index={key} noImage={noImage} marginBottom={30} />
+            {categories.map((category, category_key) => (
+                <div key={`menu-category-section-${category_key}`} className="sb-menu-category-section sb-p-60-0">
+                    <div className="sb-group-title sb-mb-30">
+                        <div className="sb-left sb-mb-30">
+                            <h2 className="sb-mb-30">{category.name}</h2>
+                        </div>
+                        <div className="sb-right sb-mb-30">
+                            {/* slider navigation */}
+                            <div className="sb-slider-nav">
+                                <div className={`sb-prev-btn sb-menu-prev-cat-${category_key}`}><i className="fas fa-arrow-left"></i></div>
+                                <div className={`sb-next-btn sb-menu-next-cat-${category_key}`}><i className="fas fa-arrow-right"></i></div>
                             </div>
+                            {/* slider navigation end */}
+                        </div>
+                    </div>
+
+                    <Swiper
+                        {...sliderSettings}
+                        navigation={{
+                            prevEl: `.sb-menu-prev-cat-${category_key}`,
+                            nextEl: `.sb-menu-next-cat-${category_key}`,
+                        }}
+                        className="swiper-container"
+                    >
+                        {category.items.map((item, key) => (
+                            <SwiperSlide key={`menu-item-${category_key}-${key}`}>
+                                <MenuItem item={item} index={key} noImage={noImage} marginBottom={30} />
+                            </SwiperSlide>
                         ))}
-                    </Fragment>
-                ))}
-            </div>
+                    </Swiper>
+                </div>
+            ))}
         </>
     );
 };
