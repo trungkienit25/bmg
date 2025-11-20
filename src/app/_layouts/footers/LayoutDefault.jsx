@@ -35,11 +35,16 @@
 "use client";
 
 import Link from "next/link";
-import AppData from "@data/app.json";
+import AppDataVI from "@data/app.json";
+import AppDataEN from "@data/app-en.json";
 import { usePathname } from 'next/navigation';
 
-const DefaultFooter = () => {
+const DefaultFooter = ({ lang }) => {
   const asPath = usePathname();
+  const AppData = lang === 'en' ? AppDataEN : AppDataVI;
+  const t = {
+    openingHours: lang === 'en' ? 'OPENING HOURS' : 'GIỜ MỞ CỬA'
+  };
 
   // Sử dụng cấu trúc mới dựa trên prompt chi tiết
   return (
@@ -60,7 +65,7 @@ const DefaultFooter = () => {
               <div className="gac-footer-column">
                 <i className="far fa-clock"></i> {/* Icon đồng hồ (Font Awesome Regular) */}
                 <div className="gac-footer-text">
-                  <h5>GIỜ MỞ CỬA</h5>
+                  <h5>{t.openingHours}</h5>
                   <p>{AppData.settings.openingHours}</p>
                 </div>
               </div>
@@ -70,10 +75,17 @@ const DefaultFooter = () => {
             <div className="col-lg-4">
               <div className="gac-footer-column">
                 <i className="far fa-compass"></i> {/* Icon la bàn (Font Awesome Regular) */}
+                {lang === 'en' ? (
+                <div className="gac-footer-text">
+                    <h5>ADDRESS</h5>                                                    
+                    <p>{AppData.settings.address}</p> 
+                </div>
+                ) : (
                 <div className="gac-footer-text">
                     <h5>{AppData.settings.address.split(',')[0]}, {AppData.settings.address.split(',')[1]},</h5>                                                    
                     <p>{AppData.settings.address.split(',')[2]}, {AppData.settings.address.split(',')[3]}</p> 
                 </div>
+                )}
               </div>
             </div>
 

@@ -91,7 +91,7 @@ const DefaultHeader = ({ lang }) => {
                 </div>
                 {/* info bar */}
                 <div className={`sb-info-bar ${miniSidebar ? "sb-active" : ""}`}>
-                    <MiniSidebar />
+                    <MiniSidebar lang={lang} />
                 </div>
                 {/* info bar end */}
                 {/* minicart */}

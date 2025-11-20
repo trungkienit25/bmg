@@ -12,7 +12,7 @@ const EnLayout = ({
       <div id="sb-dynamic-content" className="sb-transition-fade">
         {children}
         
-        <Footer layout={"default"} />
+        <Footer layout={"default"} lang="en" />
       </div>
       {/* dynamic content end */}
     </>

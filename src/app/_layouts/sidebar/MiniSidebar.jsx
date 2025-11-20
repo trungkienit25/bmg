@@ -1,23 +1,34 @@
-import AppData from "@data/app.json";
+import AppDataVI from "@data/app.json";
+import AppDataEN from "@data/app-en.json";
 import Link from "next/link";
 
 import PostsData from "@data/.json/posts";
 
-const MiniSidebar = () => {
+const MiniSidebar = ({ lang }) => {
+    const AppData = lang === 'en' ? AppDataEN : AppDataVI;
+    const t = {
+        contact: lang === 'en' ? 'Contact' : 'Liên hệ',
+        address: lang === 'en' ? 'Address' : 'Địa chỉ',
+        openingHours: lang === 'en' ? 'Opening Hours' : 'Giờ mở cửa',
+        phone: lang === 'en' ? 'Phone' : 'Số điện thoại',
+        email: 'Email',
+        instagram: 'Instagram',
+    };
+
     return (
         <>
             <div className="sb-infobar-content">
                 <div className="sb-ib-title-frame sb-mb-30">
-                    <h4>Liên hệ</h4><i className="fas fa-arrow-down"></i>
+                    <h4>{t.contact}</h4><i className="fas fa-arrow-down"></i>
                 </div>
                 <ul className="sb-list sb-mb-30">
-                    <li><b>Địa chỉ:</b><span>Số 1 Đinh Liệt, Hoàn Kiếm, Hà Nội</span></li>
-                    <li><b>Giờ mở cửa:</b><span>07:00 - 23:00</span></li>
-                    <li><b>Số điện thoại:</b><span>+84 33 975 1328</span></li>
-                    <li><b>Email:</b><span>gacbanhmi@gmail.com</span></li>
+                    <li><b>{t.address}:</b><span>{AppData.settings.shortAddress}</span></li>
+                    <li><b>{t.openingHours}:</b><span>{AppData.settings.openingHours}</span></li>
+                    <li><b>{t.phone}:</b><span>{AppData.settings.phone}</span></li>
+                    <li><b>{t.email}:</b><span>{AppData.settings.email}</span></li>
                 </ul>
                 <div className="sb-ib-title-frame sb-mb-30">
-                    <h4>Instagram</h4><i className="fas fa-arrow-down"></i>
+                    <h4>{t.instagram}</h4><i className="fas fa-arrow-down"></i>
                 </div>
                 <ul className="sb-instagram sb-mb-30">
                     {AppData.instagram.map((item, key) => (

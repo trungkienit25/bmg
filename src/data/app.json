@@ -12,7 +12,10 @@
     },
     "perPage": 6,
     "address": "1 ĐINH LIỆT, HÀNG BẠC, HÀ NỘI, VIỆT NAM",
-    "openingHours": "07.00AM – 11.00PM"
+    "shortAddress": "1 Đinh Liệt, Hoàn Kiếm, Hà Nội",
+    "openingHours": "07.00AM – 11.00PM",
+    "phone": "+84 33 975 1328",
+    "email": "gacbanhmi@gmail.com"
   },
   "header": {
     "logo": {

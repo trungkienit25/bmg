@@ -11,8 +11,11 @@
       "lat": 21.033761633013714
     },
     "perPage": 6,
-    "address": "1 DINH LIET, HANG BAC, HANOI, VIETNAM",
-    "openingHours": "07.00AM – 11.00PM"
+    "address": "1 ĐINH LIET, HANG BAC, HA NOI, VIET NAM",
+    "shortAddress": "1 Dinh Liet, Hoan Kiem, Hanoi",
+    "openingHours": "07.00AM – 11.00PM",
+    "phone": "+84 33 975 1328",
+    "email": "gacbanhmi@gmail.com"
   },
   "header": {
     "logo": {
