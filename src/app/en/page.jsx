@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 
-import AppData from "@data/app.json";
-import Products from '@data/products';
+import AppData from "@data/app-en.json";
+import Products from '@data/products-en';
 
 import AboutTwoSection from "@components/sections/AboutTwo";
 import CallToActionTwoSection from "@components/sections/CallToActionTwo";
@@ -27,11 +27,11 @@ const Home2 = () => {
   const galleryItems = GalleryData.items.slice(0, 6);
   return (
     <>
-      <HeroSwiper />
+      <HeroSwiper lang="en" />
       {/* <HeroSection type={2} /> */}
-      <AboutTwoSection />
+      <AboutTwoSection lang="en" />
       {/* <FeaturesOneSection /> */}
-      <ProductsSlider items={Products.collection['popular']} slidesPerView={3} />
+      <ProductsSlider items={Products.collection['popular']} slidesPerView={3} lang="en" />
       {/* <TestimonialSlider /> */}
       {/* gallery */}
       <div className="sb-p-90-60">

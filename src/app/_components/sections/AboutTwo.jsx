@@ -1,6 +1,9 @@
-import Data from "@data/sections/about-2.json";
+import DataVI from "@data/sections/about-2.json";
+import DataEN from "@data/sections/about-2-en.json";
 
-const AboutTwoSection = () => {
+const AboutTwoSection = ({ lang }) => {
+    const Data = lang === 'en' ? DataEN : DataVI;
+
     return (
         <>
             {/* About text */}

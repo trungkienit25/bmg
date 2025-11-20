@@ -1,0 +1,643 @@
+{
+    "categories": [
+        {
+            "name": "All Dishes",
+            "slug": "all-dishes",
+            "description": "A compilation of all the dishes and drinks on the menu.",
+            "items": [
+                {
+                    "image": "/img/menu/bmg/truyen-thong/banh-mi-thap-cam.jpg",
+                    "title": "Hanoi Combo Banh Mi",
+                    "price": 55000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Pork Roll, Pate, Cucumber, Egg, Coriander, Pickles."
+                },
+                {
+                    "image": "/img/menu/bmg/truyen-thong/banh-mi-thit-xien.jpg",
+                    "title": "Grilled Pork Skewer Banh Mi",
+                    "price": 55000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Minced Pork, Cucumber, Coriander, Pickles."
+                },
+                {
+                    "image": "/img/menu/bmg/truyen-thong/banh-mi-cha-ca.jpg",
+                    "title": "Lang Fish Cake Banh Mi",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Grilled Lang Fish, Cucumber, Pickles, Fresh Coriander, Dill."
+                },
+                {
+                    "image": "/img/menu/bmg/truyen-thong/banh-mi-trung.jpg",
+                    "title": "Gac Style Egg Banh Mi",
+                    "price": 35000,
+                    "currency": "VNĐ",
+                    "rating": 4.5,
+                    "text": "Egg, Pate, Cucumber, Pickles, Fresh Coriander."
+                },
+                {
+                    "image": "/img/menu/bmg/truyen-thong/banh-mi-bo-la-lot.jpg",
+                    "title": "Grilled Beef in Betel Leaf Banh Mi",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Minced Beef, Betel Leaf, Pickles, Coriander."
+                },
+                {
+                    "image": "/img/menu/bmg/truyen-thong/banh-mi-xiu-mai.jpg",
+                    "title": "Shumai Banh Mi",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Minced Pork, Pork Fat, Pate, Pickles, Cucumber, Coriander."
+                },
+                {
+                    "image": "/img/menu/bmg/kieu-au/banh-mi-ga-nuong.jpg",
+                    "title": "Grilled Chicken Banh Mi",
+                    "price": 55000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Grilled Chicken, Pickles, Lettuce, Tomato."
+                },
+                {
+                    "image": "/img/menu/bmg/kieu-au/banh-mi-bo-nuong.jpg",
+                    "title": "Grilled Beef Banh Mi",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Beef Filet, Tomato, Cucumber, Lettuce, Caramelized Onion & Arugula."
+                },
+                {
+                    "image": "/img/menu/bmg/chay/banh-mi-dau-hu-nam.jpg",
+                    "title": "Fried Tofu & Mushroom Banh Mi",
+                    "price": 55000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Tofu, King Oyster Mushroom, White Fungus, Tomato, Cucumber, Coriander."
+                },
+                {
+                    "image": "/img/menu/bmg/chay/banh-mi-pate-chay.jpg",
+                    "title": "Vegetarian Pate & Mushroom Floss Banh Mi",
+                    "price": 55000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "King Oyster Mushroom, Tofu, Cashew, Onion, Garlic, Vegetable Butter."
+                },
+                {
+                    "image": "/img/menu/bmg/chao/chao-thap-cam.jpg",
+                    "title": "Combo Pan Banh Mi",
+                    "price": 99000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Pate, Egg, Pork Roll, Shumai"
+                },
+                {
+                    "image": "/img/menu/bmg/chao/chao-bit-tet.jpg",
+                    "title": "Beefsteak on a Pan",
+                    "price": 99000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Beef Filet, Arugula, Cherry Tomato, Onion."
+                },
+                {
+                    "image": "/img/menu/bmg/chao/chao-bit-tet-phomai.jpg",
+                    "title": "Cheesy Beefsteak on a Pan",
+                    "price": 125000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Beef Filet, Cheese, Egg."
+                },
+                {
+                    "image": "/img/menu/bmg/cham/cham-sot-vang.jpg",
+                    "title": "Wine Sauce Banh Mi",
+                    "price": 85000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Beef Shank, Potato, Carrot, Onion, Coriander, and Spices."
+                },
+                {
+                    "image": "/img/menu/bmg/cham/cham-xiu-mai.jpg",
+                    "title": "Shumai Banh Mi",
+                    "price": 85000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Pork Shoulder, Pork Fat, Onion, Tomato."
+                },
+                {
+                    "image": "/img/menu/bmg/salad-monvn/salad-bo-tom.jpg",
+                    "title": "Avocado and Shrimp Salad",
+                    "price": 69000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Shrimp, Egg, Lettuce, Avocado, Cherry Tomato, Onion."
+                },
+                {
+                    "image": "/img/menu/bmg/salad-monvn/salad-bo-rocket.jpg",
+                    "title": "Grilled Beef and Arugula Salad",
+                    "price": 89000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Beef Filet, Arugula, Cherry Tomato, Onion."
+                },
+                {
+                    "image": "/img/menu/bmg/salad-monvn/salad-ga-ap-chao.jpg",
+                    "title": "Pan-Seared Chicken Salad",
+                    "price": 69000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Chicken Breast, Romaine Lettuce, Cherry Tomato, Onion."
+                },
+                {
+                    "image": "/img/menu/bmg/salad-monvn/salad-du-du.jpg",
+                    "title": "Green Papaya Salad with Beef Jerky",
+                    "price": 69000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Green Papaya, Beef Jerky, Carrot, Fresh Herbs, Roasted Peanuts."
+                },
+                {
+                    "image": "/img/menu/bmg/salad-monvn/bun-cha.jpg",
+                    "title": "Hanoi Bun Cha",
+                    "price": 69000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Vermicelli with Fried Spring Rolls, Grilled Pork Patties, Grilled Pork Slices & Sweet and Sour Fish Sauce, Fresh Herbs."
+                },
+                {
+                    "image": "/img/menu/bmg/trang-mieng/panna-cotta-com.jpg",
+                    "title": "Green Rice Flakes Panna Cotta",
+                    "price": 35000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Green Rice Flakes Panna Cotta"
+                },
+                {
+                    "image": "/img/menu/bmg/trang-mieng/sua-chua-thach.jpg",
+                    "title": "Yogurt with Pandan Jelly / Grass Jelly",
+                    "price": 35000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Yogurt with Pandan Jelly or Grass Jelly"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/cafe-vn/cafe-den.jpg",
+                    "title": "Black Phin Coffee",
+                    "price": 45000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Vietnamese Drip Black Coffee"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/cafe-vn/cafe-nau.jpg",
+                    "title": "Brown Phin Coffee",
+                    "price": 55000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Vietnamese Drip Coffee with Condensed Milk"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/cafe-vn/cafe-bac-xiu.jpg",
+                    "title": "White Coffee",
+                    "price": 55000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Vietnamese White Coffee"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/cafe-vn/cafe-trung.jpg",
+                    "title": "Egg Coffee",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Egg Coffee (Hanoi Speciality)"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/coldbrew-khe.jpg",
+                    "title": "Starfruit Coldbrew",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Star Fruit Coldbrew"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/coldbrew-moc-te.jpg",
+                    "title": "Osmanthus Coldbrew",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Osmanthus Coldbrew"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/phin-sua-dau-nanh.jpg",
+                    "title": "Phin Coffee with Soy Milk & Grass Jelly",
+                    "price": 55000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Vietnamese Drip Coffee With Soy Milk & Grass Jelly"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/sua-dau-nanh-la-dua.jpg",
+                    "title": "Pandan Soy Milk",
+                    "price": 55000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Pandan Soy Milk"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/tra-sua-sen.jpg",
+                    "title": "West Lake Lotus Milk Tea",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "West Lake Lotus Milk Tea"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/tra-sua-nhan-dua.jpg",
+                    "title": "Osmanthus Milk Tea with Longan & Coconut",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Osmanthus Milk Tea with Longan & Coconut"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/tra-dua-xoai.jpg",
+                    "title": "Cat Chu Mango & Pineapple Tea",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Cat Chu Mango & Pineapple Tea"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/tra-le-hoa-cuc.jpg",
+                    "title": "Pear & Chrysanthemum Tea",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Pear & Chrysanthemum Tea"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/tra-dac-me.jpg",
+                    "title": "Forest Areca Palm Fruit Tea",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Forest Areca Palm Fruit Tea"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/nuoc-ep.jpg",
+                    "title": "Fresh Fruit Juice",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Fresh Fruit Juice"
+                }
+            ]
+        },
+        {
+            "name": "Traditional Banh Mi",
+            "slug": "traditional-banh-mi",
+            "description": "The traditional flavors of Hanoi and Saigon banh mi.",
+            "items": [
+                {
+                    "image": "/img/menu/bmg/truyen-thong/banh-mi-thap-cam.jpg",
+                    "title": "Hanoi Combo Banh Mi",
+                    "price": 55000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Pork Roll, Pate, Cucumber, Egg, Coriander, Pickles."
+                },
+                {
+                    "image": "/img/menu/bmg/truyen-thong/banh-mi-thit-xien.jpg",
+                    "title": "Grilled Pork Skewer Banh Mi",
+                    "price": 55000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Minced Pork, Cucumber, Coriander, Pickles."
+                },
+                {
+                    "image": "/img/menu/bmg/truyen-thong/banh-mi-cha-ca.jpg",
+                    "title": "Lang Fish Cake Banh Mi",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Grilled Lang Fish, Cucumber, Pickles, Fresh Coriander, Dill."
+                },
+                {
+                    "image": "/img/menu/bmg/truyen-thong/banh-mi-trung.jpg",
+                    "title": "Gac Style Egg Banh Mi",
+                    "price": 35000,
+                    "currency": "VNĐ",
+                    "rating": 4.5,
+                    "text": "Egg, Pate, Cucumber, Pickles, Fresh Coriander."
+                },
+                {
+                    "image": "/img/menu/bmg/truyen-thong/banh-mi-bo-la-lot.jpg",
+                    "title": "Grilled Beef in Betel Leaf Banh Mi",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Minced Beef, Betel Leaf, Pickles, Coriander."
+                },
+                {
+                    "image": "/img/menu/bmg/truyen-thong/banh-mi-xiu-mai.jpg",
+                    "title": "Shumai Banh Mi",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Minced Pork, Pork Fat, Pate, Pickles, Cucumber, Coriander."
+                }
+            ]
+        },
+        {
+            "name": "European Style Banh Mi",
+            "slug": "european-style-banh-mi",
+            "description": "A creative combination of Vietnamese banh mi and European flavors.",
+            "items": [
+                {
+                    "image": "/img/menu/bmg/kieu-au/banh-mi-ga-nuong.jpg",
+                    "title": "Grilled Chicken Banh Mi",
+                    "price": 55000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Grilled Chicken, Pickles, Lettuce, Tomato."
+                },
+                {
+                    "image": "/img/menu/bmg/kieu-au/banh-mi-bo-nuong.jpg",
+                    "title": "Grilled Beef Banh Mi",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Beef Filet, Tomato, Cucumber, Lettuce, Caramelized Onion & Arugula."
+                }
+            ]
+        },
+        {
+            "name": "Vegetarian Banh Mi",
+            "slug": "vegetarian-banh-mi",
+            "description": "A light and healthy choice.",
+            "items": [
+                {
+                    "image": "/img/menu/bmg/chay/banh-mi-dau-hu-nam.jpg",
+                    "title": "Fried Tofu & Mushroom Banh Mi",
+                    "price": 55000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Tofu, King Oyster Mushroom, White Fungus, Tomato, Cucumber, Coriander."
+                },
+                {
+                    "image": "/img/menu/bmg/chay/banh-mi-pate-chay.jpg",
+                    "title": "Vegetarian Pate & Mushroom Floss Banh Mi",
+                    "price": 55000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "King Oyster Mushroom, Tofu, Cashew, Onion, Garlic, Vegetable Butter."
+                }
+            ]
+        },
+        {
+            "name": "Pan Banh Mi",
+            "slug": "pan-banh-mi",
+            "description": "A hot and hearty breakfast.",
+            "items": [
+                {
+                    "image": "/img/menu/bmg/chao/chao-thap-cam.jpg",
+                    "title": "Combo Pan Banh Mi",
+                    "price": 99000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Pate, Egg, Pork Roll, Shumai"
+                },
+                {
+                    "image": "/img/menu/bmg/chao/chao-bit-tet.jpg",
+                    "title": "Beefsteak on a Pan",
+                    "price": 99000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Beef Filet, Arugula, Cherry Tomato, Onion."
+                },
+                {
+                    "image": "/img/menu/bmg/chao/chao-bit-tet-phomai.jpg",
+                    "title": "Cheesy Beefsteak on a Pan",
+                    "price": 125000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Beef Filet, Cheese, Egg."
+                }
+            ]
+        },
+        {
+            "name": "Dipping Banh Mi",
+            "slug": "dipping-banh-mi",
+            "description": "Enjoy crispy banh mi with a rich sauce.",
+            "items": [
+                {
+                    "image": "/img/menu/bmg/cham/cham-sot-vang.jpg",
+                    "title": "Wine Sauce Banh Mi",
+                    "price": 85000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Beef Shank, Potato, Carrot, Onion, Coriander, and Spices."
+                },
+                {
+                    "image": "/img/menu/bmg/cham/cham-xiu-mai.jpg",
+                    "title": "Shumai Banh Mi",
+                    "price": 85000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Pork Shoulder, Pork Fat, Onion, Tomato."
+                }
+            ]
+        },
+        {
+            "name": "Salads & Light Bites",
+            "slug": "salads-light-bites",
+            "description": "Fresh side dishes and salads.",
+            "items": [
+                {
+                    "image": "/img/menu/bmg/salad-monvn/salad-bo-tom.jpg",
+                    "title": "Avocado and Shrimp Salad",
+                    "price": 69000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Shrimp, Egg, Lettuce, Avocado, Cherry Tomato, Onion."
+                },
+                {
+                    "image": "/img/menu/bmg/salad-monvn/salad-bo-rocket.jpg",
+                    "title": "Grilled Beef and Arugula Salad",
+                    "price": 89000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Beef Filet, Arugula, Cherry Tomato, Onion."
+                },
+                {
+                    "image": "/img/menu/bmg/salad-monvn/salad-ga-ap-chao.jpg",
+                    "title": "Pan-Seared Chicken Salad",
+                    "price": 69000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Chicken Breast, Romaine Lettuce, Cherry Tomato, Onion."
+                },
+                {
+                    "image": "/img/menu/bmg/salad-monvn/salad-du-du.jpg",
+                    "title": "Green Papaya Salad with Beef Jerky",
+                    "price": 69000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Green Papaya, Beef Jerky, Carrot, Fresh Herbs, Roasted Peanuts."
+                },
+                {
+                    "image": "/img/menu/bmg/salad-monvn/bun-cha.jpg",
+                    "title": "Hanoi Bun Cha",
+                    "price": 125000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Vermicelli with Fried Spring Rolls, Grilled Pork Patties, Grilled Pork Slices & Sweet and Sour Fish Sauce, Fresh Herbs."
+                }
+            ]
+        },
+        {
+            "name": "Desserts",
+            "slug": "desserts",
+            "description": "A sweet ending to your meal.",
+            "items": [
+                {
+                    "image": "/img/menu/bmg/trang-mieng/panna-cotta-com.jpg",
+                    "title": "Green Rice Flakes Panna Cotta",
+                    "price": 35000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Green Rice Flakes Panna Cotta"
+                },
+                {
+                    "image": "/img/menu/bmg/trang-mieng/sua-chua-thach.jpg",
+                    "title": "Yogurt with Pandan Jelly / Grass Jelly",
+                    "price": 35000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Yogurt with Pandan Jelly or Grass Jelly"
+                }
+            ]
+        },
+        {
+            "name": "Drinks",
+            "slug": "drinks",
+            "description": "Vietnamese coffee and special drinks from GÁC.",
+            "items": [
+                {
+                    "image": "/img/menu/bmg/do-uong/cafe-vn/cafe-den.jpg",
+                    "title": "Black Phin Coffee",
+                    "price": 45000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Vietnamese Drip Black Coffee"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/cafe-vn/cafe-nau.jpg",
+                    "title": "Brown Phin Coffee",
+                    "price": 55000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Vietnamese Drip Coffee with Condensed Milk"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/cafe-vn/cafe-bac-xiu.jpg",
+                    "title": "White Coffee",
+                    "price": 55000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Vietnamese White Coffee"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/cafe-vn/cafe-trung.jpg",
+                    "title": "Egg Coffee",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Egg Coffee (Hanoi Speciality)"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/coldbrew-khe.jpg",
+                    "title": "Starfruit Coldbrew",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Star Fruit Coldbrew"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/coldbrew-moc-te.jpg",
+                    "title": "Osmanthus Coldbrew",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Osmanthus Coldbrew"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/phin-sua-dau-nanh.jpg",
+                    "title": "Phin Coffee with Soy Milk & Grass Jelly",
+                    "price": 55000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Vietnamese Drip Coffee With Soy Milk & Grass Jelly"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/sua-dau-nanh-la-dua.jpg",
+                    "title": "Pandan Soy Milk",
+                    "price": 55000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Pandan Soy Milk"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/tra-sua-sen.jpg",
+                    "title": "West Lake Lotus Milk Tea",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "West Lake Lotus Milk Tea"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/tra-sua-nhan-dua.jpg",
+                    "title": "Osmanthus Milk Tea with Longan & Coconut",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Osmanthus Milk Tea with Longan & Coconut"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/tra-dua-xoai.jpg",
+                    "title": "Cat Chu Mango & Pineapple Tea",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Cat Chu Mango & Pineapple Tea"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/tra-le-hoa-cuc.jpg",
+                    "title": "Pear & Chrysanthemum Tea",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Pear & Chrysanthemum Tea"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/tra-dac-me.jpg",
+                    "title": "Forest Areca Palm Fruit Tea",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Forest Areca Palm Fruit Tea"
+                },
+                {
+                    "image": "/img/menu/bmg/do-uong/special/nuoc-ep.jpg",
+                    "title": "Fresh Fruit Juice",
+                    "price": 65000,
+                    "currency": "VNĐ",
+                    "rating": 5,
+                    "text": "Fresh Fruit Juice"
+                }
+            ]
+        }
+    ]
+}

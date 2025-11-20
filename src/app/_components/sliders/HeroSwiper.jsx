@@ -9,9 +9,14 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-import slideData from "@data/hero-slides.json";
+import slideDataVI from "@data/hero-slides.json";
+import slideDataEN from "@data/hero-slides-en.json";
 
-const HeroSwiper = () => {
+const HeroSwiper = ({ lang }) => {
+  const slideData = lang === 'en' ? slideDataEN : slideDataVI;
+  const buttonText = lang === 'en' ? 'View Menu' : 'Xem Thực Đơn';
+  const buttonLink = lang === 'en' ? '/en/menu' : '/menu';
+
   return (
     <div className="hero-swiper-wrapper">
       <Swiper
@@ -54,8 +59,8 @@ const HeroSwiper = () => {
                 )}
 
                 <div className="btn-wrapper">
-                  <Link href="/menu" className="btn-hero">
-                    Xem Thực Đơn
+                  <Link href={buttonLink} className="btn-hero">
+                    {buttonText}
                   </Link>
                 </div>
               </div>

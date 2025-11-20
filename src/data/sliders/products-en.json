@@ -1,0 +1,9 @@
+{
+  "title": "Most Popular Dishes",
+  "description": "We offer the most delicious dishes to meet your needs.",
+  "button": {
+    "link": "/en/menu",
+    "icon": "/img/ui/icons/menu.svg",
+    "label": "Full Menu"
+  }
+}

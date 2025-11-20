@@ -1,0 +1,16 @@
+{
+  "title": "The GÁC Story",
+  "description": "Gác is a banh mi and coffee shop located on Dinh Liet Street, Hanoi. Not just confined to traditional flavors, Gác also offers a sophisticated experience — a place where old Hanoi memories are recreated in a new look, reminiscent of the past and infused with modern vitality.",
+  "image": {
+    "url": "/img/gallery/IMG_3425.webp",
+    "alt": "image"
+  },
+  "number": {
+    "img": "/img/gallery/story.jpeg",
+    "elements": {
+      "bread": "img/gallery/bread.png",
+      "coffee": "img/gallery/coffee.png"
+    }
+  },
+  "signature": "/img/ui/signature.png"
+}

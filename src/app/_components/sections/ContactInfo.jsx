@@ -1,6 +1,9 @@
-import Data from "@data/sections/contact-info.json";
+import DataVI from "@data/sections/contact-info.json";
+import DataEN from "@data/sections/contact-info-en.json";
 
-const ContactInfoSection = () => {
+const ContactInfoSection = ({ lang }) => {
+  const Data = lang === 'en' ? DataEN : DataVI;
+
   return (
     <>
         {/* contact info */}

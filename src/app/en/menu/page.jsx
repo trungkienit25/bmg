@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 
-import AppData from "@data/app.json";
-import MenuData from "@data/menu.json";
+import AppData from "@data/app-en.json";
+import MenuData from "@data/menu-en.json";
 
 import PageBanner from "@components/PageBanner";
 import PromoSection from "@components/sections/Promo";
@@ -18,7 +18,7 @@ export const metadata = {
 const Menu3 = () => {
   return (
     <>
-      <PageBanner pageTitle={"Food Menu"} breadTitle={"Menu"} type={1} />
+      <PageBanner pageTitle={"Food Menu"} breadTitle={"Menu"} type={1} lang="en" />
       
       {/* menu section 1 */}
       <section className="sb-menu-section sb-p-90-60">

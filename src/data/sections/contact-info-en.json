@@ -1,0 +1,19 @@
+{
+    "items": [
+        {
+            "num": "01",
+            "title": "Visit Us",
+            "text": "1 Dinh Liet, Hoan Kiem, Hanoi"
+        },
+        {
+            "num": "02",
+            "title": "Call Us",
+            "text": "+84 33 975 1328"
+        },
+        {
+            "num": "03",
+            "title": "Email Us",
+            "text": "gacbanhmi@gmail.com"
+        }
+    ]
+}

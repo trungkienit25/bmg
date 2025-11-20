@@ -6,7 +6,7 @@ import { usePathname, useSearchParams } from 'next/navigation';
 import { ScrollAnimation } from "@common/scrollAnims";
 import { useEffect } from "react";
 
-const PageBanner = ({ pageTitle, breadTitle, description, type }) => {
+const PageBanner = ({ pageTitle, breadTitle, description, type, lang }) => {
   const asPath = usePathname();
 
   let clearBreadTitle;
@@ -24,6 +24,13 @@ const PageBanner = ({ pageTitle, breadTitle, description, type }) => {
 
     pageTitle = 'Search: ' + query;
   }
+
+  const t = {
+    home: lang === 'en' ? 'Home' : 'Trang chủ',
+    blog: 'Blog',
+    order: lang === 'en' ? 'Order' : 'Đặt hàng',
+    products: lang === 'en' ? 'Products' : 'Sản phẩm',
+  };
 
   useEffect(() => {
     ScrollAnimation();
@@ -47,20 +54,20 @@ const PageBanner = ({ pageTitle, breadTitle, description, type }) => {
                     <p className="sb-text sb-text-lg sb-mb-30" dangerouslySetInnerHTML={{ __html: description }} />
                   }
                   <ul className="sb-breadcrumbs">
-                    <li><Link href="/">Trang chủ</Link></li>
+                    <li><Link href={lang === 'en' ? '/en' : '/'}>{t.home}</Link></li>
                     {asPath.indexOf('/blog/') != -1 && asPath.indexOf('/blog/page/') == -1 &&
                       <li>
-                        <Link href="/blog">Blog</Link>
+                        <Link href={lang === 'en' ? '/en/blog' : '/blog'}>{t.blog}</Link>
                       </li>
                     }
                     {asPath.indexOf('/products') != -1 || asPath.indexOf('/cart') != -1 || asPath.indexOf('/checkout') != -1 &&
                       <li>
-                        <Link href="/shop">Đặt hàng</Link>
+                        <Link href={lang === 'en' ? '/en/shop' : '/shop'}>{t.order}</Link>
                       </li>
                     }
                     {asPath.endsWith('/product') == 1 &&
                       <li>
-                        <Link href="/products">Sản phẩm</Link>
+                        <Link href={lang === 'en' ? '/en/products' : '/products'}>{t.products}</Link>
                       </li>
                     }
                     <li><a dangerouslySetInnerHTML={{ __html: clearBreadTitle }} /></li>

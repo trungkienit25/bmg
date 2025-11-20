@@ -1,5 +1,5 @@
 
-import AppData from "@data/app.json";
+import AppData from "@data/app-en.json";
 
 import ContactForm from "@components/forms/ContactForm";
 import ContactInfoSection from "@components/sections/ContactInfo";
@@ -51,7 +51,7 @@ const Contact = () => {
                                     <div className="sb-main-content">
                                         <h3 className="sb-mb-30">Send us a message</h3>
                                         
-                                        <ContactForm />
+                                        <ContactForm lang="en" />
                                     </div>
                                     <div className="sb-success-result" id="contactFormStatus">
                                         <img src="/img/ui/success.jpg" alt="success" className="sb-mb-15" />
@@ -75,7 +75,7 @@ const Contact = () => {
             </section>
             {/* banner end */}
 
-            <ContactInfoSection />
+            <ContactInfoSection lang="en" />
 
             <ContactMapSection />
         </>

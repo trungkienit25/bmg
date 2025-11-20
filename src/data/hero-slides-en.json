@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "image": "/img/gallery/1.webp",
+    "title": "the attic window <br> a view of hanoi.",
+    "animationType": "fade-up"
+  },
+  {
+    "id": 2,
+    "image": "/img/gallery/2.webp",
+    "title": "gac banh mi <br> banh mi with a taste of hanoi",
+    "animationType": "zoom-in"
+  }
+]

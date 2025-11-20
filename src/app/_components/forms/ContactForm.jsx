@@ -3,7 +3,15 @@
 import { Formik } from 'formik';
 import AppData from "@data/app.json";
 
-const ContactForm = () => {
+const ContactForm = ({ lang }) => {
+  const t = {
+    name: lang === 'en' ? 'Full Name' : 'Họ và tên',
+    email: 'Email',
+    message: lang === 'en' ? 'Message' : 'Thông điệp',
+    privacy: lang === 'en' ? 'We are committed to absolute confidentiality<br/>of customer information.' : 'Chúng tôi cam kết bảo mật tuyệt đối<br/>thông tin của khách hàng.',
+    send: lang === 'en' ? 'Send' : 'Gửi',
+  };
+
   return (
     <>
         {/* contact form */}
@@ -78,7 +86,7 @@ const ContactForm = () => {
                     value={values.name} 
                 />
                 <span className="sb-bar"></span>
-                <label>Họ và tên</label>
+                <label>{t.name}</label>
             </div>
             <div className="sb-group-input">
                 <input 
@@ -91,7 +99,7 @@ const ContactForm = () => {
                     value={values.email} 
                 />
                 <span className="sb-bar"></span>
-                <label>Email</label>
+                <label>{t.email}</label>
             </div>
             <div className="sb-group-input">
                 <textarea 
@@ -103,16 +111,16 @@ const ContactForm = () => {
                     value={values.message} 
                 />
                 <span className="sb-bar"></span>
-                <label>Thông điệp</label>
+                <label>{t.message}</label>
             </div>
-            <p className="sb-text sb-text-xs sb-mb-30">Chúng tôi cam kết bảo mật tuyệt đối <br/>thông tin của khách hàng.</p>
+            <p className="sb-text sb-text-xs sb-mb-30" dangerouslySetInnerHTML={{ __html: t.privacy }} />
             
             {/* button */}
             <button type="submit" className="sb-btn sb-cf-submit sb-show-success">
                 <span className="sb-icon">
                     <img src="/img/ui/icons/arrow.svg" alt="icon" />
                 </span>
-                <span>Gửi</span>
+                <span>{t.send}</span>
             </button>
             {/* button end */}
         </form>
