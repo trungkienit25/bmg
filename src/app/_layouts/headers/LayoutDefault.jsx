@@ -81,10 +81,10 @@ const DefaultHeader = ({ lang }) => {
                                 {/* menu btn */}
                                 <div className={`sb-menu-btn ${mobileMenu ? "sb-active" : ""}`} onClick={() => setMobileMenu(!mobileMenu)}><span></span></div>
                                 {/* info btn */}
-                                <div className={`sb-info-btn ${miniSidebar ? "sb-active" : ""}`} onClick={() => setMiniSidebar(!miniSidebar)}><span></span></div>
                                 <Link href={lang === 'en' ? (asPath.replace('/en', '') || '/') : `/en${asPath}`} className="sb-lang-switch-btn">
-                                  <span>{lang === 'en' ? 'EN' : 'VI'}</span>
+                                  <span><i className="fas fa-globe" /> {lang === 'en' ? 'EN' : 'VI'}</span>
                                 </Link>
+                                <div className={`sb-info-btn ${miniSidebar ? "sb-active" : ""}`} onClick={() => setMiniSidebar(!miniSidebar)}><span></span></div>
                             </div>
                         </div>
                     </div>

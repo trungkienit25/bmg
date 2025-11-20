@@ -741,19 +741,20 @@ lang switch button
 ***************************/
 .sb-lang-switch-btn {
     margin-left: 15px;
-    margin-top: 12px;
     cursor: pointer;
     width: 55px;
     height: 30px;
-    border: solid 1px #F2F2F2; /* c3 */
+    border: solid 1px $c3; /* c3 */
     border-radius: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: all 0.4s ease-in-out;
-    color: #F2F2F2; /* c6 */
+    color: $c3; /* c6 */
     font-size: 14px;
     font-weight: 600;
+    margin: auto;
+    margin-left: 10px;
 
     span {
         font-family: var(--font-bevnpro);
@@ -761,7 +762,7 @@ lang switch button
     }
 
     &:hover {
-        background-color: $c6; /* c1 */
-        color: $c2; /* c2 */
+        background-color: $c2; /* c1 */
+        color: $c1; /* c2 */
     }
 }
