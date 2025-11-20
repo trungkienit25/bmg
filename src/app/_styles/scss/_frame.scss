@@ -650,7 +650,9 @@ footer { // Comment lại style footer cũ để thay bằng style mới
   .gac-footer-column {
     display: flex;
     align-items: center;
+    justify-content: flex-start; /* Căn trái */
     padding: 15px 10px;
+    padding-left: 20px; /* Thêm padding để cân đối */
     height: 100%; // Giữ chiều cao bằng nhau
     // Đường viền ngăn cách
     border-right: 1px solid rgba(255, 255, 255, 0.2); 
@@ -666,6 +668,7 @@ footer { // Comment lại style footer cũ để thay bằng style mới
 
     // Khối văn bản (Giờ & Địa chỉ)
     .gac-footer-text {
+      text-align: left; /* Đảm bảo text căn trái */
       h5 {
         font-family: var(--font-bevnpro); // Font tiêu đề
         color: #fff;
@@ -686,7 +689,7 @@ footer { // Comment lại style footer cũ để thay bằng style mới
   
   // Cột Social
   .gac-footer-social {
-    justify-content: center;
+    justify-content: center; 
     
     a {
       color: #fff;
@@ -724,7 +727,8 @@ footer { // Comment lại style footer cũ để thay bằng style mới
     .gac-footer-column {
       border-right: none; // Bỏ border viền
       border-bottom: 1px solid rgba(255, 255, 255, 0.2); // Thay bằng border đáy
-      justify-content: center; // Căn giữa trên mobile
+      justify-content: flex-start; // Căn trái trên mobile
+      padding-left: 20px; // Thêm padding để cân đối
     }
     
     .col-lg-4:last-child .gac-footer-column {
@@ -733,6 +737,7 @@ footer { // Comment lại style footer cũ để thay bằng style mới
 
     .gac-footer-social {
       padding: 30px 0; // Tăng khoảng cách cho social
+      justify-content: center;
     }
   }
 }

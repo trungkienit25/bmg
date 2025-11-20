@@ -77,8 +77,8 @@ const DefaultFooter = ({ lang }) => {
                 <i className="far fa-compass"></i> {/* Icon la bàn (Font Awesome Regular) */}
                 {lang === 'en' ? (
                 <div className="gac-footer-text">
-                    <h5>ADDRESS</h5>                                                    
-                    <p>{AppData.settings.address}</p> 
+                    <h5>{AppData.settings.address.split(',')[0]}, {AppData.settings.address.split(',')[1]},</h5>                                                    
+                    <p>{AppData.settings.address.split(',')[2]}, {AppData.settings.address.split(',')[3]}</p> 
                 </div>
                 ) : (
                 <div className="gac-footer-text">
