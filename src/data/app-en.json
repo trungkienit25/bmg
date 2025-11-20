@@ -1,0 +1,92 @@
+{
+  "settings": {
+    "siteName": "Banh Mi GAC",
+    "siteDescription": "Banh Mi GAC",
+    "formspreeURL": "https://formspree.io/f/",
+    "mapbox": {
+      "AccessToken": "pk.eyJ1Ijoidml0ZWdvZCIsImEiOiJjbTF1em4zMTgwNjY5Mmpxd2xmcTU3c2pmIn0.PlezCRZdGuZ8YOFHLhTH2Q",
+      "style": "mapbox://styles/mapbox/light-v11",
+      "zoom": 15,
+      "long": 105.85208336771227,
+      "lat": 21.033761633013714
+    },
+    "perPage": 6,
+    "address": "1 DINH LIET, HANG BAC, HANOI, VIETNAM",
+    "openingHours": "07.00AM – 11.00PM"
+  },
+  "header": {
+    "logo": {
+      "image": "/img/ui/logo-bmg.png",
+      "alt": "Logo"
+    },
+    "menu": [
+      {
+        "label": "Home",
+        "link": "/en",
+        "children": []
+      },
+      {
+        "label": "Menu",
+        "link": "/en/menu",
+        "children": []
+      },
+      {
+        "label": "Contact",
+        "link": "/en/contact",
+        "children": 0
+      }
+    ]
+  },
+  "footer": {
+    "copy": "© 2025 Banh Mi GAC. All Rights Reserved"
+  },
+  "social": [
+    {
+      "link": "https://www.instagram.com/gac.banhmi/",
+      "title": "Instagram",
+      "icon": "fab fa-instagram"
+    },
+    {
+      "link": "https://www.facebook.com/profile.php?id=61581260075678",
+      "title": "Facebook",
+      "icon": "fab fa-facebook-f"
+    },
+    {
+      "link": "https://www.threads.com/@gac.banhmi",
+      "title": "Threads",
+      "icon": "fa-brands fa-threads"
+    }
+  ],
+  "instagram": [
+    {
+      "image": "/img/instagram/1.webp",
+      "title": "Image #1",
+      "link": "https://www.instagram.com/gac.banhmi/"
+    },
+    {
+      "image": "/img/instagram/2.webp",
+      "title": "Image #2",
+      "link": "https://www.instagram.com/gac.banhmi/"
+    },
+    {
+      "image": "/img/instagram/3.webp",
+      "title": "Image #3",
+      "link": "https://www.instagram.com/gac.banhmi/"
+    },
+    {
+      "image": "/img/instagram/4.webp",
+      "title": "Image #3",
+      "link": "https://www.instagram.com/gac.banhmi/"
+    },
+    {
+      "image": "/img/instagram/5.webp",
+      "title": "Image #5",
+      "link": "https://www.instagram.com/gac.banhmi/"
+    },
+    {
+      "image": "/img/instagram/6.webp",
+      "title": "Image #6",
+      "link": "https://www.instagram.com/gac.banhmi/"
+    }
+  ]
+}

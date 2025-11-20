@@ -736,3 +736,32 @@ footer { // Comment lại style footer cũ để thay bằng style mới
     }
   }
 }
+/***************************
+lang switch button
+***************************/
+.sb-lang-switch-btn {
+    margin-left: 15px;
+    margin-top: 12px;
+    cursor: pointer;
+    width: 55px;
+    height: 30px;
+    border: solid 1px #F2F2F2; /* c3 */
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease-in-out;
+    color: #F2F2F2; /* c6 */
+    font-size: 14px;
+    font-weight: 600;
+
+    span {
+        font-family: var(--font-bevnpro);
+        text-transform: uppercase;
+    }
+
+    &:hover {
+        background-color: $c6; /* c1 */
+        color: $c2; /* c2 */
+    }
+}

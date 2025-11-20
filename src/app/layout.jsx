@@ -17,7 +17,7 @@ import localFont from 'next/font/local'
 const beVNPro = localFont({
   src: [
     {
-      path: '_styles/fonts/Coolvetica/coolvetica-rg.otf',
+      path: './_styles/fonts/Coolvetica/coolvetica-rg.otf',
     }
   ],
   variable: '--font-bevnpro'
@@ -25,7 +25,7 @@ const beVNPro = localFont({
 const lodestone = localFont({
   src: [
     {
-      path: '_styles/fonts/EDAughris/DFVN ED Aughris.otf',
+      path: './_styles/fonts/EDAughris/DFVN ED Aughris.otf',
     }
   ],
   variable: '--font-lodestone'
@@ -33,7 +33,7 @@ const lodestone = localFont({
 const phudu = localFont({
   src: [
     {
-      path: '_styles/fonts/PhuDu/Phudu-Regular.ttf',
+      path: './_styles/fonts/PhuDu/Phudu-Regular.ttf',
     }
   ],
   variable: '--font-phudu'
@@ -62,11 +62,11 @@ export const metadata = {
   description: AppData.settings.siteDescription,
 }
 
-const Layouts = ({
+const RootLayout = ({
   children
 }) => {
   return (
-    <html lang="en" className={`${beVNPro.variable} ${lodestone.variable} ${phudu.variable}`}>
+    <html lang="vi" className={`${beVNPro.variable} ${lodestone.variable} ${phudu.variable}`}>
       <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
       </head>
@@ -82,4 +82,4 @@ const Layouts = ({
     </html>
   );
 };
-export default Layouts;
+export default RootLayout;

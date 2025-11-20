@@ -1,12 +1,12 @@
 import Header from "@layouts/headers/Index";
 import Footer from "@layouts/footers/Index";
 
-const PagesLayouts = ({
+const EnLayout = ({
   children
 }) => {
   return (
     <>
-      <Header layout={"default"} lang="vi" />
+      <Header layout={"default"} lang="en" />
 
       {/* dynamic content */}
       <div id="sb-dynamic-content" className="sb-transition-fade">
@@ -18,4 +18,4 @@ const PagesLayouts = ({
     </>
   );
 };
-export default PagesLayouts;
+export default EnLayout;
