@@ -11,7 +11,7 @@ const AboutTwoSection = ({ lang }) => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 align-self-center">
-                            <div className="sb-illustration-2 sb-mb-90">
+                            <div className="sb-illustration-2">
                                 <div className="sb-interior-frame">
                                     <img src={Data.image.url} alt={Data.image.alt} className="sb-interior" style={{ "objectPosition": "center" }} />
                                 </div>
