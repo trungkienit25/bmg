@@ -39,6 +39,7 @@ import "./globals.css";
 
 import ScrollbarProgress from "@layouts/scrollbar-progress/Index";
 import AppData from "@data/app.json";
+import AOSInit from "@components/AOSInit";
 
 export const metadata = {
   title: {
@@ -59,6 +60,7 @@ const RootLayout = ({
       <body>
         {/* app wrapper */}
         <div className="sb-app">
+          <AOSInit />
           {children}
 
           <ScrollbarProgress />

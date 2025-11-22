@@ -22,12 +22,20 @@ const CategoriesSection = ({ heading = 1, paddingTop = 0, type = 1, columns }) =
             <div className="container">
                 {heading == 1 &&
                 <div className="sb-group-title sb-mb-30">
-                    <div className="sb-left sb-mb-30">
+                    <div 
+                        className="sb-left sb-mb-30"
+                        data-aos="fade-right"
+                        data-aos-duration="1000"
+                    >
                         <h2 className="sb-mb-30" dangerouslySetInnerHTML={{__html : Data.title}} />
                         <p className="sb-text" dangerouslySetInnerHTML={{__html : Data.description}} />
                     </div>
 
-                    <div className="sb-right sb-mb-30">
+                    <div 
+                        className="sb-right sb-mb-30"
+                        data-aos="fade-left"
+                        data-aos-duration="1000"
+                    >
                     {/* button */}
                     <Link href={Data.button.link} className="sb-btn sb-m-0">
                         <span className="sb-icon">
@@ -41,7 +49,13 @@ const CategoriesSection = ({ heading = 1, paddingTop = 0, type = 1, columns }) =
                 }
                 <div className="row">
                     {Data.items.map((item, key) => (
-                    <div className={columnsClass} key={`categories-item-${key}`}>
+                    <div 
+                        className={columnsClass} 
+                        key={`categories-item-${key}`}
+                        data-aos="zoom-in"
+                        data-aos-duration="1000"
+                        data-aos-delay={key * 100}
+                    >
                         <a href={item.link} className={type == 1 ? "sb-categorie-card sb-categorie-card-2 sb-mb-30" : "sb-categorie-card sb-mb-30"}>
                             <div className="sb-card-body">
                             <div className="sb-category-icon">

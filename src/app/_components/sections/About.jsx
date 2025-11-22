@@ -9,12 +9,28 @@ const AboutSection = () => {
             <section className="sb-p-60-0">
                 <div className="container">
                 <div className="row flex-md-row-reverse">
-                    <div className="col-lg-6 align-self-center sb-mb-30">
-                    <h2 className="sb-mb-60" dangerouslySetInnerHTML={{__html : Data.title}} />
+                    <div 
+                        className="col-lg-6 align-self-center sb-mb-30"
+                        data-aos="fade-left"
+                        data-aos-duration="1000"
+                    >
+                    <h2 
+                        className="sb-mb-60" 
+                        dangerouslySetInnerHTML={{__html : Data.title}}
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="200"
+                    />
 
                     <ul className="sb-features">
                         {Data.items.map((item, key) => (
-                        <li className="sb-features-item sb-mb-60" key={`about-list-item-${key}`}>
+                        <li 
+                            className="sb-features-item sb-mb-60" 
+                            key={`about-list-item-${key}`}
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            data-aos-delay={300 + (key * 100)}
+                        >
                         <div className="sb-number">{item.num}</div>
                         <div className="sb-feature-text">
                             <h3 className="sb-mb-15">{item.title}</h3>
@@ -24,9 +40,18 @@ const AboutSection = () => {
                         ))}
                     </ul>
                     </div>
-                    <div className="col-lg-6 align-self-center">
+                    <div 
+                        className="col-lg-6 align-self-center"
+                        data-aos="fade-right"
+                        data-aos-duration="1000"
+                    >
                     <div className="sb-illustration-2 sb-mb-90">
-                        <div className="sb-interior-frame">
+                        <div 
+                            className="sb-interior-frame"
+                            data-aos="zoom-in"
+                            data-aos-duration="1000"
+                            data-aos-delay="200"
+                        >
                             <img src={Data.image.url} alt={Data.image.alt} className="sb-interior" />
                         </div>
 
@@ -36,7 +61,12 @@ const AboutSection = () => {
                         <div className="sb-cirkle-3"></div>
                         <div className="sb-cirkle-4"></div>
 
-                        <div className="sb-experience">
+                        <div 
+                            className="sb-experience"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            data-aos-delay="400"
+                        >
                         <div className="sb-exp-content">
                             <p className="sb-h1 sb-mb-10">{Data.number.value}</p>
                             <p className="sb-h3">{Data.number.label}</p>

@@ -8,7 +8,13 @@ const FeaturesOneSection = () => {
             <div className="container">
                 <div className="row">
                     {Data.items.map((item, key) => (
-                    <div className="col-lg-4" key={`features-item-${key}`}>
+                    <div 
+                        className="col-lg-4" 
+                        key={`features-item-${key}`}
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay={key * 150}
+                    >
                         <div className="sb-features-item sb-mb-60">
                             <div className="sb-number">{item.num}</div>
                             <div className="sb-feature-text">

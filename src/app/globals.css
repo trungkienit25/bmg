@@ -4,6 +4,9 @@
 /* 1. Import Font Phu Du từ Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300;400;500;600;700;800;900&display=swap');
 
+/* AOS Animation Library */
+@import 'aos/dist/aos.css';
+
 
 /* Màu vàng kim loại sang trọng */
 :root {
@@ -160,3 +163,359 @@
 }
 
 /* Bạn có thể XÓA đoạn .sb-app > * { z-index: 2; } cũ đi vì không còn cần thiết nữa */
+
+/* ========================================
+   CUSTOM AOS ANIMATIONS
+   ======================================== */
+
+/* Smooth transitions for all AOS elements */
+[data-aos] {
+  transition-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Custom animation for parallax scroll effect */
+.aos-parallax {
+  transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Scale animation with smooth easing */
+[data-aos="zoom-in"] {
+  transform: scale(0.8);
+  opacity: 0;
+}
+
+[data-aos="zoom-in"].aos-animate {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Enhanced fade animations */
+[data-aos="fade-up"] {
+  transform: translateY(60px);
+  opacity: 0;
+}
+
+[data-aos="fade-up"].aos-animate {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+[data-aos="fade-left"] {
+  transform: translateX(100px);
+  opacity: 0;
+}
+
+[data-aos="fade-left"].aos-animate {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+[data-aos="fade-right"] {
+  transform: translateX(-100px);
+  opacity: 0;
+}
+
+[data-aos="fade-right"].aos-animate {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Smooth scale-up for decorative elements */
+.sb-cirkle-2,
+.sb-cirkle-4,
+.sb-experience {
+  transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.sb-cirkle-2:hover,
+.sb-cirkle-4:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* Enhance interior frame animation */
+.sb-interior-frame {
+  overflow: hidden;
+  position: relative;
+}
+
+.sb-interior-frame img {
+  transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.sb-interior-frame:hover img {
+  transform: scale(1.05);
+}
+
+/* Text story animation enhancement */
+.sb-text-story {
+  position: relative;
+}
+
+.sb-text-story::before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, var(--luxury-gold), transparent);
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.sb-text-story.aos-animate::before {
+  opacity: 1;
+}
+
+/* Signature animation */
+.sb-signature {
+  transition: all 0.6s ease;
+  filter: grayscale(0.3);
+}
+
+.sb-signature.aos-animate {
+  filter: grayscale(0);
+}
+
+.sb-signature:hover {
+  transform: scale(1.05);
+  filter: grayscale(0) brightness(1.1);
+}
+
+/* Stagger effect enhancement */
+[data-aos][data-aos-delay="150"] { transition-delay: 0.15s; }
+[data-aos][data-aos-delay="300"] { transition-delay: 0.3s; }
+[data-aos][data-aos-delay="450"] { transition-delay: 0.45s; }
+[data-aos][data-aos-delay="600"] { transition-delay: 0.6s; }
+
+/* ========================================
+   DECORATIVE ELEMENTS ANIMATIONS
+   ======================================== */
+
+/* Floating animation for decorative circles */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes float-rotate {
+  0% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(180deg); }
+  100% { transform: translateY(0px) rotate(360deg); }
+}
+
+/* Apply floating to circle elements */
+.sb-cirkle-1,
+.sb-cirkle-2,
+.sb-cirkle-3,
+.sb-cirkle-4,
+.sb-cirkle-5 {
+  animation-timing-function: ease-in-out;
+  will-change: transform;
+}
+
+.sb-cirkle-1 {
+  animation: float 3s ease-in-out infinite;
+}
+
+.sb-cirkle-2 {
+  animation: float 4s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+
+.sb-cirkle-3 {
+  animation: float 3.5s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+.sb-cirkle-4 {
+  animation: float 4.5s ease-in-out infinite;
+  animation-delay: 0.7s;
+}
+
+.sb-cirkle-5 {
+  animation: float-rotate 5s ease-in-out infinite;
+}
+
+/* Subtle pulse for pik elements */
+@keyframes subtle-pulse {
+  0%, 100% { 
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% { 
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+.sb-pik-1,
+.sb-pik-2,
+.sb-pik-3 {
+  animation: subtle-pulse 3s ease-in-out infinite;
+}
+
+.sb-pik-1 { animation-delay: 0s; }
+.sb-pik-2 { animation-delay: 1s; }
+.sb-pik-3 { animation-delay: 2s; }
+
+/* Enhanced hover effects for cards */
+.sb-categorie-card {
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.sb-categorie-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.sb-team-member {
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.sb-team-member:hover {
+  transform: translateY(-8px);
+}
+
+.sb-team-member:hover .sb-photo-frame img {
+  transform: scale(1.08);
+}
+
+.sb-photo-frame {
+  overflow: hidden;
+}
+
+.sb-photo-frame img {
+  transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Promo frame animations */
+.sb-promo-frame {
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  overflow: hidden;
+}
+
+.sb-promo-frame:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.sb-promo-frame:hover .sb-burger,
+.sb-promo-frame:hover .sb-cup {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.sb-burger,
+.sb-cup {
+  transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Food frames in Hero */
+.sb-food-frame-1,
+.sb-food-frame-2,
+.sb-food-frame-3 {
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.sb-food-frame-1:hover,
+.sb-food-frame-2:hover,
+.sb-food-frame-3:hover {
+  transform: scale(1.05) rotate(-2deg);
+}
+
+/* Features item enhancement */
+.sb-features-item {
+  transition: all 0.3s ease;
+}
+
+.sb-features-item:hover .sb-number {
+  transform: scale(1.1) rotate(5deg);
+  color: var(--luxury-gold);
+}
+
+.sb-number {
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Button hover enhancements */
+.sb-btn {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.sb-btn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.sb-btn:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+.sb-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Video play button pulse */
+@keyframes pulse-play {
+  0%, 100% { 
+    transform: translate(-50%, -50%) scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+  }
+  50% { 
+    transform: translate(-50%, -50%) scale(1.1);
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+  }
+}
+
+.sb-video-play {
+  animation: pulse-play 2s ease-in-out infinite;
+}
+
+/* Smooth entrance for category icons */
+.sb-category-icon img {
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.sb-categorie-card:hover .sb-category-icon img {
+  transform: scale(1.15) rotate(-5deg);
+}
+
+/* Experience badge enhancement */
+.sb-experience {
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.sb-experience:hover {
+  transform: scale(1.05) rotate(-3deg);
+}
+
+/* Download button hover */
+.sb-download-btn {
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.sb-download-btn:hover {
+  transform: translateY(-5px);
+}
+
+.sb-download-btn img {
+  transition: all 0.3s ease;
+  filter: brightness(1);
+}
+
+.sb-download-btn:hover img {
+  filter: brightness(1.1);
+}

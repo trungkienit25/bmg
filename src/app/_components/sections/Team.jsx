@@ -12,12 +12,27 @@ const TeamSection = ( { items } ) => {
         <section className="sb-p-0-60">
             <div className="container">
             <div className="sb-group-title sb-mb-30 row">
-                <h2 className="sb-mid sb-mb-30 col-12" dangerouslySetInnerHTML={{__html : Data.title}} />
-                <div className="sb-left sb-mb-30">
+                <h2 
+                    className="sb-mid sb-mb-30 col-12" 
+                    dangerouslySetInnerHTML={{__html : Data.title}}
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                />
+                <div 
+                    className="sb-left sb-mb-30"
+                    data-aos="fade-right"
+                    data-aos-duration="1000"
+                    data-aos-delay="100"
+                >
                     
                     <p className="sb-text" dangerouslySetInnerHTML={{__html : Data.description}} />
                 </div>
-                <div className="sb-right sb-mb-30">
+                <div 
+                    className="sb-right sb-mb-30"
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="100"
+                >
                 {/* button */}
                 <Link href={Data.button.link} className="sb-btn sb-m-0">
                     <span className="sb-icon">
@@ -30,7 +45,13 @@ const TeamSection = ( { items } ) => {
             </div>
             <div className="row">
                 {Data.items.slice(0, items).map((item, key) => (
-                <div className={items == 3 ? "col-lg-4" : "col-lg-3"} key={`team-item-${key}`}>
+                <div 
+                    className={items == 3 ? "col-lg-4" : "col-lg-3"} 
+                    key={`team-item-${key}`}
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay={200 + (key * 100)}
+                >
                 <div className="sb-team-member sb-mb-30">
                     <div className="sb-photo-frame sb-mb-15">
                         <img src={item.image} alt={item.name} />
