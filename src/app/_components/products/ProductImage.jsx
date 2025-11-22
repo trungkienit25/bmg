@@ -25,7 +25,7 @@ const ProductImage = ({ src, alt, badge }) => {
             open={img}
             close={() => setImg(false)}
             slides={imgValue}
-            styles={{ container: { backgroundColor: "rgba(38, 31, 65, .85)" } }}
+            styles={{ container: { backgroundColor: "rgba(234, 225, 203, .85)" } }}
             render={{
                 buttonPrev: imgValue.length <= 1 ? () => null : undefined,
                 buttonNext: imgValue.length <= 1 ? () => null : undefined,

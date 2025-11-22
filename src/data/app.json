@@ -6,7 +6,7 @@
     "mapbox": {
       "AccessToken": "pk.eyJ1Ijoidml0ZWdvZCIsImEiOiJjbTF1em4zMTgwNjY5Mmpxd2xmcTU3c2pmIn0.PlezCRZdGuZ8YOFHLhTH2Q",
       "style": "mapbox://styles/mapbox/light-v11",
-      "zoom": 15,
+      "zoom": 16,
       "long": 105.85208336771227,
       "lat": 21.033761633013714
     },

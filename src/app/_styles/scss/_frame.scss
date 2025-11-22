@@ -134,7 +134,7 @@ navigation
         position: relative;
         padding: 0 25px;
         display: inline-block;
-        font-family: var(--font-bevnpro);
+        font-family: var(--font-lodestone);
         // text-transform: uppercase;
         font-weight: 550;
         height: 100%;
@@ -282,7 +282,7 @@ navigation
         display: block;
 
         & a {
-          line-height: 20px;
+          line-height: 1;
           margin-bottom: 30px;
           color: $c6;
 
@@ -670,16 +670,16 @@ footer { // Comment lại style footer cũ để thay bằng style mới
     .gac-footer-text {
       text-align: left; /* Đảm bảo text căn trái */
       h5 {
-        font-family: var(--font-bevnpro); // Font tiêu đề
+        // font-family: var(--font-lodestone); // Font tiêu đề
         color: #fff;
         font-size: 14px;
-        font-weight: 600;
+        // font-weight: 600;
         text-transform: uppercase;
         margin-bottom: 4px;
         letter-spacing: 0.5px;
       }
       p {
-        font-family: var(--font-bevnpro); // Font nội dung
+        // font-family: ; // Font nội dung
         color: #fff;
         font-size: 16px;
         margin: 0;
@@ -762,7 +762,7 @@ lang switch button
     margin-left: 10px;
 
     span {
-        font-family: var(--font-bevnpro);
+        font-family: var(--font-lodestone);
         text-transform: uppercase;
     }
 

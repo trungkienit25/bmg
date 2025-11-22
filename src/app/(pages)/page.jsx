@@ -38,7 +38,7 @@ const Home2 = () => {
         <div className="container">
           <div className="sb-group-title sb-mb-30 galleyry-fix">
             <div className="sb-mb-30">
-              <h2 className="sb-mb-30 " dangerouslySetInnerHTML={{ __html: "Khoảnh khắc tại Bánh Mì GÁC" }} />
+              <h2 className="sb-mb-30 " dangerouslySetInnerHTML={{ __html: "Khoảnh khắc tại <span style=\"display: inline-flex; background-color: unset;\">Bánh Mì GÁC</span>" }} />
               {/* <p className="sb-text" dangerouslySetInnerHTML={{__html : Data.description}} /> */}
             </div>
             {/* <div className="sb-right sb-mb-30"> */}

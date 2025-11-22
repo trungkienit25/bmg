@@ -2,13 +2,13 @@
   {
     "id": 1,
     "image": "/img/gallery/1.webp",
-    "title": "khung cửa gác <br> khung nhìn hà nội.",
+    "title": "khung cửa <span style=\"color: #E6AC4F; background-color: unset; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), -2px -2px 4px rgba(0, 0, 0, 0.3); letter-spacing: 2px;\">gác</span> <br> khung nhìn hà nội.",
     "animationType": "fade-up"
   },
   {
     "id": 2,
     "image": "/img/gallery/2.webp",
-    "title": "Bánh mì gác <br> bánh mì nhân hà nội",
+    "title": "Bánh mì <span style=\"color: #E6AC4F; background-color: unset; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), -2px -2px 4px rgba(0, 0, 0, 0.3); letter-spacing: 2px;\">gác</span> <br> bánh mì nhân hà nội",
     "animationType": "zoom-in"
   }
 ]

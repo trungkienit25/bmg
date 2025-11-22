@@ -8,12 +8,6 @@ const AboutTwoSection = ({ lang }) => {
         <>
             {/* About text */}
             <section className="sb-about-text sb-p-90-0">
-                {/* <div className="sb-bg-1" style={{"marginTop": "90px"}}>
-                    {/* <div></div>
-                </div> */}
-                {/* <div className="head">
-                    <img src="/img/connect/foot.png" alt="" />
-                </div> */}
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 align-self-center">
@@ -33,19 +27,19 @@ const AboutTwoSection = ({ lang }) => {
                                     alt="Coffee Element"
                                     className="sb-cirkle-2"
                                 />
-                                {/* <div className="sb-square"></div>
-
-                                <div className="sb-cirkle-1"></div>
-                                <div className="sb-cirkle-2"></div>
-                                <div className="sb-cirkle-3"></div>
-                                <div className="sb-cirkle-4"></div> */}
                                 <img src={Data.number.img} className="sb-experience" />
-
                             </div>
                         </div>
                         <div className="col-lg-6 align-self-center sb-mb-60">
-                            <h2 className="sb-mb-60" dangerouslySetInnerHTML={{ __html: Data.title }} />
-                            <div className="sb-text sb-mb-30" dangerouslySetInnerHTML={{ __html: Data.description }} />
+                            <h2 className="sb-mb-40" dangerouslySetInnerHTML={{ __html: Data.title }} />
+                            
+                            {/* --- CẬP NHẬT CLASS TẠI ĐÂY --- */}
+                            <div 
+                                className="sb-text sb-text-story sb-mb-30" 
+                                dangerouslySetInnerHTML={{ __html: Data.description }} 
+                            />
+                            {/* ------------------------------ */}
+
                             <img src={Data.signature} alt="Signature" className="sb-signature sb-mb-30" />
                         </div>
                     </div>

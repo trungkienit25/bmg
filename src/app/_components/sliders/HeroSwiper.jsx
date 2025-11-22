@@ -8,7 +8,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
-
 import slideDataVI from "@data/hero-slides.json";
 import slideDataEN from "@data/hero-slides-en.json";
 
@@ -25,11 +24,6 @@ const HeroSwiper = ({ lang }) => {
         slidesPerView={1}
         effect={'fade'}
         fadeEffect={{ crossFade: true }}
-        speed={1500}
-        autoplay={{
-          delay: 5000,
-          disableOnInteraction: false,
-        }}
         navigation={{
           nextEl: '.hero-swiper-button-next',
           prevEl: '.hero-swiper-button-prev',
@@ -58,18 +52,23 @@ const HeroSwiper = ({ lang }) => {
                   />
                 )}
 
+                {/* --- PHẦN CẬP NHẬT NÚT BẤM --- */}
                 <div className="btn-wrapper">
-                  <Link href={buttonLink} className="btn-hero">
-                    {buttonText}
+                  <Link href={buttonLink} className="btn-hero-luxury">
+                    <span className="btn-text">{buttonText}</span>
+                    <span className="btn-decor">
+                      <span className="line"></span>
+                      <span className="diamond"></span>
+                    </span>
                   </Link>
                 </div>
+                {/* ----------------------------- */}
+                
               </div>
             </div>
           </SwiperSlide>
         ))}
 
-        {/* <div className="hero-swiper-button-next swiper-button-next"></div>
-        <div className="hero-swiper-button-prev swiper-button-prev"></div> */}
         <div className="hero-swiper-pagination swiper-pagination"></div>
       </Swiper>
       <div className="connect">

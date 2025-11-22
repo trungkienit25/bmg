@@ -45,12 +45,12 @@ const ProductsSlider = ({
         <div className="container">
           <div className="sb-group-title sb-mb-30 row">
             <h2
-              className="sb-mid sb-mb-30 col-12"
+              className="sb-mid sb-mb-40 col-12"
               dangerouslySetInnerHTML={{
                 __html: title ? title : Data.title,
               }}
             />
-            <div className="sb-left sb-mb-30 col-6">
+            <div className="sb-left col-8">
               <p
                 className="sb-text"
                 dangerouslySetInnerHTML={{
@@ -58,7 +58,7 @@ const ProductsSlider = ({
                 }}
               />
             </div>
-            <div className="sb-right sb-mb-30 col-6">
+            <div className="sb-right col-4">
               {/* slider navigation */}
               <div className="sb-slider-nav">
                 <div className="sb-prev-btn sb-short-menu-prev">

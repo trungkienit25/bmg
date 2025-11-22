@@ -1,4 +1,126 @@
+/* Font gợi ý cho phong cách sang trọng (nếu chưa có, hãy thêm vào _app.js hoặc layout.js) */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap");
+
+/* 1. Import Font Phu Du từ Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Màu vàng kim loại sang trọng */
+:root {
+  --luxury-gold: #d4af37;
+  --luxury-white: #f9f9f9;
+}
+
+/* 2. Áp dụng cho toàn bộ website */
+* {
+    font-family: "Phudu", sans-serif; 
+}
+
+
+/* Định nghĩa font mới từ file local */
+@font-face {
+    font-family: 'Fz_Bonestay';
+    src: url('./_styles/fonts/Fz_Bonestay/Fz_Bonestay.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* Khoảnh khắc tại bánh mỳ gác  */
 .sb-p-90-60 {
-    padding-top: 30px !important;
+  padding-top: 50px !important;
+}
+
+.btn-wrapper {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-start; /* Hoặc center tùy bố cục */
+}
+
+.btn-hero-luxury {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--luxury-white);
+  font-family: "Cormorant Garamond", serif; /* Font có chân sang trọng */
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em; /* Khoảng cách chữ rộng là đặc trưng của luxury */
+  transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); /* Chuyển động mượt mà */
+  padding: 10px 0;
+}
+
+/* Phần văn bản */
+.btn-hero-luxury .btn-text {
+  position: relative;
+  z-index: 1;
+  transition: color 0.4s ease;
+}
+
+/* Phần trang trí (Gạch ngang + Dấu thoi) */
+.btn-hero-luxury .btn-decor {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  opacity: 0.8;
+}
+
+/* Đường kẻ ngang */
+.btn-hero-luxury .line {
+  display: block;
+  width: 20px; /* Chiều dài ban đầu */
+  height: 1px;
+  background-color: var(--luxury-gold);
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Dấu thoi (Diamond) ở cuối */
+.btn-hero-luxury .diamond {
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: transparent;
+  border: 1px solid var(--luxury-gold);
+  transform: rotate(45deg); /* Xoay hình vuông thành hình thoi */
+  margin-left: -3px; /* Đè nhẹ lên đường kẻ để liền mạch */
+  transition: all 0.6s ease;
+}
+
+/* --- HOVER EFFECTS --- */
+
+/* 1. Chữ chuyển sang màu vàng kim */
+.btn-hero-luxury:hover .btn-text {
+  color: var(--luxury-gold);
+  text-shadow: 0 0 20px rgba(212, 175, 55, 0.4); /* Hiệu ứng toả sáng nhẹ */
+}
+
+/* 2. Đường kẻ dài ra gấp đôi */
+.btn-hero-luxury:hover .line {
+  width: 40px;
+  background-color: var(--luxury-white); /* Đổi màu tương phản khi hover */
+}
+
+/* 3. Dấu thoi đổi màu và xoay */
+.btn-hero-luxury:hover .diamond {
+  background-color: var(--luxury-white);
+  border-color: var(--luxury-white);
+  transform: rotate(225deg) scale(1.2); /* Xoay và phóng to nhẹ */
+  margin-left: 5px; /* Tách ra khỏi đường kẻ một chút */
+}
+
+/* --- ACTIVE (CLICK) EFFECTS --- */
+.btn-hero-luxury:active {
+  transform: scale(0.98); /* Nhấn xuống nhẹ */
+  opacity: 0.8;
+}
+
+.sb-text-story {
+    /* Gọi tên font đã định nghĩa ở trên */
+    font-family: 'Fz_Bonestay', cursive; 
+    
+    /* Tinh chỉnh hiển thị */
+    font-size: 34px !important;  /* Tăng size nếu font này hiển thị hơi bé */
+    color: #5a4e43;     /* Màu nâu trầm vintage */
+    text-align: left;   /* Font viết tay nên căn trái tự nhiên */
+    font-weight: 500;
 }

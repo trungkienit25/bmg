@@ -1,27 +1,14 @@
-import { Rubik, Monoton } from 'next/font/google'
+import { Be_Vietnam_Pro } from 'next/font/google' // 1. Import từ Google Fonts
 import localFont from 'next/font/local'
-// const rubik = Rubik({
-//   weight: ['300', '400', '500', '600', '700', '800', '900'],
-//   style: ['normal', 'italic'],
-//   subsets: ['latin'],
-//   variable: '--font-rubik',
-//   display: 'swap',
-// })
 
-// const monoton = Monoton({
-//   weight: ['400'],
-//   subsets: ['latin'],
-//   variable: '--font-monoton',
-//   display: 'swap',
-// })
-const beVNPro = localFont({
-  src: [
-    {
-      path: './_styles/fonts/Coolvetica/coolvetica-rg.otf',
-    }
-  ],
-  variable: '--font-bevnpro'
+const beVNPro = Be_Vietnam_Pro({
+  subsets: ['latin', 'vietnamese'],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  variable: '--font-bevnpro',
+  display: 'swap',
+  style: ['normal', 'italic'],
 });
+
 const lodestone = localFont({
   src: [
     {
@@ -30,6 +17,7 @@ const lodestone = localFont({
   ],
   variable: '--font-lodestone'
 })
+
 const phudu = localFont({
   src: [
     {
@@ -41,7 +29,6 @@ const phudu = localFont({
 
 import "@styles/css/plugins/bootstrap.min.css";
 import "@styles/css/plugins/swiper.min.css";
-// import "@styles/css/plugins/font-awesome.min.css";
 
 import { register } from "swiper/element/bundle";
 
@@ -51,7 +38,6 @@ import '@styles/scss/style.scss';
 import "./globals.css";
 
 import ScrollbarProgress from "@layouts/scrollbar-progress/Index";
-
 import AppData from "@data/app.json";
 
 export const metadata = {
