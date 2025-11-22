@@ -1,7 +1,7 @@
 "use client";
 
 import { SliderProps } from "@common/sliderProps";
-import { Parallax, Navigation } from "swiper/modules";
+import { Parallax, Navigation, Mousewheel } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import DataVI from "@data/sliders/products";
@@ -93,7 +93,12 @@ const ProductsSlider = ({
           {slidesPerView == 4 ? (
             <Swiper
               {...SliderProps.shortMenuSlider4}
-              modules={[Parallax, Navigation]}
+              modules={[Parallax, Navigation, Mousewheel]}
+              mousewheel={{
+                forceToAxis: true,
+                sensitivity: 1,
+                releaseOnEdges: true,
+              }}
               className={`swiper-container sb-short-menu-slider-4i`}
             >
               {items.slice(0, 8).map((item, key) => (
@@ -117,7 +122,12 @@ const ProductsSlider = ({
           ) : (
             <Swiper
               {...SliderProps.shortMenuSlider3}
-              modules={[Parallax, Navigation]}
+              modules={[Parallax, Navigation, Mousewheel]}
+              mousewheel={{
+                forceToAxis: true,
+                sensitivity: 1,
+                releaseOnEdges: true,
+              }}
               className={`swiper-container sb-short-menu-slider-3i`}
             >
               {items.slice(0, 6).map((item, key) => (

@@ -1,7 +1,7 @@
 "use client";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
+import { Navigation, Mousewheel } from 'swiper/modules';
 import MenuItem from "@components/menu/MenuItem";
 
 import 'swiper/css';
@@ -9,9 +9,14 @@ import 'swiper/css/navigation';
 
 const MenuFiltered = ({ categories, noImage, columns }) => {
     const sliderSettings = {
-        modules: [Navigation],
+        modules: [Navigation, Mousewheel],
         spaceBetween: 30,
         slidesPerView: 'auto',
+        mousewheel: {
+            forceToAxis: true,
+            sensitivity: 1,
+            releaseOnEdges: true,
+        },
         navigation: {
             prevEl: '.sb-menu-prev',
             nextEl: '.sb-menu-next',
