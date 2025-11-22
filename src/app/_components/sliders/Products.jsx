@@ -50,7 +50,7 @@ const ProductsSlider = ({
                 __html: title ? title : Data.title,
               }}
             />
-            <div className="sb-left col-8">
+            <div className="sb-left col-lg-8 col-md-12">
               <p
                 className="sb-text"
                 dangerouslySetInnerHTML={{
@@ -58,7 +58,7 @@ const ProductsSlider = ({
                 }}
               />
             </div>
-            <div className="sb-right col-4">
+            <div className="sb-right col-lg-4 col-md-12 d-flex justify-content-end align-items-center flex-wrap gap-3">
               {/* slider navigation */}
               <div className="sb-slider-nav">
                 <div className="sb-prev-btn sb-short-menu-prev">
@@ -77,8 +77,8 @@ const ProductsSlider = ({
                 >
                   <span className="sb-icon">
                     <img
-                      src={button.icon ? button.icon : Data.button.icon}
-                      alt="icon"
+                    src={button.icon ? button.icon : Data.button.icon}
+                    alt="icon"
                     />
                   </span>
                   <span>

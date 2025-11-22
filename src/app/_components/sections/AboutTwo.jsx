@@ -45,9 +45,8 @@ const AboutTwoSection = ({ lang }) => {
                     </div>
                 </div>
             </section>
-            {/* About text end */}
         </>
     );
-};
+}
 
 export default AboutTwoSection;

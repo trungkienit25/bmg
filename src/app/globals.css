@@ -4,6 +4,7 @@
 /* 1. Import Font Phu Du từ Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300;400;500;600;700;800;900&display=swap');
 
+
 /* Màu vàng kim loại sang trọng */
 :root {
   --luxury-gold: #d4af37;
@@ -20,6 +21,15 @@
 @font-face {
     font-family: 'Fz_Bonestay';
     src: url('./_styles/fonts/Fz_Bonestay/Fz_Bonestay.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Định nghĩa font mới từ file local */
+@font-face {
+    font-family: 'ViceroyJF';
+    src: url('./_styles/fonts/UTM ViceroyJF/UTM ViceroyJF.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -116,7 +126,7 @@
 
 .sb-text-story {
     /* Gọi tên font đã định nghĩa ở trên */
-    font-family: 'Fz_Bonestay', cursive; 
+    font-family: 'ViceroyJF', cursive; 
     
     /* Tinh chỉnh hiển thị */
     font-size: 34px !important;  /* Tăng size nếu font này hiển thị hơi bé */
@@ -124,3 +134,29 @@
     text-align: left;   /* Font viết tay nên căn trái tự nhiên */
     font-weight: 500;
 }
+
+.sb-app::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    /* Đường dẫn ảnh */
+    background-image: url('/img/background/newspaper.jpeg'); 
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* --- SỬA ĐỔI QUAN TRỌNG --- */
+    opacity: 0.2;             /* Độ mờ 30% */
+    z-index: 1;            /* Đẩy lên lớp cao nhất để phủ lên mọi thành phần */
+    pointer-events: none;     /* QUAN TRỌNG: Cho phép click xuyên qua lớp ảnh để thao tác web bình thường */
+    mix-blend-mode: multiply; /* Hòa trộn màu: Giúp texture ăn vào nền web thay vì chỉ phủ mờ đục */
+    filter:blur(4px);
+    transform:rotate(-15deg) scale(1.1);
+}
+
+/* Bạn có thể XÓA đoạn .sb-app > * { z-index: 2; } cũ đi vì không còn cần thiết nữa */
