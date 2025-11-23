@@ -40,7 +40,7 @@ const MenuFiltered = ({ categories, noImage, columns }) => {
                             {/* slider navigation end */}
                         </div>
                     </div>
-
+                    
                     <Swiper
                         {...sliderSettings}
                         navigation={{

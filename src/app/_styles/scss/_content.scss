@@ -377,6 +377,9 @@ menu
 
 .sb-menu-category-section {
   padding-top: 30px;
+  .swiper-container {
+    overflow: visible;
+  }
   .sb-group-title {
     margin-bottom: 15px;
     h2 {
