@@ -162,7 +162,7 @@
     height: 100%;
     
     /* Đường dẫn ảnh */
-    background-image: url('/img/background/newspaper.jpeg'); 
+    /* background-image: url('/img/background/newspaper.jpeg');  */
     
     background-size: cover;
     background-position: center;
