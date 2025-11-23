@@ -27,12 +27,37 @@ const Hero = ({ type }) => {
                             {/* main title */}
                             <div className="sb-main-title-frame">
                                 <div className="sb-main-title">
-                                    <span className="sb-suptitle sb-mb-30">{Data.subtitle}</span>
-                                    <h1 className="sb-mb-30" dangerouslySetInnerHTML={{ __html: Data.title }} />
-                                    <p className="sb-text sb-text-lg sb-mb-30" dangerouslySetInnerHTML={{ __html: Data.description }} />
+                                    <span 
+                                        className="sb-suptitle sb-mb-30"
+                                        data-aos="fade-down"
+                                        data-aos-duration="800"
+                                        data-aos-delay="100"
+                                    >
+                                        {Data.subtitle}
+                                    </span>
+                                    <h1 
+                                        className="sb-mb-30" 
+                                        dangerouslySetInnerHTML={{ __html: Data.title }}
+                                        data-aos="fade-up"
+                                        data-aos-duration="1000"
+                                        data-aos-delay="200"
+                                    />
+                                    <p 
+                                        className="sb-text sb-text-lg sb-mb-30" 
+                                        dangerouslySetInnerHTML={{ __html: Data.description }}
+                                        data-aos="fade-up"
+                                        data-aos-duration="1000"
+                                        data-aos-delay="300"
+                                    />
 
                                     {/* button */}
-                                    <Link href={Data.button1.link} className="sb-btn">
+                                    <Link 
+                                        href={Data.button1.link} 
+                                        className="sb-btn"
+                                        data-aos="fade-up"
+                                        data-aos-duration="1000"
+                                        data-aos-delay="400"
+                                    >
                                         <span className="sb-icon">
                                             <img src={Data.button1.icon} alt="icon" />
                                         </span>
@@ -55,8 +80,20 @@ const Hero = ({ type }) => {
 
                         <div className="col-lg-6">
                             {type == 1 ? (
-                                <div className="sb-illustration-1">
-                                    <img src={Data.image.url} alt={Data.image.alt} className="sb-girl" />
+                                <div 
+                                    className="sb-illustration-1"
+                                    data-aos="fade-left"
+                                    data-aos-duration="1000"
+                                    data-aos-delay="200"
+                                >
+                                    <img 
+                                        src={Data.image.url} 
+                                        alt={Data.image.alt} 
+                                        className="sb-girl"
+                                        data-aos="zoom-in"
+                                        data-aos-duration="1000"
+                                        data-aos-delay="400"
+                                    />
 
                                     <div className="sb-cirkle-1"></div>
                                     <div className="sb-cirkle-2"></div>
@@ -64,20 +101,61 @@ const Hero = ({ type }) => {
                                     <div className="sb-cirkle-4"></div>
                                     <div className="sb-cirkle-5"></div>
 
-                                    <img src="/img/illustrations/3.svg" alt="phones" className="sb-pik-1" />
-                                    <img src="/img/illustrations/1.svg" alt="phones" className="sb-pik-2" />
-                                    <img src="/img/illustrations/2.svg" alt="phones" className="sb-pik-3" />
+                                    <img 
+                                        src="/img/illustrations/3.svg" 
+                                        alt="phones" 
+                                        className="sb-pik-1"
+                                        data-aos="fade-up"
+                                        data-aos-duration="800"
+                                        data-aos-delay="500"
+                                    />
+                                    <img 
+                                        src="/img/illustrations/1.svg" 
+                                        alt="phones" 
+                                        className="sb-pik-2"
+                                        data-aos="fade-up"
+                                        data-aos-duration="800"
+                                        data-aos-delay="600"
+                                    />
+                                    <img 
+                                        src="/img/illustrations/2.svg" 
+                                        alt="phones" 
+                                        className="sb-pik-3"
+                                        data-aos="fade-up"
+                                        data-aos-duration="800"
+                                        data-aos-delay="700"
+                                    />
                                 </div>
                             ) : (
-                                <div className="sb-ilustration-fix">
+                                <div 
+                                    className="sb-ilustration-fix"
+                                    data-aos="fade-left"
+                                    data-aos-duration="1000"
+                                    data-aos-delay="200"
+                                >
                                     <div className="sb-illustration-1-2">
-                                        <div className="sb-food-frame-1">
+                                        <div 
+                                            className="sb-food-frame-1"
+                                            data-aos="zoom-in"
+                                            data-aos-duration="1000"
+                                            data-aos-delay="300"
+                                        >
                                             <img src="/img/illustrations/bmg-7.webp" alt="food" className="sb-food-1" />
                                         </div>
-                                        <div className="sb-food-frame-2">
+                                        <div 
+                                            className="sb-food-frame-2"
+                                            data-aos="zoom-in"
+                                            data-aos-duration="1000"
+                                            data-aos-delay="400"
+                                        >
                                             <img src="/img/illustrations/bmg-9.webp" alt="food" className="sb-food-2" />
                                         </div>
-                                        <div className="sb-food-frame-3">
+                                        <div 
+                                            className="sb-food-frame-3"
+                                            data-aos="zoom-in"
+                                            data-aos-duration="1000"
+                                            data-aos-delay="500"
+                                        >
                                             <img src="/img/illustrations/bmg-8.webp" alt="food" className="sb-food-3" />
                                         </div>
 

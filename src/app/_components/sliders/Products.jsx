@@ -1,7 +1,7 @@
 "use client";
 
 import { SliderProps } from "@common/sliderProps";
-import { Parallax, Navigation } from "swiper/modules";
+import { Parallax, Navigation, Mousewheel } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import DataVI from "@data/sliders/products";
@@ -50,7 +50,7 @@ const ProductsSlider = ({
                 __html: title ? title : Data.title,
               }}
             />
-            <div className="sb-left col-8">
+            <div className="sb-left col-lg-8 col-md-12">
               <p
                 className="sb-text"
                 dangerouslySetInnerHTML={{
@@ -58,7 +58,7 @@ const ProductsSlider = ({
                 }}
               />
             </div>
-            <div className="sb-right col-4">
+            <div className="sb-right col-lg-4 col-md-12 d-flex justify-content-end align-items-center flex-wrap gap-3">
               {/* slider navigation */}
               <div className="sb-slider-nav">
                 <div className="sb-prev-btn sb-short-menu-prev">
@@ -77,8 +77,8 @@ const ProductsSlider = ({
                 >
                   <span className="sb-icon">
                     <img
-                      src={button.icon ? button.icon : Data.button.icon}
-                      alt="icon"
+                    src={button.icon ? button.icon : Data.button.icon}
+                    alt="icon"
                     />
                   </span>
                   <span>
@@ -93,7 +93,12 @@ const ProductsSlider = ({
           {slidesPerView == 4 ? (
             <Swiper
               {...SliderProps.shortMenuSlider4}
-              modules={[Parallax, Navigation]}
+              modules={[Parallax, Navigation, Mousewheel]}
+              mousewheel={{
+                forceToAxis: true,
+                sensitivity: 1,
+                releaseOnEdges: true,
+              }}
               className={`swiper-container sb-short-menu-slider-4i`}
             >
               {items.slice(0, 8).map((item, key) => (
@@ -117,7 +122,12 @@ const ProductsSlider = ({
           ) : (
             <Swiper
               {...SliderProps.shortMenuSlider3}
-              modules={[Parallax, Navigation]}
+              modules={[Parallax, Navigation, Mousewheel]}
+              mousewheel={{
+                forceToAxis: true,
+                sensitivity: 1,
+                releaseOnEdges: true,
+              }}
               className={`swiper-container sb-short-menu-slider-3i`}
             >
               {items.slice(0, 6).map((item, key) => (

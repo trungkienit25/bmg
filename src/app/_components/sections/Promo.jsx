@@ -8,7 +8,11 @@ const PromoSection = () => {
         <section className="sb-p-0-60">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div 
+                        className="col-lg-6"
+                        data-aos="fade-right"
+                        data-aos-duration="1000"
+                    >
                         <div className="sb-promo-frame sb-mb-30">
                             <div className="sb-promo-content">
                                 <div className="sb-text-frame">
@@ -24,7 +28,12 @@ const PromoSection = () => {
                                     </Link>
                                     {/* button end */}
                                 </div>
-                                <div className="sb-image-frame">
+                                <div 
+                                    className="sb-image-frame"
+                                    data-aos="zoom-in"
+                                    data-aos-duration="1000"
+                                    data-aos-delay="200"
+                                >
                                     <div className="sb-illustration-4">
                                         <img src={Data.banner1.image.url} alt={Data.banner1.image.alt} className="sb-burger" />
 
@@ -36,7 +45,11 @@ const PromoSection = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div 
+                        className="col-lg-6"
+                        data-aos="fade-left"
+                        data-aos-duration="1000"
+                    >
                         <div className="sb-promo-frame sb-mb-30">
                             <div className="sb-promo-content">
                                 <div className="sb-text-frame">
@@ -52,7 +65,12 @@ const PromoSection = () => {
                                     </Link>
                                     {/* button end */}
                                 </div>
-                                <div className="sb-image-frame">
+                                <div 
+                                    className="sb-image-frame"
+                                    data-aos="zoom-in"
+                                    data-aos-duration="1000"
+                                    data-aos-delay="200"
+                                >
                                     <div className="sb-illustration-5">
                                         <img src={Data.banner2.image.url} alt={Data.banner2.image.alt} className="sb-cup" />
                                         
