@@ -82,6 +82,7 @@ body {
   background-color: $c6;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
   font-family: var(--font-bevnpro);
   letter-spacing: 0.03em;
   font-size: 16px;
@@ -1145,9 +1146,9 @@ settings
   }
 }
 
-.sb-p-90-0 .row {
-  background-color: $c7;
-}
+// .sb-p-90-0 .row {
+//   background-color: $c7;
+// }
 
 .sb-signature {
   margin-top: 20px;
