@@ -74,7 +74,22 @@
 .btn-hero-luxury .btn-decor {
   display: flex;
   align-items: center;
+  opacity: 0.8;
+}
+
+.btn-hero-luxury .btn-decor-right {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  margin-left: 10px;
+  opacity: 0.8;
+}
+
+.btn-hero-luxury .btn-decor-left {
+  display: flex;
+  align-items: center;
   margin-left: 15px;
+  margin-right: 10px;
   opacity: 0.8;
 }
 
@@ -518,4 +533,10 @@
 
 .sb-download-btn:hover img {
   filter: brightness(1.1);
+}
+
+@media (max-width: 768px) {
+  .btn-wrapper {
+    justify-content: center;
+  }
 }

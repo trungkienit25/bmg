@@ -55,8 +55,12 @@ const HeroSwiper = ({ lang }) => {
                 {/* --- PHẦN CẬP NHẬT NÚT BẤM --- */}
                 <div className="btn-wrapper">
                   <Link href={buttonLink} className="btn-hero-luxury">
+                    <span className="btn-decor btn-decor-left">
+                      <span className="diamond"></span>
+                      <span className="line"></span>
+                    </span>
                     <span className="btn-text">{buttonText}</span>
-                    <span className="btn-decor">
+                    <span className="btn-decor btn-decor-right">
                       <span className="line"></span>
                       <span className="diamond"></span>
                     </span>
